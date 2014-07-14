@@ -1,0 +1,6 @@
+bipolarMosfetv4.crc:	Cream stencil for bipolarMosfetv4A board
+HSx10.crc:	Laser-cut kapton film protective sheets for under heat sink
+bipolarMosfetv4_Stencil.zip:	Pre-packed stencil for submission to Oharap kapton stencil
+bipolarMosfetv4A+HS_Stencil.zip	Pre-packed stencil + HS Cutouts for submission to Oharap kapton stencil
+
+ZSS 2014-05-12

@@ -1,0 +1,12 @@
+bipolarMOSFETv4A.zip:	Zip-archive containing the following Gerber files for generating boards:
+	bipolarMosfetv4.cmp:	Component-side copper layer (Layer 1 of 4)
+	bipolarMosfetv4.drd:	Excellon NC drill file (drill hit and size info)
+	bipolarMosfetv4.dri:	Drill-station info file
+	bipolarMosfetv4.l15:	Inner copper signal layer, positive polarity (Layer 3 of 4)
+	bipolarMosfetv4.ly2:	Inner copper signal layer, positive polarity (Layer 2 of 4)
+	bipolarMosfetv4.plc:	Component-side silkscreen
+	bipolarMosfetv4.sol:	Solder-side copper layer (Layer 4 of 4)
+	bipolarMosfetv4.stc:	Component-side solder mask
+	bipolarMosfetv4.sts:	Solder-side solder mask
+
+ZSS 2014-05-12

@@ -1,0 +1,4 @@
+bipolarMosfetv4.brd:	v4 Rev A Eagle board file
+bipolarMosfetv4.sch:	v4 Rev A Eagle schematic file
+
+ZSS 2014-05-12

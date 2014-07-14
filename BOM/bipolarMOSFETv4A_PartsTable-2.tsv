@@ -1,0 +1,56 @@
+Parts	Description	Value	Min. Rating	Package	Qty	Ex. Pt.	Manufacturer	MP#	Mouser P#	 M. Unit Price 	 M. Ext. Price 
+"C_HF, C_I"	Capacitor		25V	Through-Hole	2						 $-   
+C_P1-C_P2	Electrolytic Capacitor	220 uF ele	30V	"Radial, 10mm OD"	2	x	EPCOS	B41851A6227M000	871-B41851A6227M000	 $1.060 	 $2.12 
+C_P3-C_P8	Ceramic Capacitor	10 uF Cer	30V	SMD 1206	6	x	Taiyo Yuden	GMK316F106ZL-T	963-GMK316F106ZL-T	 $0.460 	 $2.76 
+C_P9-C_P12	Tantalum Capacitor	47 uF Tan	30V	SMD 2917	4		Kemet	T495X476K035ATE300	80-T495X476K35ATE300	 $2.260 	 $9.04 
+C1-C15	Ceramic Capacitor	0.1uF	25V	SMD 0603	15	x	Vishay/Vitramon	VJ0603V104ZXXCW1BC	77-VJ0603V104ZXXCBC	 $0.060 	 $0.90 
+C16-C18	Ceramic Capacitor	1uF	25V	SMD 0603	3	x	Kemet	C0603C105K3PACTU	80-C0603C105K3P	 $0.150 	 $0.45 
+C19-C20	Electrolytic Capacitor	1000uF		"Radial, 10mm OD"	2	x	Lelon	REA102M1CBK-1016P	140-REA102M1CBK1016P	 $0.260 	 $0.52 
+D1-D2	Switching/Signal Diode			SMD 0603	2	x	Comchip Technology	CDSU400B	750-CDSU400	 $0.220 	 $0.44 
+H5	Heatsink			Aavid-B02500G	1		Aavid Thermalloy	529802B02500G	532-529802B25G	 $1.590 	 $1.59 
+IC_P1_7915	"-15V, 1A Voltage Regulator"			D2PAK/TO-263	1		ON Semiconductor	MC7915CD2TG	863-MC7915CD2TG	 $0.780 	 $0.78 
+IC_P2_7815	"+15V, 1A Voltage Regulator"			D2PAK/TO-263	1		ON Semiconductor	MC7815CD2TG	863-MC7815CD2TG	 $0.780 	 $0.78 
+IC_P3_7918	"-18V, 1A Voltage Regulator"			TO-220	1		ON Semiconductor	MC7918CTG	863-MC7918CTG	 $0.590 	 $0.59 
+IC_P4_7818	"+18V, 1A Voltage Regulator"			D2PAK/TO-263	1		ON Semiconductor	MC7818CD2TR4G	863-MC7818CD2TR4G	 $0.780 	 $0.78 
+IC1	Low Noise Precision Op-Amp			SOIC-8	1		Analog Devices	OP27GSZ	584-OP27GSZ	 $3.130 	 $3.13 
+IC2-IC3	Dual Low Noise Precision Op-Amp			SOIC-16W	2		Analog Devices	OP270GSZ	584-OP270GSZ	 $6.120 	 $12.24 
+IC4-IC5	250mA High-Speed Buffer			SOIC-8	2		Texas Instruments	BUF634U	595-BUF634U	 $9.450 	 $18.90 
+IC6	Schmitt Triggered Optocoupler			DIL-06 (Socketed)	1		Fairchild	H11L1M	512-H11L1M	 $0.880 	 $0.88 
+IC7	Analog Switch IC			TSSOP-16	1		Analog Devices	ADG5412BRUZ	584-ADG5412BRUZ	 $5.820 	 $5.82 
+J1	Neutrik 4-Pin XLR Jack			NC4MBH	1		Neutrik	NC4MBH	568-NC4MBH	 $4.290 	 $4.29 
+"J2, J4"	50-Ohm BNC Jack			Amp-227161-3	2		TE Connectivity	5227161-3	571-5227161-3	 $3.720 	 $7.44 
+J3	Double 50-Ohm BNC Jack			Amp-31-6576	1		Amphenol	31-6576	523-31-6576	 $8.870 	 $8.87 
+J5-J6 (Header)	Wire-to-Board Jack			Molex 5219 Series	2		Molex	15-31-1036	538-15-31-1036	 $1.180 	 $2.36 
+J5-J6 (Plug)	Wire-to-Board Plug			Molex 3191 Series	2		Molex	19-09-1036	538-19-09-1036	 $0.920 	 $1.84 
+J5-J6 (Pins)	Crimp Pins for Plug			Molex 1189 Series	6		Molex	39-00-0289	538-39-00-0289	 $0.200 	 $1.20 
+JP1-JP3	0-Ohm Jumper	0R Jumper		SMD 0603	3	x	Vishay/Dale	CRCW06030000Z0EA	71-CRCW0603-0-E3	 $0.010 	 $0.03 
+"L1, L2"	Inductor	100 uH	1A	"Radial, 9.5mm OD"	2	x	Murata Power Solutions	13R104C	580-13R104C	 $0.590 	 $1.18 
+LED1	Dual Indication LEDs			SSF-LXH250GID	1		Lumex	SSF-LXH250GID	696-SSF-LXH250GID	 $0.750 	 $0.75 
+Q1	Dual NPN Transistor			SOT-363	1		ON Semiconductor	BC847BPDW1T3G	863-BC847BPDW1T3G	 $0.240 	 $0.24 
+Q2	N-Channel MOSFET			TO-220	1		STMicroelectronics	STP80NF55-06	511-STP80NF55-06	 $2.750 	 $2.75 
+Q3	P-Channel MOSFET			TO-220	1		STMicroelectronics	STP80PF55	511-STP80PF55	 $3.070 	 $3.07 
+Q4	N-Channel Logic MOSFET			SOT-23	1		Fairchild	BSS138	512-BSS138	 $0.220 	 $0.22 
+R_P	Resistor			Through-Hole	1						 $-   
+R1	Resistor	250 5ppm	250mW	SMD 0603	1	x	Vishay/Dale	PLT0603Z2500AST5	71-PLT0603Z2500AST5	 $4.550 	 $4.55 
+"R2, R3"	Resistor	4k64	62mW	SMD 0603	2	x	Susumu	RR0816P-4641-D-65H	754-RR0816P-4641D65H	 $0.080 	 $0.16 
+R4	5-Turn Trimpot	1K	62mW	Bourns-3214J	1	x	Bourns	3214J-1-102E	652-3214J-1-102E	 $2.760 	 $2.76 
+"R5, R16, RC, RH"	Resistor	10k	62mW	SMD 0603	4	x	TE Connectivity / Neohm	CPF0603B10KE	279-CPF0603B10KE	 $0.160 	 $0.64 
+R6	Resistor	1K	250mW	SMD 0603	1	x	Vishay/Dale	PHP00603E1001BST1	71-PHP00603E1001BST1	 $1.660 	 $1.66 
+"R7, R10"	Resistor	2k22	250mW	SMD 0603	2	x	Vishay/Dale	CRCW06032K20JNEAHP	71-CRCW06032K20JNEAH	 $0.180 	 $0.36 
+"R8, R9"	10-Turn Trimpot	1K	125mW	Bourns-3296W	2	x	Bourns	3296W-1-102LF	652-3296W-1-102LF	 $2.320 	 $4.64 
+"R11, R12"	Resistor	50R	100mW	SMD 0603	2	x	Vishay/Dale	CRCW060350R0FKEA	71-CRCW0603-50-E3	 $0.080 	 $0.16 
+R13	Resistor	200R	100mW	SMD 0603	1	x	Vishay/Dale	CRCW0603200RFKEA	71-CRCW0603-200-E3	 $0.080 	 $0.08 
+R14	Resistor	5k	62mW	SMD 0603	1	x	Vishay/Dale	CRCW06034K99FKEA	71-CRCW0603-4.99K-E3	 $0.080 	 $0.08 
+R15	Resistor	1k	62mW	SMD 0603	1	x	Yageo	RT0603BRD071KL	603-RT0603BRD071KL	 $0.360 	 $0.36 
+"R17, R18"	Resistor	150R	100mW	SMD 0603	2	x	Vishay/Dale	CRCW0603150RFKEA	71-CRCW0603-150-E3	 $0.080 	 $0.16 
+RF	Resistor	200k	62mW	SMD 0603	1	x	Welwyn Components	PCF0603R-200KBT1	756-PCF0603R-200KBT1	 $0.180 	 $0.18 
+R-GHALL	Resistor	5k49 0.5%	62mW	SMD 0603	1	x	Vishay/Dale	TNPW06035K49BEEA	71-TNPW06035K49BEEA	 $0.400 	 $0.40 
+R-GOFF	Resistor	124k	62mW	SMD 0603	1	x	Vishay/Dale	CRCW0603124KFKEA	71-CRCW0603-124K-E3	 $0.080 	 $0.08 
+SW1	DPDT Switch			7201MD9AV2	1		C&K Components	7201MD9AV2QE	611-7201MD9AV2QE	 $7.500 	 $7.50 
+TP1-TP12	Miniature SMD Test Point			Keystone-5019	12		Keystone	5019	534-5019	 $0.170 	 $2.04 
+"U1, U2"	1.25V Precision Shunt Voltage Ref.			SOT-23	2		Maxim Integrated	MAX6006AEUR+T	700-MAX6006AEURT	 $2.050 	 $4.10 
+U3	Current Transducer (Hall Sensor)			CLN-25	1		F.W. Bell	CLN-25	70103846†	 $34.300 	 $34.30 
+	DIL-6 Socket			DIL-06	2	x	TE Connectivity	1-390261-1	571-1-390261-1	 $0.190 	 $0.38 
+	Barrier Strip for Enclosure				2		Molex	38740-6103	538-38740-6103	 $2.210 	 $4.42 
+	"19"" 2U Enclosure"				1		Bud Industries	CH-14403	563-CH14403	 $62.630 	 $62.63 
+											 $227.60 
