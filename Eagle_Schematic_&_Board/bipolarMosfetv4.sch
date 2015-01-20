@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25004,6 +25004,12 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="D2" library="ZSS" deviceset="CDSU400B" device=""/>
 <part name="D1" library="ZSS" deviceset="CDSU400B" device=""/>
 <part name="Q1" library="ZSS" deviceset="DC847BDW1T3G" device=""/>
+<part name="R_TERM2" library="resistor" deviceset="R-US_" device="R0603" value="10k">
+<attribute name="MIN_RATING" value="62mW"/>
+</part>
+<part name="R_TERM1" library="resistor" deviceset="R-US_" device="R0603" value="10k">
+<attribute name="MIN_RATING" value="62mW"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -25499,7 +25505,7 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="V-2" gate="1" x="121.92" y="10.16"/>
 <instance part="V+2" gate="1" x="121.92" y="50.8"/>
-<instance part="SW1" gate="A" x="76.2" y="27.94" rot="MR270"/>
+<instance part="SW1" gate="A" x="76.2" y="27.94" rot="R270"/>
 <instance part="LED1" gate="RED" x="109.22" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="106.172" y="33.02" size="1.27" layer="95" rot="R270"/>
 </instance>
@@ -25589,8 +25595,6 @@ Screw Terminals off-board</text>
 <pinref part="SW1" gate="A" pin="2"/>
 <wire x1="76.2" y1="33.02" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 <junction x="76.2" y="35.56"/>
-<pinref part="SW1" gate="A" pin="1"/>
-<wire x1="78.74" y1="22.86" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="20.32" x2="83.82" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="22.86" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="33.02" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
@@ -25598,6 +25602,8 @@ Screw Terminals off-board</text>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
 <junction x="86.36" y="35.56"/>
 <pinref part="IC7" gate="SW3" pin="IN"/>
+<pinref part="SW1" gate="A" pin="3"/>
+<wire x1="78.74" y1="22.86" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -25660,13 +25666,6 @@ Screw Terminals off-board</text>
 <junction x="121.92" y="17.78"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="Q4" gate="G$1" pin="D"/>
-<pinref part="SW1" gate="A" pin="3"/>
-<wire x1="73.66" y1="20.32" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="LED1" gate="RED" pin="+"/>
@@ -25679,6 +25678,13 @@ Screw Terminals off-board</text>
 <pinref part="LED1" gate="RED" pin="-"/>
 <wire x1="109.22" y1="25.4" x2="109.22" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="SW3" pin="D"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="D"/>
+<pinref part="SW1" gate="A" pin="1"/>
+<wire x1="73.66" y1="20.32" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -26005,11 +26011,11 @@ Screw Terminals off-board</text>
 <plain>
 </plain>
 <instances>
-<instance part="GND1" gate="1" x="22.86" y="38.1"/>
+<instance part="GND1" gate="1" x="12.7" y="17.78"/>
 <instance part="IC3" gate="A" x="58.42" y="22.86" rot="MR180"/>
 <instance part="IC3" gate="P" x="58.42" y="22.86"/>
-<instance part="RC" gate="G$1" x="35.56" y="58.42">
-<attribute name="MIN_RATING" x="35.56" y="58.42" size="1.778" layer="96" display="off"/>
+<instance part="RC" gate="G$1" x="35.56" y="66.04">
+<attribute name="MIN_RATING" x="35.56" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="RF" gate="G$1" x="35.56" y="45.72">
 <attribute name="MIN_RATING" x="35.56" y="45.72" size="1.778" layer="96" display="off"/>
@@ -26037,9 +26043,15 @@ Screw Terminals off-board</text>
 <instance part="C_HF" gate="G$1" x="68.58" y="60.96" rot="R90">
 <attribute name="MIN_RATING" x="68.58" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SW1" gate="B" x="66.04" y="48.26" rot="MR180"/>
-<instance part="J3-CONTROL" gate="TOP" x="15.24" y="60.96"/>
-<instance part="J3-CONTROL" gate="BOT" x="15.24" y="48.26"/>
+<instance part="SW1" gate="B" x="66.04" y="48.26"/>
+<instance part="J3-CONTROL" gate="TOP" x="5.08" y="68.58"/>
+<instance part="J3-CONTROL" gate="BOT" x="5.08" y="48.26"/>
+<instance part="R_TERM2" gate="G$1" x="27.94" y="38.1" rot="R90">
+<attribute name="MIN_RATING" x="27.94" y="38.1" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R_TERM1" gate="G$1" x="27.94" y="58.42" rot="R270">
+<attribute name="MIN_RATING" x="27.94" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26047,13 +26059,23 @@ Screw Terminals off-board</text>
 <net name="GND" class="1">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="22.86" y1="40.64" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="55.88" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
-<junction x="22.86" y="43.18"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="63.5" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
+<junction x="12.7" y="43.18"/>
 <pinref part="J3-CONTROL" gate="TOP" pin="2"/>
 <pinref part="J3-CONTROL" gate="BOT" pin="2"/>
+<pinref part="R_TERM1" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="50.8" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="53.34" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="50.8" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
+<junction x="12.7" y="50.8"/>
+<pinref part="R_TERM2" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="33.02" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<junction x="12.7" y="30.48"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -26105,25 +26127,31 @@ Screw Terminals off-board</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<wire x1="20.32" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="66.04" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="RC" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
-<junction x="30.48" y="58.42"/>
 <pinref part="J3-CONTROL" gate="TOP" pin="1"/>
+<pinref part="R_TERM1" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<junction x="27.94" y="66.04"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="RF" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="J3-CONTROL" gate="BOT" pin="1"/>
+<pinref part="R_TERM2" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="43.18" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<junction x="27.94" y="45.72"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="RC" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="58.42" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="66.04" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="45.72" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="35.56" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
@@ -26141,7 +26169,6 @@ Screw Terminals off-board</text>
 <junction x="48.26" y="48.26"/>
 <wire x1="48.26" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="55.88" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="48.26" y="55.88"/>
 <pinref part="R_P" gate="G$1" pin="1"/>
@@ -26154,27 +26181,28 @@ Screw Terminals off-board</text>
 <wire x1="50.8" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 <junction x="48.26" y="25.4"/>
 <pinref part="SW1" gate="B" pin="2"/>
-<pinref part="SW1" gate="B" pin="1"/>
+<pinref part="SW1" gate="B" pin="3"/>
+<wire x1="73.66" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V-PI" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="OUT"/>
 <wire x1="66.04" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="45.72" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="60.96" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <junction x="86.36" y="22.86"/>
-<wire x1="86.36" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C_I" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="45.72" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<junction x="86.36" y="45.72"/>
 <pinref part="C_HF" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <junction x="86.36" y="60.96"/>
 <wire x1="86.36" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <label x="88.9" y="22.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="SW1" gate="B" pin="3"/>
+<pinref part="SW1" gate="B" pin="1"/>
+<wire x1="71.12" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
+<junction x="86.36" y="45.72"/>
 </segment>
 </net>
 <net name="N$1" class="0">
