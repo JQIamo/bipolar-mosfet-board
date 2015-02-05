@@ -363,7 +363,7 @@ Dual Heatsink footprint</description>
 </package>
 <package name="D2PAK/TO263">
 <description>D2PAK/TO-263 Package, standard pin labeling convention</description>
-<smd name="2" x="0" y="0" dx="10.49" dy="8.38" layer="1"/>
+<smd name="2" x="0" y="0" dx="10.49" dy="8.38" layer="1" cream="no"/>
 <smd name="1" x="-2.54" y="-10.213" dx="1.106" dy="3.504" layer="1"/>
 <smd name="3" x="2.54" y="-10.213" dx="1.106" dy="3.504" layer="1"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
@@ -377,6 +377,11 @@ Dual Heatsink footprint</description>
 <wire x1="-1.524" y1="-11.43" x2="-1.524" y2="-4.572" width="0.127" layer="25"/>
 <wire x1="-1.524" y1="-4.572" x2="1.524" y2="-4.572" width="0.127" layer="25"/>
 <wire x1="1.524" y1="-4.572" x2="1.524" y2="-11.43" width="0.127" layer="25"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.635" layer="31" style="shortdash"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.6096" layer="31" style="shortdash"/>
+<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.6096" layer="31" style="shortdash"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.6096" layer="31" style="shortdash"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.6096" layer="31" style="shortdash"/>
 </package>
 <package name="SJ3-0603">
 <smd name="1" x="0" y="0" dx="1" dy="1.1" layer="1"/>
@@ -26043,7 +26048,7 @@ Screw Terminals off-board</text>
 <instance part="C_HF" gate="G$1" x="68.58" y="60.96" rot="R90">
 <attribute name="MIN_RATING" x="68.58" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="SW1" gate="B" x="66.04" y="48.26"/>
+<instance part="SW1" gate="B" x="66.04" y="48.26" rot="MR180"/>
 <instance part="J3-CONTROL" gate="TOP" x="5.08" y="68.58"/>
 <instance part="J3-CONTROL" gate="BOT" x="5.08" y="48.26"/>
 <instance part="R_TERM2" gate="G$1" x="27.94" y="38.1" rot="R90">
@@ -26181,17 +26186,17 @@ Screw Terminals off-board</text>
 <wire x1="50.8" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 <junction x="48.26" y="25.4"/>
 <pinref part="SW1" gate="B" pin="2"/>
-<pinref part="SW1" gate="B" pin="3"/>
-<wire x1="73.66" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SW1" gate="B" pin="1"/>
+<wire x1="71.12" y1="50.8" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V-PI" class="0">
 <segment>
 <pinref part="IC3" gate="A" pin="OUT"/>
 <wire x1="66.04" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <junction x="86.36" y="22.86"/>
 <pinref part="C_I" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="60.96" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="45.72" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="68.58" x2="86.36" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
@@ -26200,7 +26205,7 @@ Screw Terminals off-board</text>
 <junction x="86.36" y="60.96"/>
 <wire x1="86.36" y1="22.86" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <label x="88.9" y="22.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="SW1" gate="B" pin="1"/>
+<pinref part="SW1" gate="B" pin="3"/>
 <wire x1="71.12" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 <junction x="86.36" y="45.72"/>
 </segment>
