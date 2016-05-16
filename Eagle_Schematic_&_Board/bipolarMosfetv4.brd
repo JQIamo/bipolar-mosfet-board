@@ -192,35 +192,6 @@ ZSS (May 2014)</text>
 <libraries>
 <library name="ZSS">
 <packages>
-<package name="CLN-25">
-<description>FW Bell
-CLN-25
-
-Hall Effect Sensor, Max 25A</description>
-<pad name="8" x="2.54" y="0" drill="1.2" shape="square" rot="R180"/>
-<pad name="7" x="2.54" y="2.54" drill="1.2" shape="square" rot="R180"/>
-<pad name="6" x="2.54" y="5.08" drill="1.2" shape="square" rot="R180"/>
-<pad name="9" x="2.54" y="-2.54" drill="1.2" shape="square" rot="R180"/>
-<pad name="10" x="2.54" y="-5.08" drill="1.2" shape="square" rot="R180"/>
-<pad name="3" x="11.43" y="0" drill="1.2" shape="square" rot="R180"/>
-<pad name="4" x="11.43" y="2.54" drill="1.2" shape="square" rot="R180"/>
-<pad name="5" x="11.43" y="5.08" drill="1.2" shape="square" rot="R180"/>
-<pad name="2" x="11.43" y="-2.54" drill="1.2" shape="square" rot="R180"/>
-<pad name="1" x="11.43" y="-5.08" drill="1.2" shape="square" rot="R180"/>
-<pad name="+" x="-8.89" y="0" drill="1" shape="long" rot="R180"/>
-<pad name="O/P" x="-8.89" y="7.62" drill="1" shape="long" rot="R180"/>
-<pad name="-" x="-8.89" y="-7.62" drill="1" shape="long" rot="R180"/>
-<wire x1="13.4366" y1="-13.0048" x2="-14.5542" y2="-13.0048" width="0.127" layer="52"/>
-<wire x1="-14.5542" y1="-13.0048" x2="-14.5542" y2="13.0048" width="0.127" layer="52"/>
-<wire x1="-14.5542" y1="13.0048" x2="13.4366" y2="13.0048" width="0.127" layer="52"/>
-<wire x1="13.4366" y1="13.0048" x2="13.4366" y2="-13.0048" width="0.127" layer="52"/>
-<wire x1="13.4366" y1="13.0048" x2="-14.5542" y2="13.0048" width="0.2032" layer="21"/>
-<wire x1="-14.5542" y1="13.0048" x2="-14.5542" y2="-13.0048" width="0.2032" layer="21"/>
-<wire x1="-14.5542" y1="-13.0048" x2="13.4366" y2="-13.0048" width="0.2032" layer="21"/>
-<wire x1="13.4366" y1="-13.0048" x2="13.4366" y2="13.0048" width="0.2032" layer="21"/>
-<text x="-12.7" y="13.97" size="1.27" layer="25">&gt;NAME</text>
-<text x="-12.7" y="-15.24" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="TO220V">
 <wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
@@ -1997,6 +1968,87 @@ tantalum</description>
 </package>
 </packages>
 </library>
+<library name="OpAmpPackages">
+<packages>
+<package name="SO-08">
+<description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
+150-mil body, package type SN</description>
+<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
+<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-0.635" size="0.4064" layer="48">IPC SO8</text>
+<text x="-1.905" y="0.365" size="0.3048" layer="48">JEDEC MS-012 AA</text>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
+</package>
+<package name="TO263">
+<description>&lt;b&gt;TO-263/D2PAK&lt;/b&gt;&lt;p&gt;
+
+From Vishay DOC 95046</description>
+<wire x1="4.917" y1="7.165" x2="4.917" y2="-1.839" width="0.2032" layer="21"/>
+<wire x1="4.917" y1="-1.839" x2="-4.917" y2="-1.839" width="0.2032" layer="21"/>
+<wire x1="-4.917" y1="-1.839" x2="-4.917" y2="7.165" width="0.2032" layer="21"/>
+<wire x1="-4.917" y1="7.165" x2="4.917" y2="7.165" width="0.2032" layer="51"/>
+<wire x1="-5.973" y1="8.983" x2="5.973" y2="8.983" width="0.0508" layer="39"/>
+<wire x1="5.973" y1="-8.983" x2="-5.973" y2="-8.983" width="0.0508" layer="39"/>
+<wire x1="-5.973" y1="-8.983" x2="-5.973" y2="8.983" width="0.0508" layer="39"/>
+<wire x1="5.973" y1="8.983" x2="5.973" y2="-8.983" width="0.0508" layer="39"/>
+<wire x1="-2.565" y1="7.267" x2="-2.565" y2="7.678" width="0.2032" layer="51"/>
+<wire x1="-2.565" y1="7.678" x2="-2.108" y2="8.135" width="0.2032" layer="51"/>
+<wire x1="-2.108" y1="8.135" x2="2.108" y2="8.135" width="0.2032" layer="51"/>
+<wire x1="2.108" y1="8.135" x2="2.565" y2="7.678" width="0.2032" layer="51"/>
+<wire x1="2.565" y1="7.678" x2="2.565" y2="7.267" width="0.2032" layer="51"/>
+<wire x1="2.565" y1="7.267" x2="-2.565" y2="7.267" width="0.2032" layer="51"/>
+<smd name="1" x="-2.54" y="-6.6" dx="2.32" dy="3.81" layer="1"/>
+<smd name="3" x="2.54" y="-6.6" dx="2.32" dy="3.81" layer="1"/>
+<smd name="2" x="0" y="3.5" dx="11" dy="9.65" layer="1" cream="no"/>
+<text x="-3.81" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.4318" y1="-2.6426" x2="0.4318" y2="-1.8806" layer="21"/>
+<rectangle x1="-2.9901" y1="-4.7399" x2="-2.0899" y2="-1.9401" layer="21"/>
+<rectangle x1="2.0899" y1="-4.7399" x2="2.9901" y2="-1.9401" layer="21"/>
+<rectangle x1="-3" y1="-7.5001" x2="-2.1001" y2="-4.7" layer="51"/>
+<rectangle x1="2.1001" y1="-7.5001" x2="3" y2="-4.7" layer="51"/>
+<polygon width="0.2032" layer="51">
+<vertex x="-2.5654" y="7.2669"/>
+<vertex x="-2.5654" y="7.6782"/>
+<vertex x="-2.1082" y="8.1354"/>
+<vertex x="2.1082" y="8.1354"/>
+<vertex x="2.5654" y="7.6782"/>
+<vertex x="2.5654" y="7.2669"/>
+</polygon>
+<rectangle x1="-4.7" y1="-0.7" x2="-0.8" y2="2.71" layer="31"/>
+<rectangle x1="0.8" y1="-0.7" x2="4.7" y2="2.71" layer="31"/>
+<rectangle x1="-4.7" y1="4.13" x2="-0.8" y2="7.54" layer="31"/>
+<rectangle x1="0.8" y1="4.13" x2="4.7" y2="7.54" layer="31"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2184,7 +2236,6 @@ Modified from the EAGLE defaults.
 </pass>
 </autorouter>
 <elements>
-<element name="U3-HALL_SENSE" library="ZSS" package="CLN-25" value="CLN-25" x="104.14" y="64.135" rot="R90"/>
 <element name="C_P8" library="resistor" package="C1206" value="10 uF Cer" x="15.875" y="55.245" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.478" y="53.213" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="18.415" y="53.213" size="1.27" layer="27" ratio="10" rot="R90"/>
@@ -2414,7 +2465,9 @@ Modified from the EAGLE defaults.
 <attribute name="NAME" x="11.049" y="72.136" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="13.589" y="65.659" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="IC_P1_7915" library="ZSS" package="D2PAK/TO263" value="MC7915CD2T" x="6.985" y="80.01" rot="R90"/>
+<element name="IC_P1_7915" library="OpAmpPackages" package="TO263" value="MC79D2T" x="9.525" y="80.01" rot="R90">
+<attribute name="REG_VOLTAGE" value="-15" x="9.525" y="80.01" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="C_P6" library="resistor" package="C1206" value="10 uF Cer" x="15.875" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.272" y="91.567" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="12.7" y="85.852" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -2541,6 +2594,10 @@ Modified from the EAGLE defaults.
 <attribute name="NAME" x="80.391" y="20.701" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="79.121" y="17.018" size="1.27" layer="27"/>
 </element>
+<element name="U3" library="OpAmpPackages" package="SO-08" value="ACS712ELCTR-20A" x="-5.08" y="-16.51">
+<attribute name="OPTIMIZED_RANGE" value="+/- 20A" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U4" library="OpAmpPackages" package="SO-08" value="ADA4522-2ARZ" x="-13.97" y="-16.51"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -2567,8 +2624,6 @@ Modified from the EAGLE defaults.
 <contactref element="C4" pad="1"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C16" pad="2"/>
-<contactref element="C17" pad="1"/>
-<contactref element="C18" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
 <contactref element="C5" pad="2"/>
@@ -2765,6 +2820,10 @@ Modified from the EAGLE defaults.
 <via x="108.585" y="92.075" extent="1-16" drill="0.6"/>
 <contactref element="R_TERM1" pad="2"/>
 <contactref element="R_TERM2" pad="1"/>
+<contactref element="C17" pad="2"/>
+<contactref element="U3" pad="5"/>
+<contactref element="C18" pad="2"/>
+<wire x1="13.97" y1="12.7" x2="-3.175" y2="-13.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15" class="1">
 <contactref element="C_P10" pad="-"/>
@@ -2775,7 +2834,7 @@ Modified from the EAGLE defaults.
 <wire x1="10.16" y1="36.79" x2="10.16" y2="41.935" width="2.54" layer="1"/>
 <wire x1="10.16" y1="41.935" x2="9.55" y2="42.545" width="1.27" layer="1"/>
 <wire x1="15.24" y1="73.05" x2="13.945" y2="73.05" width="1.27" layer="1"/>
-<wire x1="13.945" y1="73.05" x2="6.985" y2="80.01" width="2.54" layer="1"/>
+<wire x1="13.945" y1="73.05" x2="6.025" y2="80.01" width="2.54" layer="1"/>
 <wire x1="6.985" y1="55.88" x2="6.985" y2="64.795" width="2.54" layer="1"/>
 <wire x1="6.985" y1="64.795" x2="15.24" y2="73.05" width="2.54" layer="1"/>
 <wire x1="9.55" y1="42.545" x2="9.55" y2="47.6" width="2.54" layer="1"/>
@@ -2852,11 +2911,6 @@ Modified from the EAGLE defaults.
 <wire x1="3.64" y1="31.79" x2="2.54" y2="32.89" width="1.27" layer="1"/>
 </signal>
 <signal name="N$2">
-<contactref element="U3-HALL_SENSE" pad="10"/>
-<contactref element="U3-HALL_SENSE" pad="8"/>
-<contactref element="U3-HALL_SENSE" pad="9"/>
-<contactref element="U3-HALL_SENSE" pad="4"/>
-<contactref element="U3-HALL_SENSE" pad="5"/>
 <polygon width="0.254" layer="1">
 <vertex x="103.1875" y="65.0875"/>
 <vertex x="110.1725" y="65.0875"/>
@@ -2899,9 +2953,6 @@ Modified from the EAGLE defaults.
 </polygon>
 </signal>
 <signal name="TO-COIL">
-<contactref element="U3-HALL_SENSE" pad="3"/>
-<contactref element="U3-HALL_SENSE" pad="1"/>
-<contactref element="U3-HALL_SENSE" pad="2"/>
 <contactref element="J6-COIL" pad="1"/>
 <polygon width="0.254" layer="15">
 <vertex x="103.1875" y="77.1525"/>
@@ -2935,15 +2986,16 @@ Modified from the EAGLE defaults.
 <vertex x="110.8075" y="88.5825"/>
 <vertex x="106.3625" y="88.5825"/>
 </polygon>
+<contactref element="U3" pad="1"/>
+<contactref element="U3" pad="2"/>
+<wire x1="-5.715" y1="-19.11" x2="-6.985" y2="-19.11" width="0" layer="19" extent="1-1"/>
+<wire x1="108.585" y1="86.36" x2="-5.715" y2="-19.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOSFET-OUTPUT">
-<contactref element="U3-HALL_SENSE" pad="6"/>
-<contactref element="U3-HALL_SENSE" pad="7"/>
 <contactref element="TP11" pad="P$1"/>
 <contactref element="Q3" pad="3"/>
 <contactref element="Q2" pad="3"/>
 <wire x1="85.09" y1="52.07" x2="99.06" y2="66.04" width="0.4064" layer="1"/>
-<wire x1="99.06" y1="66.04" x2="99.06" y2="66.675" width="0.4064" layer="1"/>
 <polygon width="0.254" layer="15">
 <vertex x="74.6125" y="77.1525"/>
 <vertex x="70.485" y="77.1525"/>
@@ -3000,6 +3052,10 @@ Modified from the EAGLE defaults.
 <vertex x="89.2175" y="82.55"/>
 <vertex x="77.7875" y="82.55"/>
 </polygon>
+<contactref element="U3" pad="3"/>
+<contactref element="U3" pad="4"/>
+<wire x1="-3.175" y1="-19.11" x2="-4.445" y2="-19.11" width="0" layer="19" extent="1-1"/>
+<wire x1="85.09" y1="52.07" x2="-3.175" y2="-19.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+8V">
 <contactref element="C19" pad="+"/>
@@ -3140,7 +3196,6 @@ Modified from the EAGLE defaults.
 <wire x1="52.07" y1="57.15" x2="54.61" y2="59.69" width="0.254" layer="1"/>
 </signal>
 <signal name="+18V" class="1">
-<contactref element="R7" pad="2"/>
 <contactref element="TP3" pad="P$1"/>
 <contactref element="IC_P4_7818" pad="3"/>
 <contactref element="C_P7" pad="1"/>
@@ -3149,12 +3204,6 @@ Modified from the EAGLE defaults.
 <wire x1="37.7222" y1="35.235" x2="35.67" y2="35.235" width="0.3048" layer="1"/>
 <wire x1="35.67" y1="35.235" x2="35.57553125" y2="35.230546875" width="0.3048" layer="1"/>
 <wire x1="35.57553125" y1="35.230546875" x2="33.655" y2="35.14" width="0.3048" layer="1"/>
-<wire x1="61.595" y1="44.3475" x2="60.6425" y2="44.1325" width="0.6096" layer="1"/>
-<wire x1="60.6425" y1="44.1325" x2="60.325" y2="43.815" width="0.6096" layer="1"/>
-<wire x1="60.325" y1="43.815" x2="60.325" y2="43.0775" width="0.6096" layer="1"/>
-<wire x1="60.325" y1="43.0775" x2="59.7925" y2="42.545" width="0.6096" layer="1"/>
-<wire x1="59.7925" y1="42.545" x2="58.1025" y2="42.545" width="0.6096" layer="1"/>
-<via x="58.1025" y="42.545" extent="1-16" drill="0.6"/>
 <polygon width="0.8128" layer="2" rank="2">
 <vertex x="71.12" y="0.635"/>
 <vertex x="33.655" y="0.635"/>
@@ -3417,8 +3466,6 @@ Modified from the EAGLE defaults.
 </signal>
 <signal name="+15V">
 <contactref element="R2" pad="2"/>
-<contactref element="C17" pad="2"/>
-<contactref element="U3-HALL_SENSE" pad="+"/>
 <contactref element="IC3" pad="13"/>
 <contactref element="C7" pad="1"/>
 <contactref element="IC2" pad="13"/>
@@ -3434,8 +3481,6 @@ Modified from the EAGLE defaults.
 <wire x1="85.725" y1="32.7025" x2="85.725" y2="30.96" width="0.6096" layer="1"/>
 <wire x1="113.665" y1="38.16" x2="113.5625" y2="38.2625" width="0.4064" layer="1"/>
 <wire x1="113.5625" y1="38.2625" x2="113.5625" y2="41.275" width="0.4064" layer="1"/>
-<wire x1="104.14" y1="55.245" x2="104.2425" y2="55.1425" width="1.27" layer="1"/>
-<wire x1="104.2425" y1="55.1425" x2="104.2425" y2="47.625" width="1.27" layer="1"/>
 <polygon width="0.8128" layer="2" rank="2">
 <vertex x="72.39" y="48.26"/>
 <vertex x="117.475" y="48.26"/>
@@ -3446,9 +3491,6 @@ Modified from the EAGLE defaults.
 <wire x1="95.5675" y1="15.3425" x2="95.5675" y2="17.145" width="1.016" layer="1"/>
 <via x="95.5675" y="17.145" extent="1-16" drill="0.6"/>
 <via x="84.7725" y="33.655" extent="1-16" drill="0.6"/>
-<wire x1="104.2425" y1="47.625" x2="103.6075" y2="46.99" width="1.016" layer="1"/>
-<wire x1="103.6075" y1="46.99" x2="102.235" y2="46.99" width="1.016" layer="1"/>
-<via x="102.235" y="46.99" extent="1-16" drill="0.6"/>
 <wire x1="113.5625" y1="41.275" x2="113.5625" y2="42.6475" width="1.016" layer="1"/>
 <wire x1="113.5625" y1="42.6475" x2="113.03" y2="43.18" width="1.016" layer="1"/>
 <via x="113.03" y="43.18" extent="1-16" drill="0.6"/>
@@ -3470,11 +3512,13 @@ Modified from the EAGLE defaults.
 <via x="35.56" y="80.01" extent="1-16" drill="0.6"/>
 <wire x1="35.56" y1="80.01" x2="35.56" y2="82.497" width="1.778" layer="1"/>
 <wire x1="35.56" y1="82.497" x2="35.613" y2="82.55" width="1.778" layer="1"/>
+<contactref element="U4" pad="8"/>
+<contactref element="R7" pad="2"/>
+<wire x1="73.66" y1="46.99" x2="61.595" y2="44.3475" width="0" layer="19" extent="1-2"/>
+<wire x1="-15.875" y1="-13.91" x2="40.64" y2="46.99" width="0" layer="19" extent="1-2"/>
 </signal>
 <signal name="-15V">
 <contactref element="R3" pad="1"/>
-<contactref element="C18" pad="1"/>
-<contactref element="U3-HALL_SENSE" pad="-"/>
 <contactref element="C8" pad="1"/>
 <contactref element="IC3" pad="4"/>
 <contactref element="IC2" pad="4"/>
@@ -3488,8 +3532,6 @@ Modified from the EAGLE defaults.
 <wire x1="85.725" y1="38.4175" x2="84.7725" y2="37.465" width="1.016" layer="1"/>
 <wire x1="84.7725" y1="37.465" x2="83.605" y2="36.2975" width="1.016" layer="1"/>
 <wire x1="83.605" y1="36.2975" x2="78.4225" y2="36.2975" width="1.016" layer="1"/>
-<wire x1="111.76" y1="55.245" x2="111.8625" y2="55.1425" width="1.27" layer="1"/>
-<wire x1="111.8625" y1="55.1425" x2="111.8625" y2="47.625" width="1.27" layer="1"/>
 <wire x1="116.205" y1="32.96" x2="116.1025" y2="32.8575" width="0.4064" layer="1"/>
 <wire x1="116.1025" y1="32.8575" x2="116.1025" y2="30.48" width="0.4064" layer="1"/>
 <wire x1="116.1025" y1="30.48" x2="116.1025" y2="28.575" width="0.4064" layer="1"/>
@@ -3505,15 +3547,12 @@ Modified from the EAGLE defaults.
 <wire x1="92.3925" y1="15.3425" x2="92.3925" y2="17.145" width="1.016" layer="1"/>
 <via x="92.3925" y="17.145" extent="1-16" drill="0.6"/>
 <via x="84.7725" y="37.465" extent="1-16" drill="0.6"/>
-<wire x1="111.8625" y1="47.625" x2="111.2275" y2="46.99" width="1.016" layer="1"/>
-<wire x1="111.2275" y1="46.99" x2="110.1725" y2="46.99" width="1.016" layer="1"/>
-<via x="110.1725" y="46.99" extent="1-16" drill="0.6"/>
 <wire x1="103.505" y1="27.52" x2="103.505" y2="28.8925" width="1.016" layer="1"/>
 <via x="103.505" y="28.8925" extent="1-16" drill="0.6"/>
 <wire x1="103.505" y1="28.8925" x2="103.505" y2="30.96" width="0.6096" layer="1"/>
 <wire x1="15.875" y1="87.5" x2="15.875" y2="83.873" width="1.27" layer="1"/>
 <wire x1="15.875" y1="83.873" x2="16.854" y2="82.894" width="1.6764" layer="1"/>
-<wire x1="16.854" y1="82.894" x2="17.198" y2="82.55" width="1.6764" layer="1"/>
+<wire x1="16.854" y1="82.894" x2="16.125" y2="82.55" width="1.6764" layer="1"/>
 <wire x1="10.795" y1="88.9" x2="12.195" y2="87.5" width="1.27" layer="1"/>
 <wire x1="12.195" y1="87.5" x2="15.875" y2="87.5" width="1.27" layer="1"/>
 <wire x1="16.51" y1="80.01" x2="16.51" y2="64.77" width="2.54" layer="15"/>
@@ -3523,12 +3562,12 @@ Modified from the EAGLE defaults.
 <via x="16.51" y="80.01" extent="1-16" drill="0.6"/>
 <wire x1="16.51" y1="80.01" x2="16.51" y2="82.55" width="1.6764" layer="1"/>
 <wire x1="16.51" y1="82.55" x2="16.854" y2="82.894" width="1.778" layer="1"/>
+<contactref element="U4" pad="4"/>
+<wire x1="34.29" y1="46.99" x2="-12.065" y2="-19.11" width="0" layer="19" extent="1-15"/>
 </signal>
 <signal name="HALL-CURRENT">
 <contactref element="R1" pad="2"/>
 <contactref element="IC1" pad="3"/>
-<contactref element="U3-HALL_SENSE" pad="O/P"/>
-<wire x1="96.52" y1="55.245" x2="96.735" y2="55.03" width="1.27" layer="1"/>
 <wire x1="96.735" y1="55.03" x2="96.735" y2="47.625" width="1.27" layer="1"/>
 <wire x1="96.735" y1="47.625" x2="98.64" y2="45.72" width="0.4064" layer="1"/>
 <wire x1="98.64" y1="45.72" x2="113.665" y2="45.72" width="0.4064" layer="1"/>
@@ -3538,6 +3577,8 @@ Modified from the EAGLE defaults.
 <wire x1="114.935" y1="43.18" x2="114.935" y2="30.1625" width="0.4064" layer="15"/>
 <via x="114.935" y="30.1625" extent="1-16" drill="0.6"/>
 <wire x1="114.935" y1="30.1625" x2="114.935" y2="32.96" width="0.4064" layer="1"/>
+<contactref element="U3" pad="7"/>
+<wire x1="-5.715" y1="-13.91" x2="96.735" y2="47.625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="RC" pad="1"/>
@@ -3770,6 +3811,16 @@ Modified from the EAGLE defaults.
 <wire x1="49.53" y1="27.94" x2="39.37" y2="27.94" width="0.8128" layer="1"/>
 <wire x1="39.37" y1="27.94" x2="36.365" y2="30.945" width="0.8128" layer="1"/>
 <wire x1="36.365" y1="30.945" x2="35.2425" y2="30.945" width="0.8128" layer="1"/>
+</signal>
+<signal name="5V-REF-PWR">
+<contactref element="C17" pad="1"/>
+<contactref element="U3" pad="8"/>
+<wire x1="-6.985" y1="-13.91" x2="105.9425" y2="47.625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="U3" pad="6"/>
+<contactref element="C18" pad="1"/>
+<wire x1="-4.445" y1="-13.91" x2="111.8625" y2="47.625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
