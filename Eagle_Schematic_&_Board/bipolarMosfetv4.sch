@@ -23725,22 +23725,10 @@ From Vishay DOC 95046</description>
 <part name="Q6" library="ZSS" deviceset="ST?80NF55-06" device="B"/>
 <part name="HS1" library="Aavid" deviceset="7109D" device="" technology="/TRG"/>
 <part name="HS2" library="Aavid" deviceset="7109D" device="" technology="/TRG"/>
-<part name="SUPPLY9" library="supply2" deviceset="+8V" device=""/>
-<part name="SUPPLY10" library="supply2" deviceset="-8V" device=""/>
-<part name="SUPPLY11" library="supply2" deviceset="+8V" device=""/>
-<part name="SUPPLY12" library="supply2" deviceset="-8V" device=""/>
 <part name="F1" library="Aavid" deviceset="LITTLEFUSE-FUSE" device="OMNIBLOCK"/>
 <part name="F2" library="Aavid" deviceset="LITTLEFUSE-FUSE" device="OMNIBLOCK"/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
-<part name="P+10" library="supply1" deviceset="+24V" device=""/>
 <part name="P-8" library="supply1" deviceset="-24V" device=""/>
-<part name="P-9" library="supply1" deviceset="-24V" device=""/>
-<part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY13" library="supply2" deviceset="+5V" device=""/>
-<part name="SUPPLY14" library="supply2" deviceset="+5V" device=""/>
 <part name="U3" library="Allegro" deviceset="ACS730?-*" device="KLCTR" technology="20AB"/>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0603" value="1k">
 <attribute name="MIN_RATING" value="100mW"/>
@@ -23993,20 +23981,8 @@ Screw Terminals off-board</text>
 <instance part="R18" gate="G$1" x="7.62" y="83.82" rot="R270">
 <attribute name="MIN_RATING" x="7.62" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="SUPPLY9" gate="+8V" x="30.48" y="144.78" rot="MR0"/>
-<instance part="SUPPLY10" gate="G$1" x="45.72" y="104.14" rot="MR0"/>
-<instance part="SUPPLY11" gate="+8V" x="104.14" y="134.62" rot="MR0"/>
-<instance part="SUPPLY12" gate="G$1" x="104.14" y="104.14" rot="MR0"/>
-<instance part="GND10" gate="1" x="109.22" y="109.22" rot="MR0"/>
-<instance part="GND15" gate="1" x="40.64" y="109.22" rot="MR0"/>
 <instance part="P+9" gate="1" x="30.48" y="58.42"/>
-<instance part="P+10" gate="1" x="99.06" y="137.16"/>
 <instance part="P-8" gate="1" x="30.48" y="10.16"/>
-<instance part="P-9" gate="1" x="50.8" y="106.68"/>
-<instance part="GND5" gate="1" x="38.1" y="91.44" rot="MR0"/>
-<instance part="GND26" gate="1" x="106.68" y="88.9" rot="MR0"/>
-<instance part="SUPPLY13" gate="+5V" x="27.94" y="104.14"/>
-<instance part="SUPPLY14" gate="+5V" x="119.38" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -24071,46 +24047,6 @@ Screw Terminals off-board</text>
 <pinref part="LED1" gate="GRN" pin="-"/>
 <wire x1="7.62" y1="66.04" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="40.64" y1="121.92" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="114.3" x2="40.64" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="119.38" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="119.38" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
-<junction x="55.88" y="121.92"/>
-<wire x1="55.88" y1="121.92" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<junction x="40.64" y="114.3"/>
-</segment>
-<segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="93.98" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="121.92" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="114.3" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
-<junction x="109.22" y="114.3"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="101.6" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="101.6" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="55.88" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="99.06" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
-<junction x="55.88" y="99.06"/>
-</segment>
-<segment>
-<wire x1="93.98" y1="101.6" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="101.6" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GND26" gate="1" pin="GND"/>
-<wire x1="96.52" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="99.06" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<junction x="96.52" y="99.06"/>
-</segment>
 </net>
 <net name="N$15" class="1">
 <segment>
@@ -24151,24 +24087,6 @@ Screw Terminals off-board</text>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
 <wire x1="7.62" y1="88.9" x2="7.62" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY13" gate="+5V" pin="+5V"/>
-<wire x1="58.42" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="96.52" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="93.98" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<junction x="55.88" y="96.52"/>
-</segment>
-<segment>
-<pinref part="SUPPLY14" gate="+5V" pin="+5V"/>
-<wire x1="93.98" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="96.52" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="93.98" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<junction x="96.52" y="96.52"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -24233,19 +24151,6 @@ Screw Terminals off-board</text>
 <wire x1="48.26" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="73.66" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="SUPPLY11" gate="+8V" pin="+8V"/>
-<wire x1="93.98" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="127" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="124.46" x2="104.14" y2="127" width="0.1524" layer="91"/>
-<junction x="104.14" y="127"/>
-</segment>
-<segment>
-<pinref part="SUPPLY9" gate="+8V" pin="+8V"/>
-<wire x1="58.42" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="127" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="-8V" class="0">
 <segment>
@@ -24254,19 +24159,6 @@ Screw Terminals off-board</text>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <wire x1="48.26" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="68.58" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="-8V"/>
-<wire x1="45.72" y1="106.68" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY12" gate="G$1" pin="-8V"/>
-<wire x1="93.98" y1="119.38" x2="104.14" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="119.38" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="116.84" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
-<junction x="104.14" y="116.84"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -24277,11 +24169,6 @@ Screw Terminals off-board</text>
 </segment>
 </net>
 <net name="-24V" class="0">
-<segment>
-<pinref part="P-9" gate="1" pin="-24V"/>
-<wire x1="50.8" y1="109.22" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="30.48" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
@@ -24296,11 +24183,6 @@ Screw Terminals off-board</text>
 </segment>
 </net>
 <net name="+24V" class="0">
-<segment>
-<pinref part="P+10" gate="1" pin="+24V"/>
-<wire x1="93.98" y1="111.76" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="111.76" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="30.48" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
