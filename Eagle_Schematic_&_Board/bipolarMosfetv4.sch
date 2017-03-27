@@ -23750,6 +23750,11 @@ From Vishay DOC 95046</description>
 <text x="86.36" y="30.48" size="1.778" layer="100">Output to Both Pins for Coil Connection
 Screw Terminals off-board</text>
 <text x="86.36" y="27.94" size="1.778" layer="100">Ground return made off-board</text>
+<text x="63.5" y="93.98" size="1.778" layer="102">&lt;- Can replace with 1-channel version ADA4522-1ARZ
+    (May lower unit cost)</text>
+<text x="83.82" y="53.34" size="1.778" layer="102">&lt;- Has -20, -40, -50 options, for +/-#A sense ranges</text>
+<text x="124.46" y="38.1" size="1.778" layer="102">&lt;- Can replace with pluggable terminal blocks
+     e.g. WR-TBL series from Wurth Electronics</text>
 </plain>
 <instances>
 <instance part="GND12" gate="1" x="96.52" y="40.64"/>
@@ -23923,6 +23928,13 @@ Screw Terminals off-board</text>
 <text x="63.5" y="60.96" size="1.778" layer="100">Use L2 or L21 (axial or radial)</text>
 <text x="68.58" y="5.08" size="1.778" layer="100">Use L1 or L11 (axial or radial)</text>
 <text x="112.268" y="2.032" size="1.778" layer="100">Use heatsink on all regulators</text>
+<text x="152.4" y="-2.54" size="1.778" layer="102">^Replace w/ D2PAK fixed reg, if available</text>
+<text x="78.74" y="-7.62" size="1.778" layer="102">Entire PWR Supply section could be redone
+(Orig. stolen from Ian's Design)</text>
+<text x="76.2" y="33.02" size="1.778" layer="102">^
+Could replace these with ferrites
+V</text>
+<text x="43.18" y="93.98" size="1.778" layer="102">Power Supply Connectors are missing, because possible backplane now.</text>
 </plain>
 <instances>
 <instance part="GND2" gate="1" x="180.34" y="33.02"/>
@@ -24202,6 +24214,9 @@ Screw Terminals off-board</text>
 <plain>
 <text x="116.84" y="55.88" size="1.778" layer="100"> TTL Off Power Section</text>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="0" width="0.1524" layer="97" style="longdash"/>
+<text x="27.94" y="35.56" size="1.778" layer="102" rot="R180">Replace with SMD package -&gt;
+e.g. H11L1S from Everlight
+OR H11L1SR2 from Fairchild</text>
 </plain>
 <instances>
 <instance part="J2-BNC_TTL" gate="G$1" x="7.62" y="40.64" smashed="yes">
@@ -24428,6 +24443,9 @@ Screw Terminals off-board</text>
 </sheet>
 <sheet>
 <plain>
+<text x="170.18" y="-2.54" size="1.778" layer="102">^^^
+Should be a 50-ohm output stage,
+to limit short-circuit current</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="43.18" y="22.86"/>
@@ -24734,6 +24752,9 @@ Screw Terminals off-board</text>
 </sheet>
 <sheet>
 <plain>
+<text x="88.9" y="58.42" size="1.778" layer="102">&lt; These are all fixed, through hole components
+&lt; This is dumb, but there's no better way
+&lt; that doesn't involve 1000 trimpots.</text>
 </plain>
 <instances>
 <instance part="GND1" gate="1" x="12.7" y="17.78"/>
@@ -24941,6 +24962,15 @@ Screw Terminals off-board</text>
 </sheet>
 <sheet>
 <plain>
+<text x="43.18" y="30.48" size="1.778" layer="102" rot="R180">^ I don't think we need this buffer stage,
+ but it is the B of an extant one,
+so there's no harm except the quiescent current for that stage.</text>
+<text x="144.78" y="73.66" size="1.778" layer="102">I'm on the fence about these fuses.
+I'd consider putting them on the backplane
+or dropping them altogether.</text>
+<text x="58.42" y="58.42" size="1.778" layer="102" rot="R90">Replace with SMD versions
+E.g. Bourns PVG5A102C03R00
+V</text>
 </plain>
 <instances>
 <instance part="V-1" gate="1" x="78.74" y="2.54"/>
@@ -25177,7 +25207,7 @@ Screw Terminals off-board</text>
 <pinref part="Q1" gate="-2" pin="B"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="N-GATE" class="0">
 <segment>
 <wire x1="132.08" y1="50.8" x2="132.08" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
@@ -25185,7 +25215,7 @@ Screw Terminals off-board</text>
 <pinref part="Q6" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="P-GATE" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
@@ -25256,7 +25286,7 @@ Screw Terminals off-board</text>
 <wire x1="60.96" y1="81.28" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="FUSED-8V" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="-"/>
 <wire x1="142.24" y1="25.4" x2="144.78" y2="25.4" width="0.1524" layer="91"/>
@@ -25267,7 +25297,7 @@ Screw Terminals off-board</text>
 <junction x="142.24" y="25.4"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="FUSED+8V" class="0">
 <segment>
 <pinref part="C19" gate="G$1" pin="+"/>
 <wire x1="142.24" y1="55.88" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
