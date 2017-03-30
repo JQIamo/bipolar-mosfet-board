@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2225,7 +2225,7 @@ Dual Heatsink footprint</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ST?80PF55" prefix="Q">
+<deviceset name="ST?80PF55" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="P-CHANNEL_MOSFET" x="0" y="0"/>
 </gates>
@@ -2252,7 +2252,7 @@ Dual Heatsink footprint</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ST?80NF55-06" prefix="Q">
+<deviceset name="ST?80NF55-06" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="N-CHAN_MOSFET" x="0" y="0"/>
 </gates>
