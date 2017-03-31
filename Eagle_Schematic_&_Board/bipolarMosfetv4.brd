@@ -2323,13 +2323,15 @@ Modified from the EAGLE defaults.
 <element name="IC1" library="linear" package="SO08" value="OP27D" x="114.3" y="35.56">
 <attribute name="PARTNO" value="OP27GSZ" x="114.3" y="35.56" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R7" library="resistor" package="R0603" value="2k22" x="61.595" y="43.4975" rot="R90">
+<element name="R7" library="resistor" package="R0603" value="2.21k" x="61.595" y="43.4975" rot="R90">
 <attribute name="MIN_RATING" value="250mW" x="61.595" y="43.4975" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF2211V" x="61.595" y="43.4975" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R10" library="resistor" package="R0603" value="2k22" x="55.88" y="26.67" smashed="yes">
+<element name="R10" library="resistor" package="R0603" value="2.21k" x="55.88" y="26.67" smashed="yes">
 <attribute name="MIN_RATING" value="250mW" x="55.88" y="26.67" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="54.356" y="24.384" size="1.27" layer="25"/>
 <attribute name="VALUE" x="54.991" y="24.638" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="ERJ-3EKF2211V" x="55.88" y="26.67" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP1" library="ZSS" package="KEYSTONE5019" value="5019" x="14.9225" y="49.2125">
 <attribute name="TP_SIGNAL_NAME" value="GND" x="14.9225" y="49.2125" size="1.778" layer="27" display="off"/>
@@ -2384,26 +2386,29 @@ Modified from the EAGLE defaults.
 <attribute name="OC_FARNELL" value="unknown" x="-92.71" y="-106.68" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="5227161-3" x="-92.71" y="-106.68" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R-GHALL" library="resistor" package="R0603" value="5.49k" x="97.79" y="24.13" smashed="yes" rot="R180">
+<element name="R-GHALL" library="resistor" package="R0603" value="10k" x="97.79" y="24.13" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.7585" y="23.114" size="1.27" layer="25"/>
 <attribute name="VALUE" x="98.679" y="26.162" size="1.27" layer="27" rot="R180"/>
 <attribute name="MIN_RATING" value="62mW" x="97.79" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="TNPW06035K49BEEA" x="97.79" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA" x="97.79" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R5" library="resistor" package="R0603" value="10k" x="92.964" y="33.9725" rot="R90">
 <attribute name="MIN_RATING" value="62mW" x="92.964" y="33.9725" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="*" x="92.964" y="33.9725" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA" x="92.964" y="33.9725" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R-GOFF" library="resistor" package="R0603" value="124k" x="97.79" y="20.32" smashed="yes" rot="R180">
+<element name="R-GOFF" library="resistor" package="R0603" value="121k" x="97.79" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.7585" y="19.6215" size="1.27" layer="25"/>
 <attribute name="VALUE" x="98.679" y="22.352" size="1.27" layer="27" rot="R180"/>
 <attribute name="MIN_RATING" value="62mW" x="97.79" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="TNPW0603121KBEEA" x="97.79" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="resistor" package="R0603" value="4k64" x="96.52" y="15.24" rot="R180">
+<element name="R2" library="resistor" package="R0603" value="4.64k" x="96.52" y="15.24" rot="R180">
 <attribute name="MIN_RATING" value="62mW" x="96.52" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF4641V" x="96.52" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R3" library="resistor" package="R0603" value="4k64" x="91.44" y="15.24" rot="R180">
+<element name="R3" library="resistor" package="R0603" value="4.64k" x="91.44" y="15.24" rot="R180">
 <attribute name="MIN_RATING" value="62mW" x="91.44" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF4641V" x="91.44" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="ZSS" package="SOT23" value="MAX6006AEUR+T" x="91.44" y="10.16" rot="R180">
 <attribute name="PARTNO" value="MAX6006AEUR+T" x="91.44" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2413,17 +2418,19 @@ Modified from the EAGLE defaults.
 </element>
 <element name="RC" library="resistor" package="R0603" value="10k" x="77.47" y="20.32" rot="R90">
 <attribute name="MIN_RATING" value="62mW" x="77.47" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="*" x="77.47" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA" x="77.47" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="RF" library="resistor" package="R0603" value="200k" x="73.66" y="20.32" rot="R90">
 <attribute name="MIN_RATING" value="62mW" x="73.66" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="TNPW0603200KBEEA" x="73.66" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="RH" library="resistor" package="R0603" value="10k" x="92.964" y="37.7825" rot="R90">
 <attribute name="MIN_RATING" value="62mW" x="92.964" y="37.7825" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="*" x="92.964" y="37.7825" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA" x="92.964" y="37.7825" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="resistor" package="R0603" value="1K" x="92.71" y="28.448">
+<element name="R6" library="resistor" package="R0603" value="1k" x="92.71" y="28.448">
 <attribute name="MIN_RATING" value="250mW" x="92.71" y="28.448" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V" x="92.71" y="28.448" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="resistor" package="C0603" value="0.1uF" x="88.9" y="5.08">
 <attribute name="MIN_RATING" value="25V" x="88.9" y="5.08" size="1.778" layer="27" display="off"/>
@@ -2435,6 +2442,7 @@ Modified from the EAGLE defaults.
 </element>
 <element name="C16" library="resistor" package="C0603" value="1uF" x="88.9" y="2.54" rot="R180">
 <attribute name="MIN_RATING" value="25V" x="88.9" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL10B105KO8NNNC" x="88.9" y="2.54" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C17" library="resistor" package="C0603" value="0.1uF" x="105.0925" y="47.625" rot="R180">
 <attribute name="MIN_RATING" value="25V" x="105.0925" y="47.625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2444,6 +2452,7 @@ Modified from the EAGLE defaults.
 <attribute name="MIN_RATING" value="25V" x="112.7125" y="47.625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="111.1885" y="44.8945" size="1.27" layer="25"/>
 <attribute name="VALUE" x="111.8235" y="45.593" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="CL10B102KA8NNNC" x="112.7125" y="47.625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="resistor" package="C0603" value="0.1uF" x="115.2525" y="28.575" smashed="yes" rot="R180">
 <attribute name="MIN_RATING" value="25V" x="115.2525" y="28.575" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2531,11 +2540,11 @@ Modified from the EAGLE defaults.
 <attribute name="VALUE" x="42.164" y="41.402" size="1.27" layer="27" rot="R180"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC" x="41.275" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R16" library="resistor" package="R0603" value="10.1k" x="31.115" y="30.7975" smashed="yes" rot="R270">
+<element name="R16" library="resistor" package="R0603" value="10k" x="31.115" y="30.7975" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.5115" y="30.099" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="29.083" y="31.6865" size="1.27" layer="27" rot="R270"/>
 <attribute name="MIN_RATING" value="62mW" x="31.115" y="30.7975" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PARTNO" value="*" x="31.115" y="30.7975" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V" x="31.115" y="30.7975" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="H4" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="113.03" y="22.86"/>
 <element name="R_P" library="resistor" package="0207/7" value="" x="88.9" y="22.5425" smashed="yes" rot="R90">
@@ -2569,10 +2578,11 @@ Modified from the EAGLE defaults.
 <attribute name="VALUE" x="33.3375" y="26.67" size="1.27" layer="27"/>
 <attribute name="PARTNO" value="BSS138" x="35.2425" y="29.845" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R15" library="resistor" package="R0603" value="1.1k" x="34.29" y="25.4" smashed="yes" rot="R90">
+<element name="R15" library="resistor" package="R0603" value="1k" x="34.29" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.0835" y="23.876" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="36.322" y="24.511" size="1.27" layer="27" rot="R90"/>
 <attribute name="MIN_RATING" value="62mW" x="34.29" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V" x="34.29" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R13" library="resistor" package="R0603" value="332" x="43.815" y="17.145" smashed="yes" rot="R180">
 <attribute name="NAME" x="45.974" y="15.9385" size="1.27" layer="25" rot="R180"/>
@@ -2590,7 +2600,9 @@ Modified from the EAGLE defaults.
 </element>
 <element name="H1" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="14.605" y="96.52"/>
 <element name="H2" library="holes" package="3,3" value="MOUNT-HOLE3.3" x="113.03" y="96.52"/>
-<element name="SW1" library="ZSS" package="7201**AV2" value="7201*AV2" x="-31.75" y="-114.3"/>
+<element name="SW1" library="ZSS" package="7201**AV2" value="7201*AV2" x="-31.75" y="-114.3">
+<attribute name="PARTNO" value="7201MD9AV2QE" x="-31.75" y="-114.3" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LED1" library="ZSS" package="SSF-LXH250GID" value="SSF-LXH250GID" x="-41.91" y="-114.3">
 <attribute name="PARTNO" value="SSF-LXH250GID" x="-41.91" y="-114.3" size="1.778" layer="27" display="off"/>
 </element>
@@ -2606,6 +2618,7 @@ Modified from the EAGLE defaults.
 <element name="J3-CONTROL" library="ZSS" package="AMP-31-6576" value="AMP-31-6576" x="-72.39" y="-114.3" smashed="yes">
 <attribute name="NAME" x="-80.645" y="-112.395" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-75.565" y="-105.41" size="1.27" layer="27"/>
+<attribute name="PARTNO" value="031-6576" x="-72.39" y="-114.3" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D2" library="ZSS" package="D0603" value="CDSU400B" x="65.7225" y="25.7175" smashed="yes">
 <attribute name="NAME" x="62.2935" y="25.3365" size="1.27" layer="25"/>
@@ -2624,13 +2637,13 @@ Modified from the EAGLE defaults.
 <attribute name="MIN_RATING" value="62mW" x="69.85" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="67.691" y="15.621" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="68.961" y="15.748" size="1.27" layer="27"/>
-<attribute name="PARTNO" value="*" x="69.85" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA" x="69.85" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R_TERM1" library="resistor" package="R0603" value="10k" x="80.01" y="19.05" smashed="yes">
 <attribute name="MIN_RATING" value="62mW" x="80.01" y="19.05" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.391" y="20.701" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="79.121" y="17.018" size="1.27" layer="27"/>
-<attribute name="PARTNO" value="*" x="80.01" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA" x="80.01" y="19.05" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q5" library="ZSS" package="D2PAK/TO263" value="IXTA76P10T" x="-128.27" y="-34.925">
 <attribute name="PARTNO" value="IXTA76P10T" x="-128.27" y="-34.925" size="1.778" layer="27" display="off"/>
@@ -2648,6 +2661,7 @@ Modified from the EAGLE defaults.
 </element>
 <element name="U3" library="Allegro" package="SOICN-8" value="ACS730KLCTR-20AB" x="-111.76" y="-52.07" rot="R270">
 <attribute name="CURRENT_RATING" value="20 Amps" x="-111.76" y="-52.07" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="ACS730KLCTR-20AB-T" x="-111.76" y="-52.07" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R20" library="resistor" package="R0603" value="1k" x="-79.375" y="-44.45" rot="R180">
 <attribute name="MIN_RATING" value="100mW" x="-79.375" y="-44.45" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2657,11 +2671,13 @@ Modified from the EAGLE defaults.
 <attribute name="MIN_RATING" value="100mW" x="-79.375" y="-42.545" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PARTNO" value="TNPW06031K00BEEA" x="-79.375" y="-42.545" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R21" library="resistor" package="R0603" value="5k" x="-71.755" y="-43.18" rot="MR270">
+<element name="R21" library="resistor" package="R0603" value="4.75k" x="-71.755" y="-43.18" rot="MR270">
 <attribute name="MIN_RATING" value="100mW" x="-71.755" y="-43.18" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="TNPW06034K75BEEA" x="-71.755" y="-43.18" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R22" library="resistor" package="R0603" value="5k" x="-76.2" y="-46.355" rot="R270">
+<element name="R22" library="resistor" package="R0603" value="4.75k" x="-76.2" y="-46.355" rot="R270">
 <attribute name="MIN_RATING" value="100mW" x="-76.2" y="-46.355" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="TNPW06034K75BEEA" x="-76.2" y="-46.355" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C_P2" library="MF_Passives" package="CP10MM" value="220 uF" x="-154.94" y="-123.19">
 <attribute name="HOUSEPART" value="" x="-154.94" y="-123.19" size="1.778" layer="27" display="off"/>
@@ -2754,15 +2770,21 @@ Modified from the EAGLE defaults.
 <element name="R4" library="rcl" package="RTRIM3214W" value="1k" x="-265.43" y="-199.39">
 <attribute name="PARTNO" value="3214W-1-102E" x="-265.43" y="-199.39" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC5" library="regulator-jqi" package="TO263-5" value="LT3080" x="-251.46" y="-213.36"/>
-<element name="IC6" library="regulator-jqi" package="TO263-5" value="LT3080" x="-251.46" y="-231.14"/>
+<element name="IC5" library="regulator-jqi" package="TO263-5" value="LT3080" x="-251.46" y="-213.36">
+<attribute name="PARTNO" value="LT3080EQ#PBF" x="-251.46" y="-213.36" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC6" library="regulator-jqi" package="TO263-5" value="LT3080" x="-251.46" y="-231.14">
+<attribute name="PARTNO" value="LT3080EQ#PBF" x="-251.46" y="-231.14" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R25" library="jqi_passives" package="R_0603" value="1.5M" x="-266.7" y="-243.84">
 <attribute name="PARTNO" value="ERJ-3EKF1504V" x="-266.7" y="-243.84" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R26" library="jqi_passives" package="R_0603" value="1.8M" x="-266.7" y="-247.65">
 <attribute name="PARTNO" value="ERJ-3EKF1804V" x="-266.7" y="-247.65" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC8" library="regulator-jqi" package="TO263-5" value="LT3080" x="-251.46" y="-257.81"/>
+<element name="IC8" library="regulator-jqi" package="TO263-5" value="LT3080" x="-251.46" y="-257.81">
+<attribute name="PARTNO" value="LT3080EQ#PBF" x="-251.46" y="-257.81" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R27" library="jqi_passives" package="R_0603" value="499k" x="-266.7" y="-270.51">
 <attribute name="PARTNO" value="ERJ-3EKF4993V" x="-266.7" y="-270.51" size="1.778" layer="27" display="off"/>
 </element>
@@ -2773,8 +2795,12 @@ Modified from the EAGLE defaults.
 <attribute name="PARTNO" value="5019" x="-270.51" y="-275.59" size="1.778" layer="27" display="off"/>
 <attribute name="TP_SIGNAL_NAME" value="+5V" x="-270.51" y="-275.59" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC9" library="regulator-jqi" package="TO263-5" value="LT3015" x="-259.08" y="-287.02"/>
-<element name="IC10" library="regulator-jqi" package="TO263-5" value="LT3015" x="-259.08" y="-304.8"/>
+<element name="IC9" library="regulator-jqi" package="TO263-5" value="LT3015" x="-259.08" y="-287.02">
+<attribute name="PARTNO" value="LT3015EQ#PBF" x="-259.08" y="-287.02" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC10" library="regulator-jqi" package="TO263-5" value="LT3015" x="-259.08" y="-304.8">
+<attribute name="PARTNO" value="LT3015EQ#PBF" x="-259.08" y="-304.8" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C22" library="jqi_passives" package="C_MLCC_0402" value="22 pF" x="-275.59" y="-316.23">
 <attribute name="PARTNO" value="CL05C220JB5NNNC" x="-275.59" y="-316.23" size="1.778" layer="27" display="off"/>
 </element>
@@ -2802,7 +2828,9 @@ Modified from the EAGLE defaults.
 <element name="C26" library="jqi_passives" package="C_MLCC_0603" value="10 nF" x="-275.59" y="-346.71">
 <attribute name="PARTNO" value="CL10B103KB8NNNC" x="-275.59" y="-346.71" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="analog-devices-jqi" package="SO-08" value="" x="-283.21" y="-341.63"/>
+<element name="U4" library="analog-devices-jqi" package="SO-08" value="ADA4522-1" x="-283.21" y="-341.63">
+<attribute name="PARTNO" value="ADA4522-1ARZ" x="-283.21" y="-341.63" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C27" library="resistor" package="C0603" value="0.1uF" x="-284.48" y="-350.52">
 <attribute name="MIN_RATING" value="25V" x="-284.48" y="-350.52" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC" x="-284.48" y="-350.52" size="1.778" layer="27" display="off"/>

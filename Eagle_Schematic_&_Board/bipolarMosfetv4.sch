@@ -15053,11 +15053,13 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="P+1" library="supply1" deviceset="+18V" device=""/>
 <part name="P-1" library="supply1" deviceset="-18V" device=""/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="2k22">
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="2.21k">
 <attribute name="MIN_RATING" value="250mW"/>
+<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
 </part>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="2k22">
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="2.21k">
 <attribute name="MIN_RATING" value="250mW"/>
+<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
@@ -15110,22 +15112,25 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="5227161-3"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R-GHALL" library="resistor" deviceset="R-US_" device="R0603" value="5.49k">
+<part name="R-GHALL" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="TNPW06035K49BEEA"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
-<part name="R-GOFF" library="resistor" deviceset="R-US_" device="R0603" value="124k">
+<part name="R-GOFF" library="resistor" deviceset="R-US_" device="R0603" value="121k">
 <attribute name="MIN_RATING" value="62mW"/>
+<attribute name="PARTNO" value="TNPW0603121KBEEA"/>
 </part>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="4k64">
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="4.64k">
 <attribute name="MIN_RATING" value="62mW"/>
+<attribute name="PARTNO" value="ERJ-3EKF4641V"/>
 </part>
-<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="4k64">
+<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="4.64k">
 <attribute name="MIN_RATING" value="62mW"/>
+<attribute name="PARTNO" value="ERJ-3EKF4641V"/>
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+15V" device=""/>
@@ -15139,18 +15144,20 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="RC" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="RF" library="resistor" deviceset="R-US_" device="R0603" value="200k">
 <attribute name="MIN_RATING" value="62mW"/>
+<attribute name="PARTNO" value="TNPW0603200KBEEA"/>
 </part>
 <part name="RH" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="1K">
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="1k">
 <attribute name="MIN_RATING" value="250mW"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="C4" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
 <attribute name="MIN_RATING" value="25V"/>
@@ -15162,6 +15169,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="C16" library="resistor" deviceset="C-US" device="C0603" value="1uF">
 <attribute name="MIN_RATING" value="25V"/>
+<attribute name="PARTNO" value="CL10B105KO8NNNC"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C17" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
@@ -15170,6 +15178,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="C18" library="resistor" deviceset="C-US" device="C0603" value="1nF">
 <attribute name="MIN_RATING" value="25V"/>
+<attribute name="PARTNO" value="CL10B102KA8NNNC"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P-4" library="supply1" deviceset="-15V" device=""/>
@@ -15250,9 +15259,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="V-2" library="supply1" deviceset="-18V" device=""/>
 <part name="V+2" library="supply1" deviceset="+18V" device="" value="+18 V"/>
 <part name="SUPPLY6" library="supply2" deviceset="+5V" device=""/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="10.1k">
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="ERJ-3EKF1002V"/>
 </part>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="R_P" library="resistor" deviceset="R-US_" device="0207/7">
@@ -15275,8 +15284,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="Q4" library="ZSS" deviceset="BSS138" device="">
 <attribute name="PARTNO" value="BSS138"/>
 </part>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="1.1k">
+<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="1k">
 <attribute name="MIN_RATING" value="62mW"/>
+<attribute name="PARTNO" value="ERJ-3EKF1001V"/>
 </part>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="332">
 <attribute name="MIN_RATING" value="100mW"/>
@@ -15293,7 +15303,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.3"/>
-<part name="SW1" library="ZSS" deviceset="7201**" device="AV2"/>
+<part name="SW1" library="ZSS" deviceset="7201**" device="AV2">
+<attribute name="PARTNO" value="7201MD9AV2QE"/>
+</part>
 <part name="SUPPLY7" library="supply2" deviceset="+5V" device=""/>
 <part name="LED1" library="ZSS" deviceset="SSF-LXH250GID" device="">
 <attribute name="PARTNO" value="SSF-LXH250GID"/>
@@ -15310,7 +15322,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="SUPPLY8" library="supply2" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="ZSS" deviceset="SJ3-0603" device=""/>
-<part name="J3-CONTROL" library="ZSS" deviceset="AMP-31-6576" device=""/>
+<part name="J3-CONTROL" library="ZSS" deviceset="AMP-31-6576" device="">
+<attribute name="PARTNO" value="031-6576"/>
+</part>
 <part name="D2" library="ZSS" deviceset="CDSU400B" device="">
 <attribute name="PARTNO" value="CDSU400B"/>
 </part>
@@ -15322,11 +15336,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="R_TERM2" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R_TERM1" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="MIN_RATING" value="62mW"/>
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="P+3" library="supply1" deviceset="+15V" device=""/>
 <part name="P-3" library="supply1" deviceset="-15V" device=""/>
@@ -15346,7 +15360,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
 <part name="P-8" library="supply1" deviceset="-24V" device=""/>
-<part name="U3" library="Allegro" deviceset="ACS730?-*" device="KLCTR" technology="20AB"/>
+<part name="U3" library="Allegro" deviceset="ACS730?-*" device="KLCTR" technology="20AB">
+<attribute name="PARTNO" value="ACS730KLCTR-20AB-T"/>
+</part>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0603" value="1k">
 <attribute name="MIN_RATING" value="100mW"/>
 <attribute name="PARTNO" value="TNPW06031K00BEEA"/>
@@ -15355,11 +15371,13 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="MIN_RATING" value="100mW"/>
 <attribute name="PARTNO" value="TNPW06031K00BEEA"/>
 </part>
-<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="5k">
+<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="4.75k">
 <attribute name="MIN_RATING" value="100mW"/>
+<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
 </part>
-<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="5k">
+<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="4.75k">
 <attribute name="MIN_RATING" value="100mW"/>
+<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
 </part>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C_P2" library="MF_Passives" deviceset="CAPACITOR_P" device="_10MM" value="220 uF">
@@ -15444,15 +15462,21 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="R4" library="rcl" deviceset="R-TRIMM" device="3214W" value="1k">
 <attribute name="PARTNO" value="3214W-1-102E"/>
 </part>
-<part name="IC5" library="regulator-jqi" deviceset="LT3080" device=""/>
-<part name="IC6" library="regulator-jqi" deviceset="LT3080" device=""/>
+<part name="IC5" library="regulator-jqi" deviceset="LT3080" device="">
+<attribute name="PARTNO" value="LT3080EQ#PBF"/>
+</part>
+<part name="IC6" library="regulator-jqi" deviceset="LT3080" device="">
+<attribute name="PARTNO" value="LT3080EQ#PBF"/>
+</part>
 <part name="R25" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1.5M">
 <attribute name="PARTNO" value="ERJ-3EKF1504V"/>
 </part>
 <part name="R26" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1.8M">
 <attribute name="PARTNO" value="ERJ-3EKF1804V"/>
 </part>
-<part name="IC8" library="regulator-jqi" deviceset="LT3080" device=""/>
+<part name="IC8" library="regulator-jqi" deviceset="LT3080" device="">
+<attribute name="PARTNO" value="LT3080EQ#PBF"/>
+</part>
 <part name="R27" library="jqi_passives" deviceset="R_SMD" device="R0603" value="499k">
 <attribute name="PARTNO" value="ERJ-3EKF4993V"/>
 </part>
@@ -15464,8 +15488,12 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="5019"/>
 <attribute name="TP_SIGNAL_NAME" value="+5V"/>
 </part>
-<part name="IC9" library="regulator-jqi" deviceset="LT3015" device=""/>
-<part name="IC10" library="regulator-jqi" deviceset="LT3015" device=""/>
+<part name="IC9" library="regulator-jqi" deviceset="LT3015" device="">
+<attribute name="PARTNO" value="LT3015EQ#PBF"/>
+</part>
+<part name="IC10" library="regulator-jqi" deviceset="LT3015" device="">
+<attribute name="PARTNO" value="LT3015EQ#PBF"/>
+</part>
 <part name="C22" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="22 pF">
 <attribute name="PARTNO" value="CL05C220JB5NNNC"/>
 </part>
@@ -15494,7 +15522,9 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="CL10B103KB8NNNC"/>
 </part>
 <part name="SUPPLY9" library="supply2" deviceset="+5V" device=""/>
-<part name="U4" library="analog-devices-jqi" deviceset="ADA4522-1" device=""/>
+<part name="U4" library="analog-devices-jqi" deviceset="ADA4522-1" device="" value="ADA4522-1">
+<attribute name="PARTNO" value="ADA4522-1ARZ"/>
+</part>
 <part name="C27" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
 <attribute name="MIN_RATING" value="25V"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC"/>
@@ -15521,12 +15551,15 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="C18" gate="G$1" x="76.2" y="85.09">
 <attribute name="MIN_RATING" x="76.2" y="85.09" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="76.2" y="85.09" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="88.9" y="72.39"/>
 <instance part="P+3" gate="1" x="81.28" y="153.67"/>
 <instance part="P-3" gate="1" x="81.28" y="125.73"/>
 <instance part="GND9" gate="1" x="91.44" y="125.73"/>
-<instance part="U3" gate="G$1" x="121.92" y="92.71" rot="MR0"/>
+<instance part="U3" gate="G$1" x="121.92" y="92.71" rot="MR0">
+<attribute name="PARTNO" x="121.92" y="92.71" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R20" gate="G$1" x="68.58" y="90.17">
 <attribute name="MIN_RATING" x="68.58" y="90.17" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="68.58" y="90.17" size="1.778" layer="96" display="off"/>
@@ -15537,9 +15570,11 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="R21" gate="G$1" x="53.34" y="80.01">
 <attribute name="MIN_RATING" x="53.34" y="80.01" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="53.34" y="80.01" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="53.34" y="107.95" rot="R180">
 <attribute name="MIN_RATING" x="53.34" y="107.95" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="53.34" y="107.95" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND22" gate="1" x="45.72" y="102.87"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15548,8 +15583,10 @@ Screw Terminals off-board</text>
 <attribute name="PARTNO" x="170.18" y="80.01" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="+5V" x="88.9" y="114.3"/>
-<instance part="U4" gate="G$1" x="81.28" y="140.97"/>
-<instance part="U4" gate="G$2" x="50.8" y="92.71" rot="MR0"/>
+<instance part="U4" gate="G$1" x="81.28" y="140.97">
+<attribute name="PARTNO" x="81.28" y="140.97" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="U4" gate="G$2" x="52.07" y="92.71" rot="MR0"/>
 <instance part="C27" gate="G$1" x="83.82" y="132.08" rot="R90">
 <attribute name="MIN_RATING" x="83.82" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="83.82" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15618,7 +15655,7 @@ Screw Terminals off-board</text>
 <wire x1="40.64" y1="72.39" x2="33.02" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="72.39" x2="33.02" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="92.71" x2="40.64" y2="80.01" width="0.1524" layer="91"/>
 <junction x="40.64" y="92.71"/>
 <pinref part="R21" gate="G$1" pin="1"/>
@@ -15668,7 +15705,7 @@ Screw Terminals off-board</text>
 <net name="N$33" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="90.17" x2="60.96" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="90.17" x2="60.96" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="90.17" x2="63.5" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="80.01" x2="60.96" y2="80.01" width="0.1524" layer="91"/>
@@ -15682,7 +15719,7 @@ Screw Terminals off-board</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="95.25" x2="60.96" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="95.25" x2="58.42" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="95.25" x2="59.69" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="107.95" x2="60.96" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="107.95" x2="60.96" y2="95.25" width="0.1524" layer="91"/>
 <junction x="60.96" y="95.25"/>
@@ -15811,15 +15848,21 @@ Screw Terminals off-board</text>
 <instance part="L2" gate="G$1" x="60.96" y="69.85">
 <attribute name="PARTNO" x="60.96" y="69.85" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC5" gate="G$1" x="91.44" y="138.43"/>
-<instance part="IC6" gate="G$1" x="187.96" y="151.13"/>
+<instance part="IC5" gate="G$1" x="91.44" y="138.43">
+<attribute name="PARTNO" x="91.44" y="138.43" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="IC6" gate="G$1" x="187.96" y="151.13">
+<attribute name="PARTNO" x="187.96" y="151.13" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="R25" gate="G$1" x="88.9" y="116.84" rot="R90">
 <attribute name="PARTNO" x="88.9" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="185.42" y="116.84" rot="R90">
 <attribute name="PARTNO" x="185.42" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC8" gate="G$1" x="129.54" y="138.43"/>
+<instance part="IC8" gate="G$1" x="129.54" y="138.43">
+<attribute name="PARTNO" x="129.54" y="138.43" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="R27" gate="G$1" x="127" y="116.84" rot="R90">
 <attribute name="PARTNO" x="127" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
@@ -15831,8 +15874,12 @@ Screw Terminals off-board</text>
 <attribute name="TP_SIGNAL_NAME" x="157.48" y="151.13" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="157.48" y="151.13" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC9" gate="G$1" x="96.52" y="74.93" rot="MR180"/>
-<instance part="IC10" gate="G$1" x="193.04" y="62.23" rot="MR180"/>
+<instance part="IC9" gate="G$1" x="96.52" y="74.93" rot="MR180">
+<attribute name="PARTNO" x="96.52" y="74.93" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="IC10" gate="G$1" x="193.04" y="62.23" rot="MR180">
+<attribute name="PARTNO" x="193.04" y="62.23" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="C22" gate="G$1" x="96.52" y="115.57" rot="R180">
 <attribute name="PARTNO" x="96.52" y="115.57" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -16239,6 +16286,7 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="R15" gate="G$1" x="123.19" y="90.17">
 <attribute name="MIN_RATING" x="123.19" y="90.17" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="123.19" y="90.17" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="72.39" y="110.49" smashed="yes" rot="R180">
 <attribute name="MIN_RATING" x="72.39" y="110.49" size="1.778" layer="96" rot="R180" display="off"/>
@@ -16269,7 +16317,9 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="V-2" gate="1" x="185.42" y="87.63"/>
 <instance part="V+2" gate="1" x="185.42" y="128.27"/>
-<instance part="SW1" gate="A" x="139.7" y="105.41" rot="R270"/>
+<instance part="SW1" gate="A" x="139.7" y="105.41" rot="R270">
+<attribute name="PARTNO" x="139.7" y="105.41" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="LED1" gate="RED" x="172.72" y="107.95" smashed="yes" rot="R270">
 <attribute name="NAME" x="169.672" y="110.49" size="1.27" layer="95" rot="R270"/>
 </instance>
@@ -16494,12 +16544,15 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="R-GOFF" gate="G$1" x="138.43" y="104.14">
 <attribute name="MIN_RATING" x="138.43" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="138.43" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="105.41" y="147.32" rot="R90">
 <attribute name="MIN_RATING" x="105.41" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="105.41" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="105.41" y="101.6" rot="R90">
 <attribute name="MIN_RATING" x="105.41" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="105.41" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="90.17" y="119.38"/>
 <instance part="P+2" gate="1" x="105.41" y="157.48"/>
@@ -16525,6 +16578,7 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="C16" gate="G$1" x="125.73" y="99.06">
 <attribute name="MIN_RATING" x="125.73" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="125.73" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND6" gate="1" x="125.73" y="88.9"/>
 <instance part="P-4" gate="1" x="161.29" y="71.12"/>
@@ -16819,6 +16873,7 @@ for better voltage offset</text>
 </instance>
 <instance part="RF" gate="G$1" x="166.37" y="128.27">
 <attribute name="MIN_RATING" x="166.37" y="128.27" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="166.37" y="128.27" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="RH" gate="G$1" x="166.37" y="113.03">
 <attribute name="MIN_RATING" x="166.37" y="113.03" size="1.778" layer="96" display="off"/>
@@ -16847,7 +16902,9 @@ for better voltage offset</text>
 <attribute name="MIN_RATING" x="199.39" y="146.05" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SW1" gate="B" x="196.85" y="133.35" rot="MR180"/>
-<instance part="J3-CONTROL" gate="TOP" x="81.28" y="173.99"/>
+<instance part="J3-CONTROL" gate="TOP" x="81.28" y="173.99">
+<attribute name="PARTNO" x="81.28" y="173.99" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
 <instance part="J3-CONTROL" gate="BOT" x="81.28" y="140.97"/>
 <instance part="R_TERM2" gate="G$1" x="100.33" y="130.81" rot="R90">
 <attribute name="MIN_RATING" x="100.33" y="130.81" size="1.778" layer="96" rot="R90" display="off"/>
@@ -17162,9 +17219,11 @@ so there's no harm except the quiescent current for that stage.</text>
 <instance part="SUPPLY3" gate="G$1" x="194.31" y="49.53"/>
 <instance part="R7" gate="G$1" x="113.03" y="113.03" rot="R90">
 <attribute name="MIN_RATING" x="113.03" y="113.03" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="113.03" y="113.03" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="113.03" y="57.15" rot="R90">
 <attribute name="MIN_RATING" x="113.03" y="57.15" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="113.03" y="57.15" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="209.55" y="97.79"/>
 <instance part="GND14" gate="1" x="209.55" y="62.23"/>
@@ -17191,6 +17250,7 @@ so there's no harm except the quiescent current for that stage.</text>
 </instance>
 <instance part="R6" gate="G$1" x="67.31" y="82.55">
 <attribute name="MIN_RATING" x="67.31" y="82.55" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="67.31" y="82.55" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC7" gate="SW4" x="130.81" y="95.25" smashed="yes" rot="MR270">
 <attribute name="NAME" x="133.35" y="97.79" size="1.27" layer="95" rot="MR180"/>
