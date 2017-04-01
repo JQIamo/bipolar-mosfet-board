@@ -14700,6 +14700,21 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <wire x1="-11.42" y1="10" x2="11.42" y2="10" width="0.254" layer="21"/>
 <text x="-10" y="-1" size="1.27" layer="21">1</text>
 </package>
+<package name="AMP-31-6576">
+<description>Amphenol-31-6576 50 Ohm Isolated Double BNC Jack</description>
+<wire x1="-7.2009" y1="0" x2="7.2009" y2="0" width="0.127" layer="21"/>
+<wire x1="7.2009" y1="0" x2="7.2009" y2="15.5194" width="0.127" layer="21"/>
+<wire x1="7.2009" y1="15.5194" x2="-7.2009" y2="15.5194" width="0.127" layer="21"/>
+<wire x1="-7.2009" y1="15.5194" x2="-7.2009" y2="0" width="0.127" layer="21"/>
+<pad name="B@1" x="-5.08" y="5.5626" drill="2.2"/>
+<pad name="B@2" x="5.08" y="5.5626" drill="2.2"/>
+<pad name="1" x="0" y="11.9126" drill="0.9"/>
+<pad name="3" x="0" y="14.4526" drill="0.9"/>
+<pad name="4" x="2.54" y="14.4526" drill="0.9"/>
+<pad name="2" x="-2.54" y="14.4526" drill="0.9"/>
+<text x="-6.985" y="15.875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="8.89" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PINHD3">
@@ -14712,6 +14727,19 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="BU-BNC">
+<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="-5.08" x2="1.778" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.032" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.286" x2="1.778" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-2.286" x2="2.032" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.54" x2="1.778" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-2.794" x2="0" y2="-2.794" width="0.254" layer="94"/>
+<text x="0" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="0.762" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14726,6 +14754,25 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AMP-31-6576" prefix="J">
+<gates>
+<gate name="TOP" symbol="BU-BNC" x="-10.16" y="2.54" swaplevel="1"/>
+<gate name="BOT" symbol="BU-BNC" x="5.08" y="2.54" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="AMP-31-6576">
+<connects>
+<connect gate="BOT" pin="1" pad="1"/>
+<connect gate="BOT" pin="2" pad="2"/>
+<connect gate="TOP" pin="1" pad="3"/>
+<connect gate="TOP" pin="2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14763,6 +14810,32 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="MSOP8">
+<description>&lt;b&gt;Micro Small Outline Package&lt;/b&gt; Grid .65mm&lt;p&gt;</description>
+<wire x1="-1.4" y1="1.4" x2="1.4" y2="1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="1.4" x2="1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
+<circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
+<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>
+<rectangle x1="-0.4751" y1="-2.45" x2="-0.1751" y2="-1.5" layer="51"/>
+<rectangle x1="0.1751" y1="-2.45" x2="0.4751" y2="-1.5" layer="51"/>
+<rectangle x1="0.8253" y1="-2.45" x2="1.1253" y2="-1.5" layer="51"/>
+<rectangle x1="0.8254" y1="1.5" x2="1.1254" y2="2.45" layer="51"/>
+<rectangle x1="0.1751" y1="1.5" x2="0.4751" y2="2.45" layer="51"/>
+<rectangle x1="-0.4751" y1="1.5" x2="-0.1751" y2="2.45" layer="51"/>
+<rectangle x1="-1.1253" y1="1.5" x2="-0.8253" y2="2.45" layer="51"/>
 </package>
 <package name="SO-08">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
@@ -14819,10 +14892,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <text x="-8.382" y="12.954" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-14.732" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="OPAMP-SUPPLY">
-<pin name="V+" x="0" y="5.08" visible="off" length="short" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
-</symbol>
 <symbol name="OPAMP">
 <pin name="+" x="-7.62" y="2.54" visible="off" length="short" direction="in"/>
 <pin name="-" x="-7.62" y="-2.54" visible="off" length="short" direction="in"/>
@@ -14834,6 +14903,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <text x="-3.81" y="-2.286" size="2.54" layer="94" align="center">-</text>
 <text x="-5.08" y="5.08" size="2.032" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="2.032" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="OPAMP-SUPPLY">
+<pin name="V+" x="0" y="5.08" visible="off" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-5.08" visible="off" length="short" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14859,23 +14932,42 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADA4522-1" prefix="U" uservalue="yes">
-<description>ADA4522, zero drift, ultra-low noise op-amp, 1 channel</description>
+<deviceset name="ADA4522-2" prefix="U">
+<description>ADA4522, zero drift, ultra-low noise op-amp, 2 channels</description>
 <gates>
+<gate name="A" symbol="OPAMP" x="0" y="0" swaplevel="1"/>
+<gate name="B" symbol="OPAMP" x="0" y="-22.86" swaplevel="1"/>
 <gate name="G$1" symbol="OPAMP-SUPPLY" x="0" y="0"/>
-<gate name="G$2" symbol="OPAMP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SO-08">
+<device name="RMZ" package="MSOP8">
 <connects>
-<connect gate="G$1" pin="V+" pad="7"/>
+<connect gate="A" pin="+" pad="3"/>
+<connect gate="A" pin="-" pad="2"/>
+<connect gate="A" pin="OUTPUT" pad="1"/>
+<connect gate="B" pin="+" pad="5"/>
+<connect gate="B" pin="-" pad="6"/>
+<connect gate="B" pin="OUTPUT" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
 <connect gate="G$1" pin="V-" pad="4"/>
-<connect gate="G$2" pin="+" pad="3"/>
-<connect gate="G$2" pin="-" pad="2"/>
-<connect gate="G$2" pin="OUTPUT" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="A"/>
+</technologies>
+</device>
+<device name="RZ" package="SO-08">
+<connects>
+<connect gate="A" pin="+" pad="3"/>
+<connect gate="A" pin="-" pad="2"/>
+<connect gate="A" pin="OUTPUT" pad="1"/>
+<connect gate="B" pin="+" pad="5"/>
+<connect gate="B" pin="-" pad="6"/>
+<connect gate="B" pin="OUTPUT" pad="7"/>
+<connect gate="G$1" pin="V+" pad="8"/>
+<connect gate="G$1" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="A"/>
 </technologies>
 </device>
 </devices>
@@ -15107,9 +15199,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </part>
 <part name="IC3" library="linear" deviceset="OP270" device="GSZ" value="OP270GSZ">
 <attribute name="PARTNO" value="OP270GSZ"/>
-</part>
-<part name="J4-MONITOR" library="con-coax" deviceset="?227161*" device="1-" technology="-0" value="5227161-3">
-<attribute name="PARTNO" value="5227161-3"/>
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R-GHALL" library="resistor" deviceset="R-US_" device="R0603" value="10k">
@@ -15522,9 +15611,6 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="CL10B103KB8NNNC"/>
 </part>
 <part name="SUPPLY9" library="supply2" deviceset="+5V" device=""/>
-<part name="U4" library="analog-devices-jqi" deviceset="ADA4522-1" device="" value="ADA4522-1">
-<attribute name="PARTNO" value="ADA4522-1ARZ"/>
-</part>
 <part name="C27" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
 <attribute name="MIN_RATING" value="25V"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC"/>
@@ -15532,6 +15618,41 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="C28" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
 <attribute name="MIN_RATING" value="25V"/>
 <attribute name="PARTNO" value="CL10B104KB8SFNC"/>
+</part>
+<part name="U4" library="analog-devices-jqi" deviceset="ADA4522-2" device="RZ" technology="A"/>
+<part name="U7" library="Allegro" deviceset="ACS730?-*" device="KLCTR" technology="20AB">
+<attribute name="PARTNO" value="ACS730KLCTR-20AB-T"/>
+</part>
+<part name="SUPPLY10" library="supply2" deviceset="+5V" device=""/>
+<part name="C29" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
+<attribute name="MIN_RATING" value="25V"/>
+<attribute name="PARTNO" value="CL10B104KB8SFNC"/>
+</part>
+<part name="GND32" library="supply1" deviceset="GND" device=""/>
+<part name="C30" library="resistor" deviceset="C-US" device="C0603" value="1nF">
+<attribute name="MIN_RATING" value="25V"/>
+<attribute name="PARTNO" value="CL10B102KA8NNNC"/>
+</part>
+<part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="1k">
+<attribute name="MIN_RATING" value="100mW"/>
+<attribute name="PARTNO" value="TNPW06031K00BEEA"/>
+</part>
+<part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="1k">
+<attribute name="MIN_RATING" value="100mW"/>
+<attribute name="PARTNO" value="TNPW06031K00BEEA"/>
+</part>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="4.75k">
+<attribute name="MIN_RATING" value="100mW"/>
+<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
+</part>
+<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="4.75k">
+<attribute name="MIN_RATING" value="100mW"/>
+<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
+</part>
+<part name="J1" library="connector-jqi" deviceset="AMP-31-6576" device=""/>
+<part name="R35" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9">
+<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
 </part>
 </parts>
 <sheets>
@@ -15544,7 +15665,7 @@ Screw Terminals off-board</text>
 40A and 50A also available</text>
 </plain>
 <instances>
-<instance part="GND12" gate="1" x="149.86" y="80.01"/>
+<instance part="GND12" gate="1" x="154.94" y="80.01"/>
 <instance part="C17" gate="G$1" x="88.9" y="102.87">
 <attribute name="MIN_RATING" x="88.9" y="102.87" size="1.778" layer="96" display="off"/>
 <attribute name="PARTNO" x="88.9" y="102.87" size="1.778" layer="96" display="off"/>
@@ -15554,9 +15675,9 @@ Screw Terminals off-board</text>
 <attribute name="PARTNO" x="76.2" y="85.09" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="88.9" y="72.39"/>
-<instance part="P+3" gate="1" x="81.28" y="153.67"/>
-<instance part="P-3" gate="1" x="81.28" y="125.73"/>
-<instance part="GND9" gate="1" x="91.44" y="125.73"/>
+<instance part="P+3" gate="1" x="152.4" y="39.37"/>
+<instance part="P-3" gate="1" x="152.4" y="11.43"/>
+<instance part="GND9" gate="1" x="162.56" y="11.43"/>
 <instance part="U3" gate="G$1" x="121.92" y="92.71" rot="MR0">
 <attribute name="PARTNO" x="121.92" y="92.71" size="1.778" layer="96" display="off"/>
 </instance>
@@ -15583,17 +15704,46 @@ Screw Terminals off-board</text>
 <attribute name="PARTNO" x="170.18" y="80.01" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="+5V" x="88.9" y="114.3"/>
-<instance part="U4" gate="G$1" x="81.28" y="140.97">
-<attribute name="PARTNO" x="81.28" y="140.97" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="C27" gate="G$1" x="154.94" y="17.78" rot="R90">
+<attribute name="MIN_RATING" x="154.94" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="154.94" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U4" gate="G$2" x="52.07" y="92.71" rot="MR0"/>
-<instance part="C27" gate="G$1" x="83.82" y="132.08" rot="R90">
-<attribute name="MIN_RATING" x="83.82" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PARTNO" x="83.82" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C28" gate="G$1" x="154.94" y="34.29" rot="R90">
+<attribute name="MIN_RATING" x="154.94" y="34.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="154.94" y="34.29" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C28" gate="G$1" x="83.82" y="148.59" rot="R90">
-<attribute name="MIN_RATING" x="83.82" y="148.59" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="PARTNO" x="83.82" y="148.59" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="U4" gate="A" x="50.8" y="92.71" rot="MR0"/>
+<instance part="U4" gate="B" x="49.53" y="142.24" rot="MR0"/>
+<instance part="U4" gate="G$1" x="152.4" y="26.67"/>
+<instance part="U7" gate="G$1" x="121.92" y="142.24" rot="MR0">
+<attribute name="PARTNO" x="121.92" y="142.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUPPLY10" gate="+5V" x="88.9" y="163.83"/>
+<instance part="C29" gate="G$1" x="88.9" y="156.21">
+<attribute name="MIN_RATING" x="88.9" y="156.21" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="88.9" y="156.21" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND32" gate="1" x="88.9" y="123.19"/>
+<instance part="C30" gate="G$1" x="80.01" y="134.62">
+<attribute name="MIN_RATING" x="80.01" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="80.01" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="R31" gate="G$1" x="67.31" y="144.78">
+<attribute name="MIN_RATING" x="67.31" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="67.31" y="144.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R32" gate="G$1" x="67.31" y="139.7">
+<attribute name="MIN_RATING" x="67.31" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="67.31" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND33" gate="1" x="44.45" y="153.67"/>
+<instance part="R33" gate="G$1" x="52.07" y="158.75" rot="R180">
+<attribute name="MIN_RATING" x="52.07" y="158.75" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="PARTNO" x="52.07" y="158.75" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R34" gate="G$1" x="52.07" y="130.81">
+<attribute name="MIN_RATING" x="52.07" y="130.81" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="52.07" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -15603,7 +15753,7 @@ Screw Terminals off-board</text>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="167.64" y1="82.55" x2="160.02" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="82.55" x2="149.86" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="82.55" x2="154.94" y2="82.55" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="80.01" x2="160.02" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="80.01" x2="160.02" y2="82.55" width="0.1524" layer="91"/>
 <junction x="160.02" y="82.55"/>
@@ -15632,21 +15782,40 @@ Screw Terminals off-board</text>
 <segment>
 <pinref part="C28" gate="G$1" pin="2"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="88.9" y1="148.59" x2="91.44" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="148.59" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="34.29" x2="162.56" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="34.29" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="132.08" x2="91.44" y2="128.27" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
-<junction x="91.44" y="132.08"/>
+<wire x1="162.56" y1="17.78" x2="162.56" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="17.78" x2="162.56" y2="17.78" width="0.1524" layer="91"/>
+<junction x="162.56" y="17.78"/>
+</segment>
+<segment>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="88.9" y1="125.73" x2="88.9" y2="127" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="127" x2="80.01" y2="127" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="127" x2="80.01" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<wire x1="88.9" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="127" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
+<junction x="88.9" y="127"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="127" x2="88.9" y2="151.13" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND33" gate="1" pin="GND"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="44.45" y1="156.21" x2="44.45" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="158.75" x2="46.99" y2="158.75" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSFET-OUTPUT" class="0">
 <segment>
-<label x="152.4" y="113.03" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="156.21" y1="113.03" x2="152.4" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="95.25" x2="156.21" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="156.21" y1="95.25" x2="156.21" y2="113.03" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="IP+"/>
+<label x="152.4" y="163.83" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="156.21" y1="163.83" x2="152.4" y2="163.83" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="IP+"/>
+<wire x1="156.21" y1="144.78" x2="156.21" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="144.78" x2="156.21" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HALL-CURRENT" class="0">
@@ -15655,12 +15824,12 @@ Screw Terminals off-board</text>
 <wire x1="40.64" y1="72.39" x2="33.02" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="72.39" x2="33.02" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="44.45" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="92.71" x2="40.64" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="92.71" x2="40.64" y2="80.01" width="0.1524" layer="91"/>
 <junction x="40.64" y="92.71"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="80.01" x2="48.26" y2="80.01" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$2" pin="OUTPUT"/>
+<pinref part="U4" gate="A" pin="OUTPUT"/>
 </segment>
 </net>
 <net name="TO-COIL" class="0">
@@ -15674,21 +15843,21 @@ Screw Terminals off-board</text>
 <net name="-15V" class="0">
 <segment>
 <pinref part="P-3" gate="1" pin="-15V"/>
-<wire x1="81.28" y1="128.27" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="V-"/>
+<wire x1="152.4" y1="13.97" x2="152.4" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="132.08" x2="81.28" y2="135.89" width="0.1524" layer="91"/>
-<junction x="81.28" y="132.08"/>
+<wire x1="152.4" y1="17.78" x2="152.4" y2="21.59" width="0.1524" layer="91"/>
+<junction x="152.4" y="17.78"/>
+<pinref part="U4" gate="G$1" pin="V-"/>
 </segment>
 </net>
 <net name="+15V" class="0">
 <segment>
 <pinref part="P+3" gate="1" pin="+15V"/>
-<wire x1="81.28" y1="151.13" x2="81.28" y2="148.59" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="V+"/>
+<wire x1="152.4" y1="36.83" x2="152.4" y2="34.29" width="0.1524" layer="91"/>
 <pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="148.59" x2="81.28" y2="146.05" width="0.1524" layer="91"/>
-<junction x="81.28" y="148.59"/>
+<wire x1="152.4" y1="34.29" x2="152.4" y2="31.75" width="0.1524" layer="91"/>
+<junction x="152.4" y="34.29"/>
+<pinref part="U4" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -15705,13 +15874,13 @@ Screw Terminals off-board</text>
 <net name="N$33" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="59.69" y1="90.17" x2="60.96" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="90.17" x2="60.96" y2="90.17" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="90.17" x2="63.5" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="80.01" x2="60.96" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="80.01" x2="60.96" y2="90.17" width="0.1524" layer="91"/>
 <junction x="60.96" y="90.17"/>
-<pinref part="U4" gate="G$2" pin="-"/>
+<pinref part="U4" gate="A" pin="-"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -15719,11 +15888,11 @@ Screw Terminals off-board</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="95.25" x2="60.96" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="95.25" x2="59.69" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="95.25" x2="58.42" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="107.95" x2="60.96" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="107.95" x2="60.96" y2="95.25" width="0.1524" layer="91"/>
 <junction x="60.96" y="95.25"/>
-<pinref part="U4" gate="G$2" pin="+"/>
+<pinref part="U4" gate="A" pin="+"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -15743,6 +15912,81 @@ Screw Terminals off-board</text>
 <pinref part="SUPPLY9" gate="+5V" pin="+5V"/>
 <wire x1="88.9" y1="107.95" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
 <junction x="88.9" y="107.95"/>
+</segment>
+<segment>
+<pinref part="SUPPLY10" gate="+5V" pin="+5V"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="161.29" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="VCC"/>
+<wire x1="88.9" y1="160.02" x2="88.9" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="160.02" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<junction x="88.9" y="160.02"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="IP-"/>
+<wire x1="139.7" y1="139.7" x2="156.21" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="139.7" x2="156.21" y2="95.25" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="IP+"/>
+<wire x1="156.21" y1="95.25" x2="139.7" y2="95.25" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="U7" gate="G$1" pin="VZCR"/>
+<wire x1="80.01" y1="137.16" x2="80.01" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="80.01" y1="139.7" x2="72.39" y2="139.7" width="0.1524" layer="91"/>
+<junction x="80.01" y="139.7"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="U7" gate="G$1" pin="VIOUT"/>
+<wire x1="72.39" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="1"/>
+<pinref part="U4" gate="B" pin="+"/>
+<wire x1="62.23" y1="144.78" x2="59.69" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="59.69" y1="144.78" x2="57.15" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="158.75" x2="59.69" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="158.75" x2="59.69" y2="144.78" width="0.1524" layer="91"/>
+<junction x="59.69" y="144.78"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="U4" gate="B" pin="-"/>
+<wire x1="62.23" y1="139.7" x2="59.69" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="59.69" y1="139.7" x2="57.15" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="139.7" x2="59.69" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="130.81" x2="57.15" y2="130.81" width="0.1524" layer="91"/>
+<junction x="59.69" y="139.7"/>
+</segment>
+</net>
+<net name="HALL-CURRENT-MON" class="0">
+<segment>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="46.99" y1="130.81" x2="39.37" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="130.81" x2="39.37" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U4" gate="B" pin="OUTPUT"/>
+<wire x1="39.37" y1="142.24" x2="41.91" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="142.24" x2="31.75" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="142.24" x2="31.75" y2="121.92" width="0.1524" layer="91"/>
+<junction x="39.37" y="142.24"/>
+<wire x1="31.75" y1="121.92" x2="39.37" y2="121.92" width="0.1524" layer="91"/>
+<label x="39.37" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -16528,11 +16772,6 @@ Screw Terminals off-board</text>
 </instance>
 <instance part="IC2" gate="B" x="194.31" y="78.74"/>
 <instance part="IC2" gate="P" x="161.29" y="93.98"/>
-<instance part="J4-MONITOR" gate="G$1" x="226.06" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="233.68" y="76.962" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="220.472" y="69.85" size="1.778" layer="96" rot="MR180"/>
-<attribute name="PARTNO" x="226.06" y="73.66" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND3" gate="1" x="209.55" y="66.04"/>
 <instance part="R-GHALL" gate="G$1" x="138.43" y="81.28">
 <attribute name="MIN_RATING" x="138.43" y="81.28" size="1.778" layer="96" display="off"/>
@@ -16602,7 +16841,7 @@ Screw Terminals off-board</text>
 <attribute name="PARTNO" x="166.37" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND21" gate="1" x="176.53" y="73.66"/>
-<instance part="GND23" gate="1" x="176.53" y="106.68"/>
+<instance part="GND23" gate="1" x="176.53" y="107.95"/>
 <instance part="GND24" gate="1" x="92.71" y="63.5"/>
 <instance part="GND25" gate="1" x="92.71" y="88.9"/>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -16613,16 +16852,26 @@ Screw Terminals off-board</text>
 <instance part="R4" gate="G$1" x="118.11" y="121.92">
 <attribute name="PARTNO" x="118.11" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="J1" gate="TOP" x="228.6" y="55.88" rot="R180"/>
+<instance part="J1" gate="BOT" x="228.6" y="76.2" rot="MR0"/>
+<instance part="R35" gate="G$1" x="215.9" y="58.42">
+<attribute name="PARTNO" x="215.9" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="1">
 <segment>
-<pinref part="J4-MONITOR" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="71.12" x2="209.55" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="71.12" x2="217.17" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="217.17" y1="71.12" x2="209.55" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="209.55" y1="71.12" x2="209.55" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="J1" gate="BOT" pin="2"/>
+<pinref part="J1" gate="TOP" pin="2"/>
+<wire x1="217.17" y1="71.12" x2="217.17" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="217.17" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<junction x="217.17" y="71.12"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="1"/>
@@ -16650,7 +16899,7 @@ Screw Terminals off-board</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="171.45" y1="111.76" x2="176.53" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="111.76" x2="176.53" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="111.76" x2="176.53" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -16847,8 +17096,22 @@ Screw Terminals off-board</text>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="J4-MONITOR" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="J1" gate="BOT" pin="1"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="J1" gate="TOP" pin="1"/>
+<wire x1="220.98" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HALL-CURRENT-MON" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="58.42" x2="204.47" y2="58.42" width="0.1524" layer="91"/>
+<label x="204.47" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
