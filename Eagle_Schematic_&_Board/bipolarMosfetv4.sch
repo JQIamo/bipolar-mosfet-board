@@ -12298,10 +12298,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 </part>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="C30" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF">
-<attribute name="PARTNO" value="CL10B102KA8NNNC"/>
+<attribute name="PARTNO" value="CL10C102JB8NNNC"/>
 </part>
 <part name="C18" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF">
-<attribute name="PARTNO" value="CL10B102KA8NNNC"/>
+<attribute name="PARTNO" value="CL10C102JB8NNNC"/>
 </part>
 <part name="C29" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="100nF">
 <attribute name="PARTNO" value="CL10B104KB8SFNC"/>
@@ -12486,6 +12486,12 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="T1" library="rlc-jqi" deviceset="BOURNS-3006P" device="" value="1k">
 <attribute name="PARTNO" value="Y00561K00000K0L"/>
 </part>
+<part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="470pF">
+<attribute name="PARTNO" value="CL10C471JB8NNNC"/>
+</part>
+<part name="C47" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="470pF">
+<attribute name="PARTNO" value="CL10C471JB8NNNC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12527,11 +12533,11 @@ Screw Terminals off-board</text>
 <attribute name="PARTNO" x="186.69" y="140.97" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND43" gate="1" x="173.99" y="138.43"/>
-<instance part="C30" gate="G$1" x="80.01" y="134.62">
-<attribute name="PARTNO" x="80.01" y="134.62" size="1.778" layer="96" display="off"/>
+<instance part="C30" gate="G$1" x="82.55" y="134.62">
+<attribute name="PARTNO" x="82.55" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="76.2" y="85.09">
-<attribute name="PARTNO" x="76.2" y="85.09" size="1.778" layer="96" display="off"/>
+<instance part="C18" gate="G$1" x="82.55" y="85.09">
+<attribute name="PARTNO" x="82.55" y="85.09" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C29" gate="G$1" x="88.9" y="156.21">
 <attribute name="PARTNO" x="88.9" y="156.21" size="1.778" layer="96" display="off"/>
@@ -12569,6 +12575,12 @@ Screw Terminals off-board</text>
 <instance part="R34" gate="G$1" x="52.07" y="130.81">
 <attribute name="PARTNO" x="52.07" y="130.81" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C16" gate="G$1" x="74.93" y="134.62">
+<attribute name="PARTNO" x="74.93" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C47" gate="G$1" x="76.2" y="85.09">
+<attribute name="PARTNO" x="76.2" y="85.09" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12591,11 +12603,15 @@ Screw Terminals off-board</text>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="88.9" y1="77.47" x2="88.9" y2="74.93" width="0.1524" layer="91"/>
 <junction x="88.9" y="77.47"/>
-<wire x1="76.2" y1="80.01" x2="76.2" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="77.47" x2="88.9" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="80.01" x2="82.55" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="77.47" x2="88.9" y2="77.47" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="GND"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="C47" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="80.01" x2="76.2" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="77.47" x2="82.55" y2="77.47" width="0.1524" layer="91"/>
+<junction x="82.55" y="77.47"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -12616,8 +12632,8 @@ Screw Terminals off-board</text>
 <segment>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="88.9" y1="125.73" x2="88.9" y2="127" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="127" x2="80.01" y2="127" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="127" x2="80.01" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="127" x2="82.55" y2="127" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="127" x2="82.55" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="127" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 <junction x="88.9" y="127"/>
@@ -12625,6 +12641,10 @@ Screw Terminals off-board</text>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="74.93" y1="129.54" x2="74.93" y2="127" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="127" x2="82.55" y2="127" width="0.1524" layer="91"/>
+<junction x="82.55" y="127"/>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
@@ -12692,10 +12712,10 @@ Screw Terminals off-board</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="104.14" y1="90.17" x2="76.2" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="90.17" x2="76.2" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="90.17" x2="76.2" y2="90.17" width="0.1524" layer="91"/>
-<junction x="76.2" y="90.17"/>
+<wire x1="104.14" y1="90.17" x2="82.55" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="90.17" x2="82.55" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="90.17" x2="82.55" y2="90.17" width="0.1524" layer="91"/>
+<junction x="82.55" y="90.17"/>
 <pinref part="U7" gate="G$1" pin="VZCR"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -12727,9 +12747,13 @@ Screw Terminals off-board</text>
 </net>
 <net name="N$35" class="0">
 <segment>
-<wire x1="73.66" y1="95.25" x2="104.14" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="95.25" x2="76.2" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="VIOUT"/>
 <pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="95.25" x2="104.14" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="87.63" x2="76.2" y2="95.25" width="0.1524" layer="91"/>
+<junction x="76.2" y="95.25"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12765,10 +12789,10 @@ Screw Terminals off-board</text>
 </net>
 <net name="N$42" class="0">
 <segment>
-<wire x1="80.01" y1="137.16" x2="80.01" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="139.7" x2="72.39" y2="139.7" width="0.1524" layer="91"/>
-<junction x="80.01" y="139.7"/>
+<wire x1="82.55" y1="137.16" x2="82.55" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="82.55" y1="139.7" x2="72.39" y2="139.7" width="0.1524" layer="91"/>
+<junction x="82.55" y="139.7"/>
 <pinref part="U3" gate="G$1" pin="VZCR"/>
 <pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="R32" gate="G$1" pin="2"/>
@@ -12776,9 +12800,13 @@ Screw Terminals off-board</text>
 </net>
 <net name="N$43" class="0">
 <segment>
-<wire x1="72.39" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="144.78" x2="74.93" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VIOUT"/>
 <pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="74.93" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="137.16" x2="74.93" y2="144.78" width="0.1524" layer="91"/>
+<junction x="74.93" y="144.78"/>
 </segment>
 </net>
 <net name="N$44" class="0">
