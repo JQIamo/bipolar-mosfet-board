@@ -2460,6 +2460,174 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 </library>
+<library name="QR-git.io-vSQ18">
+<description>QR Codes pointing to https://git.io/vSQ18</description>
+<packages>
+<package name="QR-HTTPS://GIT.IO/VSQ18-LIGHT-SILK">
+<description>QR Code pointing to https://git.io/vSQ18</description>
+<rectangle x1="-1.397" y1="2.921" x2="-1.143" y2="3.175" layer="21"/>
+<rectangle x1="-0.381" y1="2.921" x2="-0.127" y2="3.175" layer="21"/>
+<rectangle x1="0.127" y1="2.921" x2="0.635" y2="3.175" layer="21"/>
+<rectangle x1="0.889" y1="2.921" x2="1.397" y2="3.175" layer="21"/>
+<rectangle x1="-2.921" y1="2.667" x2="-1.651" y2="2.921" layer="21"/>
+<rectangle x1="-1.397" y1="2.667" x2="-0.635" y2="2.921" layer="21"/>
+<rectangle x1="-0.127" y1="2.667" x2="0.127" y2="2.921" layer="21"/>
+<rectangle x1="0.635" y1="2.667" x2="1.397" y2="2.921" layer="21"/>
+<rectangle x1="1.651" y1="2.667" x2="2.921" y2="2.921" layer="21"/>
+<rectangle x1="-2.921" y1="2.413" x2="-2.667" y2="2.667" layer="21"/>
+<rectangle x1="-1.905" y1="2.413" x2="-1.651" y2="2.667" layer="21"/>
+<rectangle x1="-1.397" y1="2.413" x2="-1.143" y2="2.667" layer="21"/>
+<rectangle x1="-0.889" y1="2.413" x2="-0.635" y2="2.667" layer="21"/>
+<rectangle x1="-0.381" y1="2.413" x2="0.127" y2="2.667" layer="21"/>
+<rectangle x1="0.381" y1="2.413" x2="0.635" y2="2.667" layer="21"/>
+<rectangle x1="0.889" y1="2.413" x2="1.397" y2="2.667" layer="21"/>
+<rectangle x1="1.651" y1="2.413" x2="1.905" y2="2.667" layer="21"/>
+<rectangle x1="2.667" y1="2.413" x2="2.921" y2="2.667" layer="21"/>
+<rectangle x1="-2.921" y1="2.159" x2="-2.667" y2="2.413" layer="21"/>
+<rectangle x1="-1.905" y1="2.159" x2="-1.651" y2="2.413" layer="21"/>
+<rectangle x1="-1.397" y1="2.159" x2="-1.143" y2="2.413" layer="21"/>
+<rectangle x1="-0.889" y1="2.159" x2="-0.635" y2="2.413" layer="21"/>
+<rectangle x1="-0.381" y1="2.159" x2="-0.127" y2="2.413" layer="21"/>
+<rectangle x1="0.635" y1="2.159" x2="0.889" y2="2.413" layer="21"/>
+<rectangle x1="1.143" y1="2.159" x2="1.397" y2="2.413" layer="21"/>
+<rectangle x1="1.651" y1="2.159" x2="1.905" y2="2.413" layer="21"/>
+<rectangle x1="2.667" y1="2.159" x2="2.921" y2="2.413" layer="21"/>
+<rectangle x1="-2.921" y1="1.905" x2="-2.667" y2="2.159" layer="21"/>
+<rectangle x1="-1.905" y1="1.905" x2="-1.651" y2="2.159" layer="21"/>
+<rectangle x1="-1.397" y1="1.905" x2="-0.381" y2="2.159" layer="21"/>
+<rectangle x1="-0.127" y1="1.905" x2="0.381" y2="2.159" layer="21"/>
+<rectangle x1="1.143" y1="1.905" x2="1.397" y2="2.159" layer="21"/>
+<rectangle x1="1.651" y1="1.905" x2="1.905" y2="2.159" layer="21"/>
+<rectangle x1="2.667" y1="1.905" x2="2.921" y2="2.159" layer="21"/>
+<rectangle x1="-2.921" y1="1.651" x2="-1.651" y2="1.905" layer="21"/>
+<rectangle x1="-1.397" y1="1.651" x2="-1.143" y2="1.905" layer="21"/>
+<rectangle x1="-0.127" y1="1.651" x2="0.127" y2="1.905" layer="21"/>
+<rectangle x1="0.381" y1="1.651" x2="1.397" y2="1.905" layer="21"/>
+<rectangle x1="1.651" y1="1.651" x2="2.921" y2="1.905" layer="21"/>
+<rectangle x1="-1.397" y1="1.397" x2="-1.143" y2="1.651" layer="21"/>
+<rectangle x1="-0.889" y1="1.397" x2="-0.635" y2="1.651" layer="21"/>
+<rectangle x1="-0.381" y1="1.397" x2="-0.127" y2="1.651" layer="21"/>
+<rectangle x1="0.127" y1="1.397" x2="0.381" y2="1.651" layer="21"/>
+<rectangle x1="0.635" y1="1.397" x2="0.889" y2="1.651" layer="21"/>
+<rectangle x1="1.143" y1="1.397" x2="1.397" y2="1.651" layer="21"/>
+<rectangle x1="-3.175" y1="1.143" x2="-1.143" y2="1.397" layer="21"/>
+<rectangle x1="-0.127" y1="1.143" x2="0.127" y2="1.397" layer="21"/>
+<rectangle x1="0.381" y1="1.143" x2="3.175" y2="1.397" layer="21"/>
+<rectangle x1="-2.667" y1="0.889" x2="-2.413" y2="1.143" layer="21"/>
+<rectangle x1="-2.159" y1="0.889" x2="-1.651" y2="1.143" layer="21"/>
+<rectangle x1="-1.143" y1="0.889" x2="-0.635" y2="1.143" layer="21"/>
+<rectangle x1="-0.127" y1="0.889" x2="1.143" y2="1.143" layer="21"/>
+<rectangle x1="1.905" y1="0.889" x2="2.159" y2="1.143" layer="21"/>
+<rectangle x1="2.667" y1="0.889" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-3.175" y1="0.635" x2="-2.667" y2="0.889" layer="21"/>
+<rectangle x1="-2.413" y1="0.635" x2="-1.905" y2="0.889" layer="21"/>
+<rectangle x1="-1.651" y1="0.635" x2="-1.397" y2="0.889" layer="21"/>
+<rectangle x1="-1.143" y1="0.635" x2="-0.127" y2="0.889" layer="21"/>
+<rectangle x1="0.127" y1="0.635" x2="1.143" y2="0.889" layer="21"/>
+<rectangle x1="1.905" y1="0.635" x2="2.921" y2="0.889" layer="21"/>
+<rectangle x1="-3.175" y1="0.381" x2="-2.667" y2="0.635" layer="21"/>
+<rectangle x1="-2.413" y1="0.381" x2="-1.905" y2="0.635" layer="21"/>
+<rectangle x1="-1.397" y1="0.381" x2="-0.889" y2="0.635" layer="21"/>
+<rectangle x1="-0.635" y1="0.381" x2="-0.381" y2="0.635" layer="21"/>
+<rectangle x1="-0.127" y1="0.381" x2="0.127" y2="0.635" layer="21"/>
+<rectangle x1="0.381" y1="0.381" x2="0.889" y2="0.635" layer="21"/>
+<rectangle x1="1.143" y1="0.381" x2="1.905" y2="0.635" layer="21"/>
+<rectangle x1="2.667" y1="0.381" x2="3.175" y2="0.635" layer="21"/>
+<rectangle x1="-2.667" y1="0.127" x2="-2.413" y2="0.381" layer="21"/>
+<rectangle x1="-2.159" y1="0.127" x2="-1.905" y2="0.381" layer="21"/>
+<rectangle x1="-1.651" y1="0.127" x2="-0.381" y2="0.381" layer="21"/>
+<rectangle x1="0.381" y1="0.127" x2="0.889" y2="0.381" layer="21"/>
+<rectangle x1="1.143" y1="0.127" x2="1.397" y2="0.381" layer="21"/>
+<rectangle x1="1.651" y1="0.127" x2="1.905" y2="0.381" layer="21"/>
+<rectangle x1="2.159" y1="0.127" x2="2.413" y2="0.381" layer="21"/>
+<rectangle x1="2.667" y1="0.127" x2="3.175" y2="0.381" layer="21"/>
+<rectangle x1="-3.175" y1="-0.127" x2="-2.921" y2="0.127" layer="21"/>
+<rectangle x1="-2.667" y1="-0.127" x2="-1.905" y2="0.127" layer="21"/>
+<rectangle x1="-1.143" y1="-0.127" x2="-0.381" y2="0.127" layer="21"/>
+<rectangle x1="-0.127" y1="-0.127" x2="0.381" y2="0.127" layer="21"/>
+<rectangle x1="0.889" y1="-0.127" x2="1.143" y2="0.127" layer="21"/>
+<rectangle x1="2.667" y1="-0.127" x2="2.921" y2="0.127" layer="21"/>
+<rectangle x1="-3.175" y1="-0.381" x2="-2.667" y2="-0.127" layer="21"/>
+<rectangle x1="-2.159" y1="-0.381" x2="-1.905" y2="-0.127" layer="21"/>
+<rectangle x1="-1.651" y1="-0.381" x2="-0.889" y2="-0.127" layer="21"/>
+<rectangle x1="-0.635" y1="-0.381" x2="-0.381" y2="-0.127" layer="21"/>
+<rectangle x1="-0.127" y1="-0.381" x2="0.127" y2="-0.127" layer="21"/>
+<rectangle x1="0.381" y1="-0.381" x2="0.635" y2="-0.127" layer="21"/>
+<rectangle x1="0.889" y1="-0.381" x2="1.143" y2="-0.127" layer="21"/>
+<rectangle x1="1.397" y1="-0.381" x2="1.905" y2="-0.127" layer="21"/>
+<rectangle x1="2.667" y1="-0.381" x2="3.175" y2="-0.127" layer="21"/>
+<rectangle x1="-2.413" y1="-0.635" x2="-1.651" y2="-0.381" layer="21"/>
+<rectangle x1="-1.397" y1="-0.635" x2="-0.889" y2="-0.381" layer="21"/>
+<rectangle x1="-0.381" y1="-0.635" x2="0.127" y2="-0.381" layer="21"/>
+<rectangle x1="0.635" y1="-0.635" x2="2.159" y2="-0.381" layer="21"/>
+<rectangle x1="2.413" y1="-0.635" x2="2.921" y2="-0.381" layer="21"/>
+<rectangle x1="-2.921" y1="-0.889" x2="-2.667" y2="-0.635" layer="21"/>
+<rectangle x1="-2.159" y1="-0.889" x2="-1.397" y2="-0.635" layer="21"/>
+<rectangle x1="-1.143" y1="-0.889" x2="-0.381" y2="-0.635" layer="21"/>
+<rectangle x1="-0.127" y1="-0.889" x2="0.127" y2="-0.635" layer="21"/>
+<rectangle x1="0.381" y1="-0.889" x2="0.889" y2="-0.635" layer="21"/>
+<rectangle x1="1.143" y1="-0.889" x2="1.651" y2="-0.635" layer="21"/>
+<rectangle x1="1.905" y1="-0.889" x2="3.175" y2="-0.635" layer="21"/>
+<rectangle x1="-1.143" y1="-1.143" x2="-0.889" y2="-0.889" layer="21"/>
+<rectangle x1="-0.381" y1="-1.143" x2="0.635" y2="-0.889" layer="21"/>
+<rectangle x1="2.159" y1="-1.143" x2="2.413" y2="-0.889" layer="21"/>
+<rectangle x1="2.667" y1="-1.143" x2="3.175" y2="-0.889" layer="21"/>
+<rectangle x1="-3.175" y1="-1.397" x2="-0.635" y2="-1.143" layer="21"/>
+<rectangle x1="0.127" y1="-1.397" x2="0.381" y2="-1.143" layer="21"/>
+<rectangle x1="0.635" y1="-1.397" x2="0.889" y2="-1.143" layer="21"/>
+<rectangle x1="1.143" y1="-1.397" x2="1.905" y2="-1.143" layer="21"/>
+<rectangle x1="2.159" y1="-1.397" x2="2.413" y2="-1.143" layer="21"/>
+<rectangle x1="2.921" y1="-1.397" x2="3.175" y2="-1.143" layer="21"/>
+<rectangle x1="-1.397" y1="-1.651" x2="-1.143" y2="-1.397" layer="21"/>
+<rectangle x1="-0.889" y1="-1.651" x2="-0.635" y2="-1.397" layer="21"/>
+<rectangle x1="-0.381" y1="-1.651" x2="-0.127" y2="-1.397" layer="21"/>
+<rectangle x1="0.381" y1="-1.651" x2="0.635" y2="-1.397" layer="21"/>
+<rectangle x1="1.143" y1="-1.651" x2="1.397" y2="-1.397" layer="21"/>
+<rectangle x1="1.651" y1="-1.651" x2="1.905" y2="-1.397" layer="21"/>
+<rectangle x1="2.921" y1="-1.651" x2="3.175" y2="-1.397" layer="21"/>
+<rectangle x1="-2.921" y1="-1.905" x2="-1.651" y2="-1.651" layer="21"/>
+<rectangle x1="-1.397" y1="-1.905" x2="-0.889" y2="-1.651" layer="21"/>
+<rectangle x1="-0.381" y1="-1.905" x2="0.127" y2="-1.651" layer="21"/>
+<rectangle x1="0.381" y1="-1.905" x2="0.635" y2="-1.651" layer="21"/>
+<rectangle x1="1.143" y1="-1.905" x2="1.905" y2="-1.651" layer="21"/>
+<rectangle x1="2.159" y1="-1.905" x2="2.921" y2="-1.651" layer="21"/>
+<rectangle x1="-2.921" y1="-2.159" x2="-2.667" y2="-1.905" layer="21"/>
+<rectangle x1="-1.905" y1="-2.159" x2="-1.651" y2="-1.905" layer="21"/>
+<rectangle x1="-1.397" y1="-2.159" x2="-0.127" y2="-1.905" layer="21"/>
+<rectangle x1="-2.921" y1="-2.413" x2="-2.667" y2="-2.159" layer="21"/>
+<rectangle x1="-1.905" y1="-2.413" x2="-1.651" y2="-2.159" layer="21"/>
+<rectangle x1="-1.397" y1="-2.413" x2="-1.143" y2="-2.159" layer="21"/>
+<rectangle x1="-0.889" y1="-2.413" x2="-0.381" y2="-2.159" layer="21"/>
+<rectangle x1="-0.127" y1="-2.413" x2="0.889" y2="-2.159" layer="21"/>
+<rectangle x1="1.143" y1="-2.413" x2="1.905" y2="-2.159" layer="21"/>
+<rectangle x1="2.413" y1="-2.413" x2="2.921" y2="-2.159" layer="21"/>
+<rectangle x1="-2.921" y1="-2.667" x2="-2.667" y2="-2.413" layer="21"/>
+<rectangle x1="-1.905" y1="-2.667" x2="-1.651" y2="-2.413" layer="21"/>
+<rectangle x1="-1.397" y1="-2.667" x2="-0.381" y2="-2.413" layer="21"/>
+<rectangle x1="0.127" y1="-2.667" x2="0.381" y2="-2.413" layer="21"/>
+<rectangle x1="0.635" y1="-2.667" x2="0.889" y2="-2.413" layer="21"/>
+<rectangle x1="1.651" y1="-2.667" x2="2.159" y2="-2.413" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-1.651" y2="-2.667" layer="21"/>
+<rectangle x1="-1.397" y1="-2.921" x2="-1.143" y2="-2.667" layer="21"/>
+<rectangle x1="-0.635" y1="-2.921" x2="-0.127" y2="-2.667" layer="21"/>
+<rectangle x1="0.127" y1="-2.921" x2="0.381" y2="-2.667" layer="21"/>
+<rectangle x1="0.635" y1="-2.921" x2="0.889" y2="-2.667" layer="21"/>
+<rectangle x1="1.143" y1="-2.921" x2="1.397" y2="-2.667" layer="21"/>
+<rectangle x1="2.667" y1="-2.921" x2="2.921" y2="-2.667" layer="21"/>
+<rectangle x1="-1.397" y1="-3.175" x2="-1.143" y2="-2.921" layer="21"/>
+<rectangle x1="-0.889" y1="-3.175" x2="-0.127" y2="-2.921" layer="21"/>
+<rectangle x1="0.381" y1="-3.175" x2="0.635" y2="-2.921" layer="21"/>
+<rectangle x1="1.651" y1="-3.175" x2="2.159" y2="-2.921" layer="21"/>
+<rectangle x1="2.413" y1="-3.175" x2="2.921" y2="-2.921" layer="21"/>
+<rectangle x1="-4.191" y1="3.175" x2="4.191" y2="4.191" layer="21"/>
+<rectangle x1="-4.191" y1="-4.191" x2="4.191" y2="-3.175" layer="21"/>
+<rectangle x1="-4.191" y1="-3.175" x2="-3.175" y2="3.175" layer="21"/>
+<rectangle x1="3.175" y1="-3.175" x2="4.191" y2="3.175" layer="21"/>
+<text x="-4.191" y="4.445" size="0.889" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-4.191" y="-5.345" size="0.889" layer="27" font="vector" ratio="15">&gt;QR_DEST_SHORT</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2956,7 +3124,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="IC12" library="analog-devices-jqi" package="TSSOP16" value="ADG5412BRUZ" x="105.664" y="74.168" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ADG5412BRUZ" x="105.664" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="103.5812" y="77.0636" size="1.016" layer="25" ratio="10"/>
+<attribute name="NAME" x="103.5812" y="77.0636" size="0.889" layer="25" ratio="10"/>
 </element>
 <element name="IC13" library="analog-devices-jqi" package="TSSOP16" value="ADG5412BRUZ" x="105.664" y="64.77" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="ADG5412BRUZ" x="105.664" y="64.77" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3093,12 +3261,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="U3" library="allegro-jqi" package="SOICN-8" value="ACS730KLCTR-20AB" x="56.134" y="38.354" smashed="yes">
 <attribute name="CURRENT_RATING" value="20 Amps" x="56.134" y="38.354" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="ACS730KLCTR-20AB" x="56.134" y="38.354" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ACS730KLCTR-20AB-T" x="56.134" y="38.354" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="53.634" y="40.418" size="0.762" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="U7" library="allegro-jqi" package="SOICN-8" value="ACS730KLCTR-20AB" x="61.722" y="38.354" smashed="yes">
 <attribute name="CURRENT_RATING" value="20 Amps" x="61.722" y="38.354" size="1.778" layer="27" display="off"/>
-<attribute name="PARTNO" value="ACS730KLCTR-20AB" x="61.722" y="38.354" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="ACS730KLCTR-20AB-T" x="61.722" y="38.354" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="65.572" y="37.624" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="SHC1" library="EAGLE-EMC_COMPONENTS-rev17a" package="WE-SHC_36103205" value="" x="62.738" y="35.052" smashed="yes">
@@ -3374,6 +3542,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="U11" library="texas-instruments-jqi" package="SO-08" value="OPA2227" x="103.378" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.521" y="58.547" size="1.016" layer="25"/>
 <attribute name="PARTNO" value="OPA2227U/2K5" x="103.378" y="55.88" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="QR1" library="QR-git.io-vSQ18" package="QR-HTTPS://GIT.IO/VSQ18-LIGHT-SILK" value="QR-HTTPS://GIT.IO/VSQ18-LIGHT-SILK" x="110.49" y="83.82" smashed="yes">
+<attribute name="QR_DEST_SHORT" value="git.io/vSQ18" x="106.299" y="78.475" size="0.762" layer="27" font="vector" ratio="15"/>
+<attribute name="QR_DEST" value="https://git.io/vSQ18" x="110.49" y="83.82" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="106.299" y="88.265" size="0.762" layer="25" font="vector" ratio="15"/>
 </element>
 </elements>
 <signals>
@@ -3706,7 +3879,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="106.3752" y="34.2392" extent="1-16" drill="0.381"/>
 <via x="112.1918" y="36.8554" extent="1-16" drill="0.381"/>
 <via x="116.2812" y="89.1032" extent="1-16" drill="0.381"/>
-<via x="115.5192" y="78.4352" extent="1-16" drill="0.381"/>
+<via x="116.0272" y="77.6732" extent="1-16" drill="0.381"/>
 <via x="90.3732" y="69.2912" extent="1-16" drill="0.381"/>
 <via x="92.6592" y="60.6552" extent="1-16" drill="0.381"/>
 <via x="62.4332" y="61.1632" extent="1-16" drill="0.381"/>
