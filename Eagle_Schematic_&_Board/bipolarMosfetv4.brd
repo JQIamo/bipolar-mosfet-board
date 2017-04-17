@@ -2628,6 +2628,17 @@ Copyright: Würth Elektronik</description>
 </package>
 </packages>
 </library>
+<library name="fiducials-jqi">
+<packages>
+<package name="FID_1.0MM">
+<description>1 mm SMD Fiducial in 3 mm Opening</description>
+<smd name="FID" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="41"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3548,6 +3559,14 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="QR_DEST" value="https://git.io/vSQ18" x="110.49" y="83.82" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="106.299" y="88.265" size="0.762" layer="25" font="vector" ratio="15"/>
 </element>
+<element name="FID1" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="4.064" y="67.818"/>
+<element name="FID2" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="114.808" y="60.96"/>
+<element name="FID3" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="69.596" y="21.336"/>
+<element name="FID4" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="91.948" y="73.152"/>
+<element name="FID5" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="13.462" y="60.198" rot="MR0"/>
+<element name="FID6" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="92.71" y="67.056" rot="MR0"/>
+<element name="FID7" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="114.554" y="42.672" rot="MR0"/>
+<element name="FID8" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="54.61" y="10.414" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -3902,7 +3921,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="72.136" y="18.5928" extent="1-16" drill="0.381"/>
 <via x="77.6224" y="42.8752" extent="1-16" drill="0.381"/>
 <via x="79.4004" y="46.7106" extent="1-16" drill="0.381"/>
-<via x="114.9096" y="42.037" extent="1-16" drill="0.381"/>
+<via x="115.6716" y="40.767" extent="1-16" drill="0.381"/>
 <via x="116.8908" y="57.0484" extent="1-16" drill="0.381"/>
 <via x="85.09" y="10.541" extent="1-16" drill="0.381"/>
 <via x="88.6714" y="23.4188" extent="1-16" drill="0.381"/>
