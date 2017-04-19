@@ -13055,7 +13055,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="P+3" library="supply1" deviceset="+15V" device=""/>
 <part name="P-3" library="supply1" deviceset="-15V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" deviceset="+15V" device=""/>
 <part name="Q5" library="ZSS" deviceset="ST?80PF55" device="B" value="IXTA76P10T">
 <attribute name="PARTNO" value="IXTA76P10T"/>
 </part>
@@ -13559,6 +13558,10 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="FID6" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID7" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 <part name="FID8" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="P+12" library="supply1" deviceset="+18V" device=""/>
+<part name="C48" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="DNP">
+<attribute name="PARTNO" value="CL10C221JB81PNC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -15441,6 +15444,9 @@ cutoff at 700 kHz</text>
 </instance>
 <instance part="U11" gate="A" x="57.15" y="90.17" rot="MR180"/>
 <instance part="U11" gate="B" x="152.4" y="67.31" rot="MR180"/>
+<instance part="C48" gate="G$1" x="153.67" y="43.18" rot="R270">
+<attribute name="PARTNO" x="153.67" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16025,6 +16031,10 @@ cutoff at 700 kHz</text>
 <pinref part="U11" gate="B" pin="OUTPUT"/>
 <wire x1="160.02" y1="67.31" x2="162.56" y2="67.31" width="0.1524" layer="91"/>
 <junction x="162.56" y="67.31"/>
+<pinref part="C48" gate="G$1" pin="1"/>
+<wire x1="156.21" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="43.18" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
+<junction x="162.56" y="50.8"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -16098,6 +16108,10 @@ cutoff at 700 kHz</text>
 <junction x="140.97" y="63.5"/>
 <pinref part="U11" gate="B" pin="+"/>
 <wire x1="140.97" y1="64.77" x2="144.78" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="C48" gate="G$1" pin="2"/>
+<wire x1="140.97" y1="50.8" x2="140.97" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="43.18" x2="148.59" y2="43.18" width="0.1524" layer="91"/>
+<junction x="140.97" y="50.8"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -16163,7 +16177,6 @@ cutoff at 700 kHz</text>
 <instance part="Q1" gate="-2" x="123.19" y="74.93" smashed="yes">
 <attribute name="NAME" x="128.27" y="72.39" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="P+8" gate="1" x="113.03" y="123.19"/>
 <instance part="Q5" gate="G$1" x="171.45" y="77.47" rot="MR180">
 <attribute name="PARTNO" x="171.45" y="77.47" size="1.778" layer="96" display="off"/>
 </instance>
@@ -16207,6 +16220,7 @@ cutoff at 700 kHz</text>
 <instance part="R10" gate="G$1" x="113.03" y="57.15" rot="R90">
 <attribute name="PARTNO" x="113.03" y="57.15" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="P+12" gate="1" x="113.03" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -16375,13 +16389,6 @@ cutoff at 700 kHz</text>
 <label x="87.63" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="+15V" class="0">
-<segment>
-<pinref part="P+8" gate="1" pin="+15V"/>
-<wire x1="113.03" y1="120.65" x2="113.03" y2="118.11" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="+8V" class="0">
 <segment>
 <pinref part="SUPPLY2" gate="+8V" pin="+8V"/>
@@ -16439,6 +16446,13 @@ cutoff at 700 kHz</text>
 <wire x1="97.79" y1="95.25" x2="97.79" y2="85.09" width="0.1524" layer="91"/>
 <junction x="97.79" y="85.09"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="+18V" class="1">
+<segment>
+<wire x1="113.03" y1="121.92" x2="113.03" y2="118.11" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="P+12" gate="1" pin="+18V"/>
 </segment>
 </net>
 </nets>
