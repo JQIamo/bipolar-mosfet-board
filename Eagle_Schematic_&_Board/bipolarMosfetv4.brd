@@ -3564,7 +3564,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="FID3" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="67.818" y="17.78"/>
 <element name="FID4" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="116.332" y="86.106"/>
 <element name="FID5" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="7.62" y="97.536" rot="MR0"/>
-<element name="FID6" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="115.824" y="82.55" rot="MR0"/>
+<element name="FID6" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="114.808" y="96.012" rot="MR0"/>
 <element name="FID7" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="114.554" y="42.672" rot="MR0"/>
 <element name="FID8" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="54.61" y="10.414" rot="MR0"/>
 <element name="C48" library="jqi_passives" package="C_MLCC_0603" value="DNP" x="105.283" y="49.276" smashed="yes">
@@ -4842,10 +4842,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="R7" pad="P$2"/>
 <wire x1="82.55" y1="30.746" x2="82.55" y2="29.972" width="1.016" layer="1"/>
 <wire x1="82.55" y1="29.972" x2="85.344" y2="27.178" width="1.016" layer="1"/>
-<wire x1="85.344" y1="27.178" x2="94.488" y2="27.178" width="1.016" layer="1"/>
-<wire x1="94.488" y1="27.178" x2="96.774" y2="29.464" width="1.016" layer="1"/>
-<via x="96.774" y="29.464" extent="1-16" drill="0.6096"/>
-<wire x1="96.774" y1="29.464" x2="102.616" y2="29.464" width="1.016" layer="15"/>
+<wire x1="85.344" y1="27.178" x2="95.758" y2="27.178" width="1.016" layer="1"/>
+<wire x1="95.758" y1="27.178" x2="98.044" y2="29.464" width="1.016" layer="1"/>
+<via x="98.044" y="29.464" extent="1-16" drill="0.6096"/>
+<wire x1="98.044" y1="29.464" x2="102.616" y2="29.464" width="1.016" layer="15"/>
 <wire x1="102.616" y1="29.464" x2="104.394" y2="31.242" width="1.016" layer="15"/>
 <wire x1="104.394" y1="31.242" x2="106.68" y2="31.242" width="1.016" layer="15"/>
 <wire x1="106.68" y1="31.242" x2="107.95" y2="32.512" width="1.016" layer="15"/>

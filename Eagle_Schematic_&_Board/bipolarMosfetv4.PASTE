@@ -1,4 +1,4 @@
-#MacroFab, INC. PASTE data for C:/Users/Thermo. Metrology/Documents/GitHub/bipolar-mosfet-board/Eagle_Schematic_&_Board/bipolarMosfetv4.brd.
+#MacroFab, INC. PASTE data for //elwood.nist.gov/685/users/dsb1/My Documents/GitHub/bipolar-mosfet-board/Eagle_Schematic_&_Board/bipolarMosfetv4.brd.
 #
 #PASTE Data:
 #Designator	X-Loc	Y-Loc	Side	Type	X-Size	Y-Size
@@ -147,7 +147,7 @@ FID2	4470.00	1680.00	1	1	39.37	39.37
 FID3	2670.00	700.00	1	1	39.37	39.37
 FID4	4580.00	3390.00	1	1	39.37	39.37
 FID5	300.00	3840.00	2	1	39.37	39.37
-FID6	4560.00	3250.00	2	1	39.37	39.37
+FID6	4520.00	3780.00	2	1	39.37	39.37
 FID7	4510.00	1680.00	2	1	39.37	39.37
 FID8	2150.00	410.00	2	1	39.37	39.37
 HS1	1100.00	1900.00	1	1	50.00	50.00
