@@ -1751,67 +1751,67 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <library name="analog-devices-jqi">
 <packages>
 <package name="SOIC-8">
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
-<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
-<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
-<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
-<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
-<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="1.9" y1="-2.4" x2="-1.4" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-2.4" x2="-1.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-2.4" x2="-1.9" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="2.4" x2="-1.4" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="2.4" x2="1.9" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="2.4" x2="1.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-2.4" x2="-1.4" y2="2.4" width="0.2032" layer="21"/>
+<rectangle x1="-2.795" y1="1.355" x2="-2.305" y2="2.455" layer="51" rot="R270"/>
+<rectangle x1="-2.795" y1="0.085" x2="-2.305" y2="1.185" layer="51" rot="R270"/>
+<rectangle x1="-2.795" y1="-1.185" x2="-2.305" y2="-0.085" layer="51" rot="R270"/>
+<rectangle x1="-2.795" y1="-2.455" x2="-2.305" y2="-1.355" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="-2.455" x2="2.795" y2="-1.355" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="-1.185" x2="2.795" y2="-0.085" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="0.085" x2="2.795" y2="1.185" layer="51" rot="R270"/>
+<rectangle x1="2.305" y1="1.355" x2="2.795" y2="2.455" layer="51" rot="R270"/>
+<smd name="1" x="-2.6" y="1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="2" x="-2.6" y="0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="3" x="-2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="4" x="-2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="5" x="2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="6" x="2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="7" x="2.6" y="0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="8" x="2.6" y="1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<text x="-3.81" y="2.667" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.937" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-0.889" y="1.905" radius="0.254" width="0.127" layer="21"/>
 </package>
 <package name="SO-08">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
 150-mil body, package type SN</description>
-<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-1.905" y="-0.635" size="0.4064" layer="48">IPC SO8</text>
-<text x="-1.905" y="0.365" size="0.3048" layer="48">JEDEC MS-012 AA</text>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
+<wire x1="3.9" y1="2.9" x2="3.9" y2="-2.9" width="0.1998" layer="39"/>
+<wire x1="3.9" y1="-2.9" x2="-3.9" y2="-2.9" width="0.1998" layer="39"/>
+<wire x1="-3.9" y1="-2.9" x2="-3.9" y2="2.9" width="0.1998" layer="39"/>
+<wire x1="-3.9" y1="2.9" x2="3.9" y2="2.9" width="0.1998" layer="39"/>
+<wire x1="1.9" y1="-2.4" x2="-1.4" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-2.4" x2="-1.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-2.4" x2="-1.9" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="2.4" x2="-1.4" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="2.4" x2="1.9" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="2.4" x2="1.9" y2="-2.4" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="-2.4" x2="-1.4" y2="2.4" width="0.2032" layer="21"/>
+<smd name="2" x="-2.6" y="0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="7" x="2.6" y="0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="1" x="-2.6" y="1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="3" x="-2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="4" x="-2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="8" x="2.6" y="1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="6" x="2.6" y="-0.635" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<smd name="5" x="2.6" y="-1.905" dx="0.6" dy="2.2" layer="1" rot="R270"/>
+<text x="-1.905" y="2.667" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.937" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.79515" y1="1.35495" x2="-2.30495" y2="2.45505" layer="51" rot="R270"/>
+<rectangle x1="-2.79515" y1="0.08495" x2="-2.30495" y2="1.18505" layer="51" rot="R270"/>
+<rectangle x1="-2.79515" y1="-1.18505" x2="-2.30495" y2="-0.08495" layer="51" rot="R270"/>
+<rectangle x1="-2.79515" y1="-2.45505" x2="-2.30495" y2="-1.35495" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="-2.45505" x2="2.79515" y2="-1.35495" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="-1.18505" x2="2.79515" y2="-0.08495" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="0.08495" x2="2.79515" y2="1.18505" layer="51" rot="R270"/>
+<rectangle x1="2.30495" y1="1.35495" x2="2.79515" y2="2.45505" layer="51" rot="R270"/>
+<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35" rot="R270"/>
+<circle x="-0.889" y="1.905" radius="0.254" width="0.127" layer="21"/>
 </package>
 <package name="TSSOP16">
 <description>&lt;b&gt;Thin Shrink Small Outline Plastic 16&lt;/b&gt;&lt;p&gt;
@@ -3005,9 +3005,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="B1" library="connector-jqi" package="PLUG_TB-3" value="PLUG_TB-3" x="35.56" y="3.81" rot="R180">
 <attribute name="PARTNO" value="691312410003" x="35.56" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U5" library="analog-devices-jqi" package="SOIC-8" value="AD8421" x="115.062" y="21.844" smashed="yes">
-<attribute name="PARTNO" value="AD8421ARZ" x="115.062" y="21.844" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="117.856" y="21.336" size="1.016" layer="25" rot="R270"/>
+<element name="U5" library="analog-devices-jqi" package="SOIC-8" value="AD8421" x="115.062" y="21.844" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="AD8421ARZ" x="115.062" y="21.844" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="117.856" y="21.082" size="1.016" layer="25" rot="R270"/>
 </element>
 <element name="R23" library="jqi_passives" package="R_0603" value="49.9" x="117.094" y="17.018" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="ERJ-3EKF49R9V" x="117.094" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3096,9 +3096,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="CL10B103KB8NNNC" x="50.038" y="60.706" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="49.814" y="59.906" size="0.762" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="U4" library="analog-devices-jqi" package="SO-08" value="ADA4522-2ARZ" x="59.182" y="52.07" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="ADA4522-2ARZ" x="59.182" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.007" y="54.737" size="1.016" layer="25"/>
+<element name="U4" library="analog-devices-jqi" package="SO-08" value="ADA4522-2ARZ" x="59.182" y="52.07" smashed="yes">
+<attribute name="PARTNO" value="ADA4522-2ARZ" x="59.182" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="55.753" y="55.245" size="1.016" layer="25"/>
 </element>
 <element name="J1" library="connector-jqi" package="AMP-31-6576" value="AMP-31-6576" x="58.674" y="0" smashed="yes">
 <attribute name="PARTNO" value="031-6576" x="58.674" y="0" size="1.778" layer="27" display="off"/>
@@ -5394,8 +5394,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="74.93" y1="57.912" x2="74.93" y2="62.23" width="1.27" layer="15"/>
 <wire x1="85.09" y1="51.816" x2="96.266" y2="51.816" width="1.27" layer="16"/>
 <wire x1="96.266" y1="51.816" x2="97.028" y2="51.054" width="1.27" layer="16"/>
-<wire x1="97.028" y1="51.054" x2="97.79" y2="51.054" width="1.27" layer="16"/>
-<wire x1="97.79" y1="51.054" x2="98.044" y2="51.054" width="1.27" layer="16"/>
+<wire x1="97.028" y1="51.054" x2="98.044" y2="51.054" width="1.27" layer="16"/>
 <wire x1="98.044" y1="51.054" x2="106.934" y2="51.054" width="1.27" layer="16"/>
 <wire x1="106.934" y1="51.054" x2="107.696" y2="50.292" width="1.27" layer="16"/>
 <wire x1="107.696" y1="50.292" x2="107.696" y2="31.242" width="1.27" layer="16"/>
@@ -6377,16 +6376,16 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,29,4c38b03f934a3e7d"/>
 <approved hash="18,29,e54921c19d83016a"/>
 <approved hash="18,29,fe5448bf799e482b"/>
-<approved hash="18,29,596da492862d3f39"/>
-<approved hash="18,29,a689baaf8539e335"/>
-<approved hash="18,29,f06834ae88d601aa"/>
-<approved hash="18,29,0d6fbc3a8d054f2b"/>
 <approved hash="18,29,4e3755456af7e2d1"/>
 <approved hash="18,29,4123bcf89f933f5d"/>
 <approved hash="18,29,e9d22d4490b8006a"/>
 <approved hash="18,29,e281545065bf496b"/>
-<approved hash="18,29,aee8ffd1b41b1915"/>
+<approved hash="18,29,a689baaf8539e335"/>
+<approved hash="18,29,596da492862d3f39"/>
+<approved hash="18,29,0d6fbc3a8d054f2b"/>
+<approved hash="18,29,f06834ae88d601aa"/>
 <approved hash="18,29,b0014a065172887d"/>
+<approved hash="18,29,aee8ffd1b41b1915"/>
 <approved hash="18,29,e55397db2b99d36a"/>
 <approved hash="18,29,fe4e9aa5cf84fe2b"/>
 <approved hash="18,29,bd1a46c15dab895d"/>
@@ -6398,44 +6397,48 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,29,0d756e203b1ff92b"/>
 <approved hash="18,29,f07282b43eccd3aa"/>
 <approved hash="18,29,b4aa0659b5c690b2"/>
+<approved hash="18,29,6c74134c12cb6df3"/>
 <approved hash="18,29,64a14cdc3c7aece0"/>
 <approved hash="18,29,b3134cb83c9f3b5f"/>
-<approved hash="18,29,6c74134c12cb6df3"/>
-<approved hash="18,29,79dbcf383c9e719d"/>
 <approved hash="18,29,b04dcddc3dbab80b"/>
+<approved hash="18,29,79dbcf383c9e719d"/>
 <approved hash="18,29,70540f6c0ee171d9"/>
 <approved hash="18,29,117c0b8903119a25"/>
 <approved hash="18,29,e454dea07828c31d"/>
 <approved hash="18,29,af31a1c4b14f787a"/>
-<approved hash="18,29,7258a3f9a3f97258"/>
 <approved hash="18,29,e78756a056a0e787"/>
-<approved hash="18,29,ad4a2629eb379bb4"/>
+<approved hash="18,29,7258a3f9a3f97258"/>
 <approved hash="18,29,67182509e9d753e6"/>
+<approved hash="18,29,ad4a2629eb379bb4"/>
 <approved hash="18,29,b3b6a54be855064f"/>
 <approved hash="18,29,6404a427e8b0d0f8"/>
 <approved hash="18,29,5654257325725655"/>
 <approved hash="18,29,c38bd02ad02bc38a"/>
 <approved hash="18,29,fd2e4fc3085e9ecb"/>
 <approved hash="18,29,8816d6d2b4bece02"/>
-<approved hash="18,29,8a405243b0624c19"/>
 <approved hash="18,29,e315cf0108da00b6"/>
+<approved hash="18,29,8a405243b0624c19"/>
 <approved hash="18,29,6a9c33d452c6bc09"/>
-<approved hash="18,29,90e102e602e290e5"/>
-<approved hash="18,29,a46b566c5668a46f"/>
-<approved hash="18,29,f7ec9beb9bf6f7f1"/>
-<approved hash="18,29,3b76af71af7c3b7b"/>
+<approved hash="18,29,063f01ac01a30630"/>
+<approved hash="18,29,d1b196a296a2d1b1"/>
+<approved hash="18,29,79d57740774f79da"/>
+<approved hash="18,29,ae5be04ee04eae5b"/>
+<approved hash="18,29,8c4b8bf88bf78c44"/>
+<approved hash="18,29,5bc51cf61cf65bc5"/>
+<approved hash="18,29,f3980d350d3bf396"/>
+<approved hash="18,29,24169a3b9a3a2417"/>
+<approved hash="18,29,8801f392f3918802"/>
+<approved hash="18,29,7da6ff0bff097da4"/>
+<approved hash="18,29,027579c679c50276"/>
+<approved hash="18,29,f7eb857e857df7e8"/>
 <approved hash="18,29,8f501f551f518f54"/>
 <approved hash="18,29,bbda4bdf4bdbbbde"/>
 <approved hash="18,29,e85d86588645e840"/>
 <approved hash="18,29,24c7b2c2b2cf24ca"/>
-<approved hash="18,29,561fa07960659603"/>
-<approved hash="18,29,098155e795e3c985"/>
-<approved hash="18,29,3d0b096dc969fd0f"/>
-<approved hash="18,29,f08d3aebfad030b6"/>
-<approved hash="18,29,a434ee522e5e6438"/>
-<approved hash="18,29,57bea3d863c497a2"/>
-<approved hash="18,29,0b2057469742cb24"/>
-<approved hash="18,29,3eaa08ccc8c8feae"/>
+<approved hash="18,29,90e102e602e290e5"/>
+<approved hash="18,29,a46b566c5668a46f"/>
+<approved hash="18,29,f7ec9beb9bf6f7f1"/>
+<approved hash="18,29,3b76af71af7c3b7b"/>
 <approved hash="18,29,73cd842f4433b3d1"/>
 <approved hash="18,29,2c5371b1b1b5ec57"/>
 <approved hash="18,29,18d92d3bed3fd8dd"/>
@@ -6444,20 +6447,28 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,29,726c878e4792b270"/>
 <approved hash="18,29,2ef27310b314eef6"/>
 <approved hash="18,29,1b782c9aec9edb7c"/>
-<approved hash="18,29,2b2fba1362e23057"/>
+<approved hash="18,29,561fa07960659603"/>
+<approved hash="18,29,098155e795e3c985"/>
+<approved hash="18,29,3d0b096dc969fd0f"/>
+<approved hash="18,29,f08d3aebfad030b6"/>
+<approved hash="18,29,a434ee522e5e6438"/>
+<approved hash="18,29,57bea3d863c497a2"/>
+<approved hash="18,29,0b2057469742cb24"/>
+<approved hash="18,29,3eaa08ccc8c8feae"/>
 <approved hash="18,29,7ef56611260d3ee9"/>
+<approved hash="18,29,2b2fba1362e23057"/>
 <approved hash="18,29,0ad74d1e613a811e"/>
 <approved hash="18,29,196b0b8f4b8b596f"/>
 <approved hash="18,29,8d36ed8a147b1dd7"/>
 <approved hash="18,29,8bd1b49810bc5a9e"/>
-<approved hash="18,29,35e12f056f0175e5"/>
 <approved hash="18,29,353b510449f6a954"/>
+<approved hash="18,29,35e12f056f0175e5"/>
 <approved hash="18,29,0adb68122436d61e"/>
 <approved hash="18,29,ab3d6081fb4f5ad7"/>
 <approved hash="18,29,d867348374b8985c"/>
 <approved hash="18,29,75e2cbabbb88b39e"/>
-<approved hash="18,29,4b04543890c92657"/>
 <approved hash="18,29,e4dec83a8836a4d2"/>
+<approved hash="18,29,4b04543890c92657"/>
 <approved hash="18,29,8aef3f264f028f1d"/>
 <approved hash="18,29,7f5465b025ac3f48"/>
 <approved hash="18,29,290eb7b2624333d7"/>
@@ -6470,27 +6481,39 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,29,09fa65b32997d99e"/>
 <approved hash="18,29,4bd40d102bca9493"/>
 <approved hash="18,29,2fd52c782c7b2fd6"/>
+<approved hash="18,29,bd7fbfe2bfe1bd7c"/>
 <approved hash="18,29,3b2c21df21dc3b2f"/>
 <approved hash="18,29,a118ab8bab88a11b"/>
-<approved hash="18,29,bd7fbfe2bfe1bd7c"/>
 <approved hash="18,29,a82335f0f5bf5dbe"/>
-<approved hash="18,29,7f555e4c7ad926de"/>
 <approved hash="18,29,4b2015ff1e127317"/>
-<approved hash="18,29,2e4d2ed02ed72e4a"/>
-<approved hash="18,29,322a3ab93abe322d"/>
-<approved hash="18,29,a81eb0edb0eaa819"/>
+<approved hash="18,29,7f555e4c7ad926de"/>
 <approved hash="18,29,bce7bd4abd4dbce0"/>
+<approved hash="18,29,2e4d2ed02ed72e4a"/>
+<approved hash="18,29,a81eb0edb0eaa819"/>
+<approved hash="18,29,322a3ab93abe322d"/>
 <approved hash="18,29,e0bb13b9a2e91851"/>
 <approved hash="18,29,74ae8ca24c5efbe4"/>
 <approved hash="18,29,fd32523d1ebfa2b6"/>
-<approved hash="18,29,a9c453535353a9c4"/>
-<approved hash="18,29,27b3d91ed91e27b3"/>
 <approved hash="18,29,3318cd67cd673318"/>
+<approved hash="18,29,27b3d91ed91e27b3"/>
 <approved hash="18,29,b52d44b844b8b52d"/>
+<approved hash="18,29,a9c453535353a9c4"/>
 <approved hash="18,29,db2adfbddfbedb29"/>
-<approved hash="18,29,555d55f055f3555e"/>
 <approved hash="18,29,c7c3c856c855c7c0"/>
+<approved hash="18,29,555d55f055f3555e"/>
 <approved hash="18,29,41f64189418a41f5"/>
+<approved hash="18,29,dd732eb2aebe5d7f"/>
+<approved hash="18,29,91f8e239622411e5"/>
+<approved hash="18,29,4266d7a757a2c263"/>
+<approved hash="18,29,36ec8b2d0b28b6e9"/>
+<approved hash="18,29,5f07ad05ad095f0b"/>
+<approved hash="18,29,138c618e61931391"/>
+<approved hash="18,29,c01254105415c017"/>
+<approved hash="18,29,b498089a089fb49d"/>
+<approved hash="18,29,4a89be97be9b4a85"/>
+<approved hash="18,29,0602721c7201061f"/>
+<approved hash="18,29,d59c47824787d599"/>
+<approved hash="18,29,a1161b081b0da113"/>
 <approved hash="18,29,7dfe140673ec0006"/>
 <approved hash="18,30,7a397a3919fed101"/>
 <approved hash="18,30,7f0ff80858c07f28"/>
