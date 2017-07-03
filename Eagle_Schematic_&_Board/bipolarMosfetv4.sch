@@ -13510,11 +13510,11 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="RO" library="jqi_passives" deviceset="R_SMD" device="R0603" value="121k">
 <attribute name="PARTNO" value="TNPW0603121KBEEA"/>
 </part>
-<part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.64k">
-<attribute name="PARTNO" value="ERJ-3EKF4641V"/>
+<part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2.21k">
+<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
 </part>
-<part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="4.64k">
-<attribute name="PARTNO" value="ERJ-3EKF4641V"/>
+<part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2.21k">
+<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
 </part>
 <part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
 <attribute name="PARTNO" value="TNPW06031K00BEEA"/>
@@ -14831,8 +14831,8 @@ rather than error</text>
 <instance part="R1" gate="G$1" x="215.9" y="116.84">
 <attribute name="PARTNO" x="215.9" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="R4" gate="G$1" x="118.11" y="167.64">
-<attribute name="PARTNO" x="118.11" y="167.64" size="1.778" layer="96" display="off"/>
+<instance part="R4" gate="G$1" x="120.65" y="167.64" rot="MR180">
+<attribute name="PARTNO" x="120.65" y="167.64" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
 <instance part="J1" gate="TOP" x="228.6" y="99.06" rot="R180">
 <attribute name="PARTNO" x="228.6" y="99.06" size="1.778" layer="96" display="off"/>
@@ -15070,12 +15070,10 @@ rather than error</text>
 <label x="82.55" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="105.41" y1="182.88" x2="109.22" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="182.88" x2="109.22" y2="161.29" width="0.1524" layer="91"/>
 <junction x="105.41" y="182.88"/>
 <pinref part="R4" gate="G$1" pin="A"/>
-<wire x1="109.22" y1="161.29" x2="118.11" y2="161.29" width="0.1524" layer="91"/>
-<wire x1="118.11" y1="161.29" x2="118.11" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="105.41" y1="182.88" x2="120.65" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="182.88" x2="120.65" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VREF-" class="0">
@@ -15092,14 +15090,12 @@ rather than error</text>
 <label x="82.55" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="120.65" y1="152.4" x2="120.65" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="152.4" x2="120.65" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="E"/>
-<wire x1="120.65" y1="172.72" x2="118.11" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<wire x1="123.19" y1="167.64" x2="125.73" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="125.73" y1="167.64" x2="125.73" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="125.73" y1="147.32" x2="133.35" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="125.73" y1="144.78" x2="125.73" y2="147.32" width="0.1524" layer="91"/>
@@ -15280,7 +15276,7 @@ rather than error</text>
 <text x="25.4" y="27.94" size="1.778" layer="97">high pass corner
 @ ~40 Hz</text>
 <text x="87.63" y="20.32" size="1.778" layer="97">Replace RF and RG to adjust gain range</text>
-<text x="165.1" y="50.8" size="1.778" layer="97">22 pF puts high freq.
+<text x="165.1" y="88.9" size="1.778" layer="97">22 pF puts high freq.
 cutoff at 700 kHz</text>
 </plain>
 <instances>
@@ -15364,18 +15360,18 @@ cutoff at 700 kHz</text>
 <instance part="C44" gate="G$1" x="48.26" y="191.77" rot="R90">
 <attribute name="PARTNO" x="48.26" y="191.77" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND39" gate="1" x="162.56" y="76.2"/>
+<instance part="GND39" gate="1" x="162.56" y="54.61"/>
 <instance part="R43" gate="G$1" x="132.08" y="71.12" rot="R180">
 <attribute name="PARTNO" x="132.08" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R44" gate="G$1" x="132.08" y="63.5" rot="R180">
 <attribute name="PARTNO" x="132.08" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R45" gate="G$1" x="152.4" y="55.88" rot="R180">
-<attribute name="PARTNO" x="152.4" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R45" gate="G$1" x="152.4" y="93.98" rot="R180">
+<attribute name="PARTNO" x="152.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R46" gate="G$1" x="152.4" y="78.74" rot="R180">
-<attribute name="PARTNO" x="152.4" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R46" gate="G$1" x="152.4" y="57.15" rot="R180">
+<attribute name="PARTNO" x="152.4" y="57.15" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SW2" gate="G$1" x="162.56" y="154.94" rot="R90">
 <attribute name="PARTNO" x="162.56" y="154.94" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15406,8 +15402,8 @@ cutoff at 700 kHz</text>
 <attribute name="PARTNO" x="125.73" y="137.16" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="GND41" gate="1" x="156.21" y="127"/>
-<instance part="C45" gate="G$1" x="153.67" y="50.8" rot="R270">
-<attribute name="PARTNO" x="153.67" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="C45" gate="G$1" x="153.67" y="88.9" rot="R270">
+<attribute name="PARTNO" x="153.67" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="67.31" y="100.33" rot="R90">
 <attribute name="PARTNO" x="67.31" y="100.33" size="1.778" layer="96" rot="R90" display="off"/>
@@ -15444,8 +15440,8 @@ cutoff at 700 kHz</text>
 </instance>
 <instance part="U11" gate="A" x="57.15" y="90.17" rot="MR180"/>
 <instance part="U11" gate="B" x="152.4" y="67.31" rot="MR180"/>
-<instance part="C48" gate="G$1" x="153.67" y="43.18" rot="R270">
-<attribute name="PARTNO" x="153.67" y="43.18" size="1.778" layer="96" display="off"/>
+<instance part="C48" gate="G$1" x="153.67" y="81.28" rot="R270">
+<attribute name="PARTNO" x="153.67" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -15498,22 +15494,31 @@ cutoff at 700 kHz</text>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="228.6" y1="200.66" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="200.66" x2="226.06" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="200.66" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="190.5" x2="226.06" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="176.53" x2="226.06" y2="173.99" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="176.53" x2="226.06" y2="176.53" width="0.1524" layer="91"/>
 <junction x="226.06" y="176.53"/>
 <pinref part="C32" gate="G$1" pin="1"/>
 <pinref part="C33" gate="G$1" pin="1"/>
+<pinref part="IC12" gate="-PWR" pin="VGND"/>
+<wire x1="240.03" y1="189.23" x2="240.03" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="190.5" x2="226.06" y2="190.5" width="0.1524" layer="91"/>
+<junction x="226.06" y="190.5"/>
 </segment>
 <segment>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="265.43" y1="200.66" x2="267.97" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="267.97" y1="200.66" x2="267.97" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="267.97" y1="200.66" x2="267.97" y2="189.23" width="0.1524" layer="91"/>
+<wire x1="267.97" y1="189.23" x2="267.97" y2="176.53" width="0.1524" layer="91"/>
 <wire x1="267.97" y1="176.53" x2="267.97" y2="173.99" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="176.53" x2="267.97" y2="176.53" width="0.1524" layer="91"/>
 <junction x="267.97" y="176.53"/>
 <pinref part="C34" gate="G$1" pin="2"/>
 <pinref part="C35" gate="G$1" pin="2"/>
+<pinref part="IC13" gate="-PWR" pin="VGND"/>
+<wire x1="259.08" y1="189.23" x2="267.97" y2="189.23" width="0.1524" layer="91"/>
+<junction x="267.97" y="189.23"/>
 </segment>
 <segment>
 <pinref part="R52" gate="G$1" pin="2"/>
@@ -15552,7 +15557,7 @@ cutoff at 700 kHz</text>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="R46" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="57.15" x2="157.48" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V-ERR" class="0">
@@ -16019,22 +16024,22 @@ cutoff at 700 kHz</text>
 </net>
 <net name="V-PI" class="0">
 <segment>
-<label x="171.45" y="67.31" size="1.778" layer="95" xref="yes"/>
 <pinref part="R45" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="67.31" x2="171.45" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="55.88" x2="162.56" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="1"/>
-<wire x1="156.21" y1="50.8" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="50.8" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
-<junction x="162.56" y="55.88"/>
-<pinref part="U11" gate="B" pin="OUTPUT"/>
-<wire x1="160.02" y1="67.31" x2="162.56" y2="67.31" width="0.1524" layer="91"/>
-<junction x="162.56" y="67.31"/>
+<wire x1="156.21" y1="88.9" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="88.9" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C48" gate="G$1" pin="1"/>
-<wire x1="156.21" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="43.18" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
-<junction x="162.56" y="50.8"/>
+<wire x1="156.21" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="81.28" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
+<junction x="162.56" y="88.9"/>
+<wire x1="160.02" y1="67.31" x2="162.56" y2="67.31" width="0.1524" layer="91"/>
+<pinref part="U11" gate="B" pin="OUTPUT"/>
+<label x="171.45" y="67.31" size="1.778" layer="95" xref="yes"/>
+<wire x1="162.56" y1="67.31" x2="171.45" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="81.28" x2="162.56" y2="67.31" width="0.1524" layer="91"/>
+<junction x="162.56" y="81.28"/>
+<junction x="162.56" y="67.31"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -16093,38 +16098,38 @@ cutoff at 700 kHz</text>
 <wire x1="60.96" y1="120.65" x2="53.34" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="R45" gate="G$1" pin="2"/>
-<wire x1="140.97" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="2"/>
-<wire x1="140.97" y1="55.88" x2="140.97" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="50.8" x2="148.59" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="63.5" x2="140.97" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="63.5" x2="140.97" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="55.88" x2="140.97" y2="63.5" width="0.1524" layer="91"/>
-<junction x="140.97" y="55.88"/>
-<junction x="140.97" y="63.5"/>
-<pinref part="U11" gate="B" pin="+"/>
-<wire x1="140.97" y1="64.77" x2="144.78" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="2"/>
-<wire x1="140.97" y1="50.8" x2="140.97" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="43.18" x2="148.59" y2="43.18" width="0.1524" layer="91"/>
-<junction x="140.97" y="50.8"/>
-</segment>
-</net>
 <net name="N$57" class="0">
 <segment>
 <wire x1="140.97" y1="71.12" x2="140.97" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="71.12" x2="140.97" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-<pinref part="R46" gate="G$1" pin="2"/>
-<wire x1="140.97" y1="71.12" x2="140.97" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="140.97" y1="78.74" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
-<junction x="140.97" y="71.12"/>
 <pinref part="U11" gate="B" pin="-"/>
 <wire x1="144.78" y1="69.85" x2="140.97" y2="69.85" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="2"/>
+<wire x1="140.97" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C45" gate="G$1" pin="2"/>
+<wire x1="140.97" y1="93.98" x2="140.97" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="88.9" x2="148.59" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C48" gate="G$1" pin="2"/>
+<wire x1="140.97" y1="88.9" x2="140.97" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="81.28" x2="148.59" y2="81.28" width="0.1524" layer="91"/>
+<junction x="140.97" y="88.9"/>
+<wire x1="140.97" y1="71.12" x2="140.97" y2="81.28" width="0.1524" layer="91"/>
+<junction x="140.97" y="71.12"/>
+<junction x="140.97" y="81.28"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="U11" gate="B" pin="+"/>
+<wire x1="140.97" y1="64.77" x2="144.78" y2="64.77" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="63.5" x2="140.97" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="63.5" x2="140.97" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="140.97" y1="57.15" x2="147.32" y2="57.15" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="63.5" x2="140.97" y2="57.15" width="0.1524" layer="91"/>
+<junction x="140.97" y="63.5"/>
 </segment>
 </net>
 </nets>
@@ -16458,22 +16463,6 @@ cutoff at 700 kHz</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,4,40.64,30.48,IC1,V+,+15V,,,"/>
-<approved hash="104,4,40.64,15.24,IC1,V-,-15V,,,"/>
-<approved hash="104,6,106.68,33.02,IC5,V+,+18V,,,"/>
-<approved hash="104,6,106.68,38.1,IC5,V-,-18V,,,"/>
-<approved hash="104,6,106.68,63.5,IC4,V+,+18V,,,"/>
-<approved hash="104,6,106.68,58.42,IC4,V-,-18V,,,"/>
-<approved hash="104,4,121.92,43.18,IC2P,V+,+15V,,,"/>
-<approved hash="104,4,121.92,27.94,IC2P,V-,-15V,,,"/>
-<approved hash="104,5,58.42,30.48,IC3P,V+,+15V,,,"/>
-<approved hash="104,5,58.42,15.24,IC3P,V-,-15V,,,"/>
-<approved hash="111,6,116.84,27.94,N$21,,,,,"/>
-<approved hash="113,5,58.42,69.5748,R_P,,,,,"/>
-<approved hash="113,5,77.47,70.0279,C_I,,,,,"/>
-<approved hash="113,5,69.85,63.7513,C_HF,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
