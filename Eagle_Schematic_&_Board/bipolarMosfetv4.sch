@@ -838,6 +838,12 @@ PN 5019; Silver plated phosphor bronze</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="-24V" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="AGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.0922" y1="-0.508" x2="1.0922" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="AGND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -922,6 +928,19 @@ PN 5019; Silver plated phosphor bronze</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="-24V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="AGND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VR1" symbol="AGND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -13331,7 +13350,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="B3" library="connector-jqi" deviceset="PLUG_TB-3" device="" value="PLUG_TB-3">
 <attribute name="PARTNO" value="691312410003"/>
 </part>
-<part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="C45" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="22pF">
 <attribute name="PARTNO" value="CL05C220JB5NNNC"/>
 </part>
@@ -13562,18 +13580,21 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="C48" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="DNP">
 <attribute name="PARTNO" value="CL10C221JB81PNC"/>
 </part>
+<part name="AGND1" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND2" library="supply1" deviceset="AGND" device=""/>
+<part name="R53" library="jqi_passives" deviceset="R_SMD" device="R0805"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="139.7" y="66.04" size="1.778" layer="100">Output to Both Pins for Coil Connection
+<text x="139.7" y="63.5" size="1.778" layer="100">Output to Both Pins for Coil Connection
 Screw Terminals off-board</text>
-<text x="139.7" y="63.5" size="1.778" layer="100">Ground return made off-board</text>
+<text x="139.7" y="60.96" size="1.778" layer="100">Ground return made off-board</text>
 <text x="124.46" y="101.6" size="1.778" layer="97">20A sensing range.
 40A and 50A also available</text>
 </plain>
 <instances>
-<instance part="GND12" gate="1" x="154.94" y="77.47"/>
+<instance part="GND12" gate="1" x="151.13" y="77.47"/>
 <instance part="GND7" gate="1" x="88.9" y="72.39"/>
 <instance part="P+3" gate="1" x="152.4" y="39.37"/>
 <instance part="P-3" gate="1" x="152.4" y="11.43"/>
@@ -13660,6 +13681,8 @@ Screw Terminals off-board</text>
 <instance part="FID6" gate="G$1" x="240.03" y="160.02"/>
 <instance part="FID7" gate="G$1" x="224.79" y="154.94"/>
 <instance part="FID8" gate="G$1" x="240.03" y="154.94"/>
+<instance part="AGND2" gate="VR1" x="160.02" y="74.93"/>
+<instance part="R53" gate="G$1" x="165.1" y="163.83"/>
 </instances>
 <busses>
 </busses>
@@ -13667,13 +13690,8 @@ Screw Terminals off-board</text>
 <net name="GND" class="1">
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="160.02" y1="80.01" x2="154.94" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="77.47" x2="160.02" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="80.01" x2="167.64" y2="80.01" width="0.1524" layer="91"/>
-<junction x="160.02" y="80.01"/>
-<pinref part="B1" gate="G$1" pin="3"/>
-<wire x1="160.02" y1="77.47" x2="167.64" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="80.01" x2="167.64" y2="80.01" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="80.01" x2="121.92" y2="77.47" width="0.1524" layer="91"/>
@@ -13736,6 +13754,10 @@ Screw Terminals off-board</text>
 <pinref part="SHC1" gate="G$1" pin="GND"/>
 <wire x1="173.99" y1="140.97" x2="173.99" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="173.99" y1="143.51" x2="176.53" y2="143.51" width="0.1524" layer="91"/>
+<pinref part="R53" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="163.83" x2="173.99" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="163.83" x2="173.99" y2="143.51" width="0.1524" layer="91"/>
+<junction x="173.99" y="143.51"/>
 </segment>
 </net>
 <net name="MOSFET-OUTPUT" class="0">
@@ -13745,6 +13767,9 @@ Screw Terminals off-board</text>
 <wire x1="156.21" y1="144.78" x2="156.21" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="144.78" x2="156.21" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="IP+"/>
+<pinref part="R53" gate="G$1" pin="1"/>
+<wire x1="156.21" y1="163.83" x2="160.02" y2="163.83" width="0.1524" layer="91"/>
+<junction x="156.21" y="163.83"/>
 </segment>
 </net>
 <net name="HALL-CURRENT" class="0">
@@ -13926,6 +13951,13 @@ Screw Terminals off-board</text>
 <junction x="39.37" y="142.24"/>
 </segment>
 </net>
+<net name="AGND" class="1">
+<segment>
+<pinref part="B1" gate="G$1" pin="3"/>
+<wire x1="160.02" y1="77.47" x2="167.64" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="AGND2" gate="VR1" pin="AGND"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -14078,7 +14110,6 @@ Screw Terminals off-board</text>
 <instance part="B3" gate="G$1" x="71.12" y="180.34" rot="R180">
 <attribute name="PARTNO" x="71.12" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="GND42" gate="1" x="81.28" y="175.26" rot="MR0"/>
 <instance part="C_P3" gate="G$1" x="38.1" y="140.97">
 <attribute name="PARTNO" x="38.1" y="140.97" size="1.778" layer="96" display="off"/>
 </instance>
@@ -14112,6 +14143,7 @@ Screw Terminals off-board</text>
 <instance part="C_P12" gate="G$1" x="171.45" y="69.85">
 <attribute name="PARTNO" x="171.45" y="69.85" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="AGND1" gate="VR1" x="81.28" y="175.26"/>
 </instances>
 <busses>
 </busses>
@@ -14225,11 +14257,6 @@ Screw Terminals off-board</text>
 <wire x1="57.15" y1="24.13" x2="57.15" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="57.15" y1="25.4" x2="72.39" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="B2" gate="A" pin="2"/>
-</segment>
-<segment>
-<pinref part="B3" gate="G$1" pin="1"/>
-<pinref part="GND42" gate="1" pin="GND"/>
-<wire x1="73.66" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="1">
@@ -14539,6 +14566,13 @@ Screw Terminals off-board</text>
 <pinref part="R36" gate="G$1" pin="1"/>
 <junction x="147.32" y="69.85"/>
 <pinref part="C_P8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="AGND" class="1">
+<segment>
+<pinref part="B3" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="AGND1" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 </nets>
