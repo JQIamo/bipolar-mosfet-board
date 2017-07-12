@@ -13114,7 +13114,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <attribute name="PARTNO" value="MF-CAP-12.5MM-1000uF"/>
 </part>
 <part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9">
-<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
+<attribute name="PARTNO" value="TNPW060349R9BEEA"/>
 </part>
 <part name="R8" library="rcl" deviceset="R-TRIMM" device="3214W" value="1k">
 <attribute name="PARTNO" value="3214W-1-102E"/>
@@ -13129,7 +13129,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <attribute name="PARTNO" value="AD8421ARZ"/>
 </part>
 <part name="R23" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9">
-<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
+<attribute name="PARTNO" value="TNPW060349R9BEEA"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+15V" device=""/>
@@ -13212,7 +13212,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <attribute name="PARTNO" value="031-6576"/>
 </part>
 <part name="R35" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9">
-<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
+<attribute name="PARTNO" value="TNPW060349R9BEEA"/>
 </part>
 <part name="IC11" library="regulator-jqi" deviceset="LT3015" device="">
 <attribute name="PARTNO" value="LT3015EQ#PBF"/>
@@ -13466,28 +13466,28 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <attribute name="PARTNO" value="CL32B106KBJNNNE"/>
 </part>
 <part name="R31" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNPW06031K00BEEA"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R33" library="jqi_passives" deviceset="R_SMD" device="R0603" value="47.5k">
-<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
+<attribute name="PARTNO" value="TNPW060347K5BEEA"/>
 </part>
 <part name="R19" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNPW06031K00BEEA"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R20" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNPW06031K00BEEA"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R32" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
-<attribute name="PARTNO" value="TNPW06031K00BEEA"/>
+<attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R21" library="jqi_passives" deviceset="R_SMD" device="R0603" value="47.5k">
-<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
+<attribute name="PARTNO" value="TNPW060347K5BEEA"/>
 </part>
 <part name="R22" library="jqi_passives" deviceset="R_SMD" device="R0603" value="47.5k">
-<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
+<attribute name="PARTNO" value="TNPW060347K5BEEA"/>
 </part>
 <part name="R34" library="jqi_passives" deviceset="R_SMD" device="R0603" value="47.5k">
-<attribute name="PARTNO" value="TNPW06034K75BEEA"/>
+<attribute name="PARTNO" value="TNPW060347K5BEEA"/>
 </part>
 <part name="R18" library="jqi_passives" deviceset="R_SMD" device="R0603" value="150">
 <attribute name="PARTNO" value="ERJ-3EKF1500V"/>
@@ -13520,28 +13520,28 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
 <part name="R11" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9">
-<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
+<attribute name="PARTNO" value="TNPW060349R9BEEA"/>
 </part>
 <part name="R12" library="jqi_passives" deviceset="R_SMD" device="R0603" value="49.9">
-<attribute name="PARTNO" value="ERJ-3EKF49R9V"/>
+<attribute name="PARTNO" value="TNPW060349R9BEEA"/>
 </part>
 <part name="RO" library="jqi_passives" deviceset="R_SMD" device="R0603" value="121k">
 <attribute name="PARTNO" value="TNPW0603121KBEEA"/>
 </part>
 <part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2.21k">
-<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
+<attribute name="PARTNO" value="TNPW06032K21BEEA"/>
 </part>
 <part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2.21k">
-<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
+<attribute name="PARTNO" value="TNPW06032K21BEEA"/>
 </part>
 <part name="R6" library="jqi_passives" deviceset="R_SMD" device="R0603" value="1k">
 <attribute name="PARTNO" value="TNPW06031K00BEEA"/>
 </part>
 <part name="R7" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2.21k">
-<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
+<attribute name="PARTNO" value="TNPW06032K21BEEA"/>
 </part>
 <part name="R10" library="jqi_passives" deviceset="R_SMD" device="R0603" value="2.21k">
-<attribute name="PARTNO" value="ERJ-3EKF2211V"/>
+<attribute name="PARTNO" value="TNPW06032K21BEEA"/>
 </part>
 <part name="C_P11" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10uF">
 <attribute name="PARTNO" value="CL32B106KBJNNNE"/>
@@ -13582,7 +13582,15 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 </part>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
-<part name="R53" library="jqi_passives" deviceset="R_SMD" device="R0805" value="0R"/>
+<part name="R53" library="jqi_passives" deviceset="R_SMD" device="R0805" value="0R">
+<attribute name="PARTNO" value="MF-RES-0805-0"/>
+</part>
+<part name="C49" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="33nF">
+<attribute name="PARTNO" value="CL10B333JB8NNNC"/>
+</part>
+<part name="C50" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="33nF">
+<attribute name="PARTNO" value="CL10B333JB8NNNC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13599,7 +13607,7 @@ Screw Terminals off-board</text>
 <instance part="P+3" gate="1" x="152.4" y="39.37"/>
 <instance part="P-3" gate="1" x="152.4" y="11.43"/>
 <instance part="GND9" gate="1" x="162.56" y="11.43"/>
-<instance part="GND22" gate="1" x="57.15" y="74.93"/>
+<instance part="GND22" gate="1" x="57.15" y="67.31"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="B1" gate="G$1" x="184.15" y="77.47">
@@ -13613,7 +13621,7 @@ Screw Terminals off-board</text>
 <instance part="U4" gate="SUPPLY" x="152.4" y="26.67"/>
 <instance part="SUPPLY10" gate="+5V" x="102.87" y="161.29"/>
 <instance part="GND32" gate="1" x="102.87" y="120.65"/>
-<instance part="GND33" gate="1" x="55.88" y="125.73"/>
+<instance part="GND33" gate="1" x="55.88" y="118.11"/>
 <instance part="U3" gate="G$1" x="135.89" y="139.7" rot="MR0">
 <attribute name="PARTNO" x="135.89" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -13682,7 +13690,15 @@ Screw Terminals off-board</text>
 <instance part="FID7" gate="G$1" x="224.79" y="154.94"/>
 <instance part="FID8" gate="G$1" x="240.03" y="154.94"/>
 <instance part="AGND2" gate="VR1" x="173.99" y="72.39"/>
-<instance part="R53" gate="G$1" x="179.07" y="161.29"/>
+<instance part="R53" gate="G$1" x="179.07" y="161.29">
+<attribute name="PARTNO" x="179.07" y="161.29" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C49" gate="G$1" x="63.5" y="121.92" rot="R90">
+<attribute name="PARTNO" x="63.5" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C50" gate="G$1" x="64.77" y="71.12" rot="R90">
+<attribute name="PARTNO" x="64.77" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13712,9 +13728,13 @@ Screw Terminals off-board</text>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="57.15" y1="77.47" x2="57.15" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="69.85" x2="57.15" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="57.15" y1="71.12" x2="57.15" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="57.15" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
+<wire x1="62.23" y1="71.12" x2="57.15" y2="71.12" width="0.1524" layer="91"/>
+<junction x="57.15" y="71.12"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -13745,9 +13765,13 @@ Screw Terminals off-board</text>
 </segment>
 <segment>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="55.88" y1="128.27" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="120.65" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="121.92" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="129.54" x2="59.69" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="C49" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
+<junction x="55.88" y="121.92"/>
 </segment>
 <segment>
 <pinref part="GND43" gate="1" pin="GND"/>
@@ -13845,6 +13869,10 @@ Screw Terminals off-board</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="74.93" y1="87.63" x2="77.47" y2="87.63" width="0.1524" layer="91"/>
 <junction x="74.93" y="87.63"/>
+<pinref part="C50" gate="G$1" pin="2"/>
+<wire x1="69.85" y1="71.12" x2="74.93" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="71.12" x2="74.93" y2="78.74" width="0.1524" layer="91"/>
+<junction x="74.93" y="78.74"/>
 </segment>
 </net>
 <net name="VOUT_M" class="0">
@@ -13921,6 +13949,10 @@ Screw Terminals off-board</text>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
 <junction x="73.66" y="137.16"/>
+<pinref part="C49" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="121.92" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
+<junction x="73.66" y="129.54"/>
 </segment>
 </net>
 <net name="N$45" class="0">
