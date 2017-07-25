@@ -177,6 +177,11 @@ Inputs</text>
 <text x="99.822" y="5.588" size="1.524" layer="22" align="center">On/Off</text>
 <text x="7.874" y="75.438" size="1.524" layer="21">-24V</text>
 <text x="7.874" y="88.9" size="1.524" layer="21">+24V</text>
+<hole x="31.75" y="8.382" drill="3.048"/>
+<hole x="31.75" y="32.385" drill="3.048"/>
+<hole x="31.75" y="38.354" drill="3.048"/>
+<hole x="31.75" y="61.341" drill="3.048"/>
+<hole x="7.747" y="61.341" drill="3.048"/>
 </plain>
 <libraries>
 <library name="ZSS">
@@ -2918,15 +2923,15 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="5019" x="54.102" y="60.579" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="55.88" y="62.611" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="TP6" library="ZSS" package="KEYSTONE5019" value="5019" x="11.303" y="54.61" smashed="yes" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="+8V" x="8.763" y="56.642" size="1.016" layer="37" rot="R270"/>
-<attribute name="PARTNO" value="5019" x="11.303" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.081" y="56.642" size="1.27" layer="25" rot="R270"/>
+<element name="TP6" library="ZSS" package="KEYSTONE5019" value="5019" x="-10.541" y="54.864" smashed="yes" rot="R270">
+<attribute name="TP_SIGNAL_NAME" value="+8V" x="-13.081" y="56.896" size="1.016" layer="37" rot="R270"/>
+<attribute name="PARTNO" value="5019" x="-10.541" y="54.864" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-8.763" y="56.896" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="TP7" library="ZSS" package="KEYSTONE5019" value="5019" x="11.303" y="13.208" smashed="yes" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="-8V" x="13.843" y="10.668" size="1.016" layer="37" rot="R90"/>
-<attribute name="PARTNO" value="5019" x="11.303" y="13.208" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="9.525" y="10.668" size="1.27" layer="25" rot="R90"/>
+<element name="TP7" library="ZSS" package="KEYSTONE5019" value="5019" x="-10.541" y="12.7" smashed="yes" rot="R90">
+<attribute name="TP_SIGNAL_NAME" value="-8V" x="-8.001" y="10.16" size="1.016" layer="37" rot="R90"/>
+<attribute name="PARTNO" value="5019" x="-10.541" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-12.319" y="10.16" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="TP8" library="ZSS" package="KEYSTONE5019" value="5019" x="115.062" y="48.768" smashed="yes" rot="R90">
 <attribute name="TP_SIGNAL_NAME" value="PI_OUT" x="113.284" y="45.212" size="1.016" layer="37"/>
@@ -2999,23 +3004,23 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="82.677" y="36.957" size="0.762" layer="25" rot="R180"/>
 <attribute name="PARTNO" value="BC847BPDW1T3G" x="83.82" y="35.052" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q5" library="ZSS" package="D2PAK/TO263" value="IXTA76P10T" x="32.385" y="21.59" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="IXTA76P10T" x="32.385" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="41.91" y="27.813" size="1.27" layer="25"/>
+<element name="Q5" library="ZSS" package="D2PAK/TO263" value="IXTA76P10T" x="21.209" y="21.59" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="IXTA76P10T" x="21.209" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="30.734" y="27.813" size="1.27" layer="25"/>
 </element>
-<element name="Q6" library="ZSS" package="D2PAK/TO263" value="IXTA75N10P" x="32.385" y="48.26" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="IXTA75N10P" x="32.385" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.132" y="54.229" size="1.27" layer="25"/>
+<element name="Q6" library="ZSS" package="D2PAK/TO263" value="IXTA75N10P" x="21.209" y="48.26" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="IXTA75N10P" x="21.209" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="28.956" y="54.229" size="1.27" layer="25"/>
 </element>
-<element name="HS1" library="Aavid" package="FIGD" value="7109D/TRG" x="39.37" y="48.26" smashed="yes" rot="R90">
-<attribute name="PACKAGING" value="13&quot; Reel" x="39.37" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="7109D/TRG" x="39.37" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.78" y="52.578" size="1.27" layer="25" font="vector" rot="R90"/>
+<element name="HS1" library="Aavid" package="FIGD" value="7109D/TRG" x="28.194" y="48.26" smashed="yes" rot="R90">
+<attribute name="PACKAGING" value="13&quot; Reel" x="28.194" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="7109D/TRG" x="28.194" y="48.26" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="6.604" y="52.578" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="HS2" library="Aavid" package="FIGD" value="7109D/TRG" x="39.37" y="21.59" smashed="yes" rot="R90">
-<attribute name="PACKAGING" value="13&quot; Reel" x="39.37" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PARTNO" value="7109D/TRG" x="39.37" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="18.288" y="12.954" size="1.27" layer="25" font="vector" rot="R90"/>
+<element name="HS2" library="Aavid" package="FIGD" value="7109D/TRG" x="28.194" y="21.59" smashed="yes" rot="R90">
+<attribute name="PACKAGING" value="13&quot; Reel" x="28.194" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="7109D/TRG" x="28.194" y="21.59" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="7.112" y="12.954" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C_P2" library="MF_Passives" package="CP10MM" value="220uF" x="19.812" y="74.676" smashed="yes" rot="R180">
 <attribute name="HOUSEPART" value="" x="19.812" y="74.676" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3045,25 +3050,25 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="CL05C220JB5NNNC" x="112.014" y="17.272" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="112.43" y="18.658" size="0.762" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="C10" library="MF_Passives" package="CP12.5MM" value="1000uF" x="11.43" y="42.418" smashed="yes" rot="R180">
-<attribute name="HOUSEPART" value="" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULATE" value="1" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="MF-CAP-12.5MM-1000uF" x="11.43" y="42.418" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.208" y="35.668" size="1.016" layer="25" font="vector" ratio="16" rot="R90"/>
+<element name="C10" library="MF_Passives" package="CP12.5MM" value="1000uF" x="-10.414" y="41.402" smashed="yes" rot="R180">
+<attribute name="HOUSEPART" value="" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATE" value="1" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="MF-CAP-12.5MM-1000uF" x="-10.414" y="41.402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-17.636" y="34.652" size="1.016" layer="25" font="vector" ratio="16" rot="R90"/>
 </element>
-<element name="C11" library="MF_Passives" package="CP12.5MM" value="1000uF" x="11.43" y="26.162" smashed="yes" rot="R180">
-<attribute name="HOUSEPART" value="" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="URL" value="" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULATE" value="1" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PARTNO" value="MF-CAP-12.5MM-1000uF" x="11.43" y="26.162" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.208" y="19.412" size="1.016" layer="25" font="vector" ratio="16" rot="R90"/>
+<element name="C11" library="MF_Passives" package="CP12.5MM" value="1000uF" x="-10.414" y="25.4" smashed="yes" rot="R180">
+<attribute name="HOUSEPART" value="" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="URL" value="" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POPULATE" value="1" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="MF-CAP-12.5MM-1000uF" x="-10.414" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-17.636" y="18.65" size="1.016" layer="25" font="vector" ratio="16" rot="R90"/>
 </element>
 <element name="R1" library="jqi_passives" package="R_0603" value="49.9" x="90.678" y="51.816" rot="R270">
 <attribute name="PARTNO" value="TNPW060349R9BEEA" x="90.678" y="51.816" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3634,7 +3639,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="FID5" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="7.62" y="97.536" rot="MR0"/>
 <element name="FID6" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="114.808" y="96.012" rot="MR0"/>
 <element name="FID7" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="114.554" y="42.672" rot="MR0"/>
-<element name="FID8" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="54.61" y="10.414" rot="MR0"/>
+<element name="FID8" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="57.404" y="2.794" rot="MR0"/>
 <element name="C48" library="jqi_passives" package="C_MLCC_0603" value="DNP" x="110.998" y="55.753" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.841" y="57.188" size="0.762" layer="25" font="vector"/>
 <attribute name="PARTNO" value="CL10C221JB81PNC" x="110.998" y="55.753" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3770,26 +3775,26 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="0" y="101.6"/>
 </polygon>
 <contactref element="R46" pad="P$1"/>
-<via x="9.652" y="34.29" extent="1-16" drill="0.381"/>
-<via x="13.208" y="34.29" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="33.274" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="33.274" extent="1-16" drill="0.381"/>
 <polygon width="0.254" layer="1" thermals="no" rank="6">
-<vertex x="9.652" y="40.894"/>
-<vertex x="13.208" y="40.894"/>
-<vertex x="13.208" y="27.686"/>
-<vertex x="9.652" y="27.686"/>
+<vertex x="-12.192" y="39.878"/>
+<vertex x="-8.636" y="39.878"/>
+<vertex x="-8.636" y="26.67"/>
+<vertex x="-12.192" y="26.67"/>
 </polygon>
-<via x="13.208" y="32.258" extent="1-16" drill="0.381"/>
-<via x="13.208" y="30.226" extent="1-16" drill="0.381"/>
-<via x="13.208" y="28.194" extent="1-16" drill="0.381"/>
-<via x="9.652" y="28.194" extent="1-16" drill="0.381"/>
-<via x="9.652" y="30.226" extent="1-16" drill="0.381"/>
-<via x="9.652" y="32.258" extent="1-16" drill="0.381"/>
-<via x="9.652" y="36.322" extent="1-16" drill="0.381"/>
-<via x="9.652" y="38.354" extent="1-16" drill="0.381"/>
-<via x="9.652" y="40.386" extent="1-16" drill="0.381"/>
-<via x="13.208" y="40.386" extent="1-16" drill="0.381"/>
-<via x="13.208" y="38.354" extent="1-16" drill="0.381"/>
-<via x="13.208" y="36.322" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="31.242" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="29.21" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="27.178" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="27.178" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="29.21" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="31.242" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="35.306" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="37.338" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="39.37" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="39.37" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="37.338" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="35.306" extent="1-16" drill="0.381"/>
 <via x="17.526" y="9.398" extent="1-16" drill="0.381"/>
 <via x="40.64" y="39.37" extent="1-16" drill="0.381"/>
 <via x="44.196" y="38.862" extent="1-16" drill="0.381"/>
@@ -3822,7 +3827,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="SHC1" pad="2"/>
 <via x="52.4764" y="28.829" extent="1-16" drill="0.381"/>
 <via x="55.9816" y="24.7904" extent="1-16" drill="0.381"/>
-<via x="68.9356" y="24.7904" extent="1-16" drill="0.381"/>
+<via x="68.1736" y="24.7904" extent="1-16" drill="0.381"/>
 <via x="72.9996" y="28.8544" extent="1-16" drill="0.381"/>
 <via x="73.0758" y="41.3004" extent="1-16" drill="0.381"/>
 <via x="68.9356" y="46.3804" extent="1-16" drill="0.381"/>
@@ -3842,7 +3847,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="33.528" y="7.62" extent="1-16" drill="0.381"/>
 <via x="37.846" y="7.112" extent="1-16" drill="0.381"/>
 <via x="40.64" y="13.97" extent="1-16" drill="0.381"/>
-<via x="17.78" y="34.544" extent="1-16" drill="0.381"/>
+<via x="8.636" y="34.798" extent="1-16" drill="0.381"/>
 <via x="1.524" y="57.912" extent="1-16" drill="0.381"/>
 <via x="17.78" y="58.166" extent="1-16" drill="0.381"/>
 <contactref element="C30" pad="P$2"/>
@@ -4136,6 +4141,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </polygon>
 <via x="66.3194" y="58.4708" extent="1-16" drill="0.381"/>
 <via x="62.4332" y="58.3692" extent="1-16" drill="0.381"/>
+<via x="17.526" y="34.798" extent="1-16" drill="0.381"/>
+<via x="26.924" y="34.798" extent="1-16" drill="0.381"/>
+<wire x1="8.636" y1="34.798" x2="-8.636" y2="35.306" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15" class="1">
 <contactref element="C_P10" pad="-"/>
@@ -4228,6 +4236,22 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="63.5" y="72.898" extent="1-16" drill="0.381"/>
 <via x="63.5" y="70.866" extent="1-16" drill="0.381"/>
 <via x="63.754" y="68.58" extent="1-16" drill="0.381"/>
+<polygon width="0.254" layer="15" isolate="0.3048" thermals="no" rank="4">
+<vertex x="42.164" y="77.978"/>
+<vertex x="64.516" y="77.978"/>
+<vertex x="64.516" y="67.31"/>
+<vertex x="54.102" y="67.31"/>
+<vertex x="53.594" y="67.818"/>
+<vertex x="42.164" y="67.818"/>
+</polygon>
+<polygon width="0.254" layer="2" isolate="0.3048" thermals="no" rank="4">
+<vertex x="42.164" y="77.978"/>
+<vertex x="64.516" y="77.978"/>
+<vertex x="64.516" y="67.31"/>
+<vertex x="54.102" y="67.31"/>
+<vertex x="53.594" y="67.818"/>
+<vertex x="42.164" y="67.818"/>
+</polygon>
 </signal>
 <signal name="N$17" class="1">
 <contactref element="C_P9" pad="+"/>
@@ -4382,9 +4406,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="98.806" y1="45.974" x2="104.902" y2="39.878" width="1.016" layer="16"/>
 <wire x1="104.902" y1="39.878" x2="104.902" y2="28.956" width="1.016" layer="16"/>
 <wire x1="65.786" y1="43.942" x2="69.596" y2="43.942" width="1.27" layer="16"/>
-<wire x1="69.596" y1="43.942" x2="69.596" y2="27.94" width="1.27" layer="16"/>
-<wire x1="69.596" y1="27.94" x2="66.294" y2="24.638" width="1.27" layer="16"/>
-<wire x1="66.294" y1="24.638" x2="66.294" y2="7.112" width="1.27" layer="16"/>
+<wire x1="69.596" y1="43.942" x2="69.596" y2="15.748" width="1.27" layer="16"/>
+<wire x1="69.596" y1="15.748" x2="66.294" y2="12.446" width="1.27" layer="16"/>
+<wire x1="66.294" y1="12.446" x2="66.294" y2="7.112" width="1.27" layer="16"/>
 <wire x1="66.294" y1="7.112" x2="71.882" y2="1.524" width="1.27" layer="16"/>
 <wire x1="71.882" y1="1.524" x2="80.264" y2="1.524" width="1.27" layer="16"/>
 <contactref element="R37" pad="P$2"/>
@@ -4401,6 +4425,18 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="54.483" y1="43.8524" x2="54.483" y2="42.418" width="0.6096" layer="16"/>
 <via x="54.483" y="42.418" extent="1-16" drill="0.381"/>
 <wire x1="54.483" y1="42.418" x2="54.483" y2="40.908" width="0.6096" layer="1"/>
+<polygon width="0.254" layer="15" isolate="0.3048" rank="4">
+<vertex x="73.66" y="95.504"/>
+<vertex x="83.82" y="95.504"/>
+<vertex x="83.82" y="84.836"/>
+<vertex x="73.66" y="84.836"/>
+</polygon>
+<polygon width="0.254" layer="2" isolate="0.3048" rank="4">
+<vertex x="73.66" y="95.504"/>
+<vertex x="83.82" y="95.504"/>
+<vertex x="83.82" y="84.836"/>
+<vertex x="73.66" y="84.836"/>
+</polygon>
 </signal>
 <signal name="TO-COIL">
 <contactref element="B1" pad="1"/>
@@ -4422,11 +4458,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="68.326" y="35.56"/>
 <vertex x="68.326" y="28.956"/>
 <vertex x="64.77" y="25.4"/>
-<vertex x="64.77" y="16.51"/>
-<vertex x="55.372" y="16.51"/>
-<vertex x="51.054" y="12.192"/>
-<vertex x="51.054" y="9.906"/>
-<vertex x="46.99" y="5.842"/>
+<vertex x="64.77" y="16.002"/>
+<vertex x="54.61" y="16.002"/>
+<vertex x="54.61" y="8.128"/>
+<vertex x="51.054" y="8.128"/>
+<vertex x="46.99" y="4.064"/>
 </polygon>
 <via x="66.7512" y="32.385" extent="1-16" drill="0.381"/>
 <via x="65.278" y="32.258" extent="1-16" drill="0.381"/>
@@ -4462,11 +4498,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="68.326" y="35.56"/>
 <vertex x="68.326" y="28.956"/>
 <vertex x="64.77" y="25.4"/>
-<vertex x="64.77" y="16.51"/>
-<vertex x="55.372" y="16.51"/>
-<vertex x="51.054" y="12.192"/>
-<vertex x="51.054" y="9.906"/>
-<vertex x="46.99" y="5.842"/>
+<vertex x="64.77" y="16.002"/>
+<vertex x="54.61" y="16.002"/>
+<vertex x="54.61" y="8.128"/>
+<vertex x="51.054" y="8.128"/>
+<vertex x="46.99" y="4.064"/>
 </polygon>
 <polygon width="0.254" layer="15" isolate="0.3048" thermals="no" rank="3">
 <vertex x="46.99" y="0"/>
@@ -4487,11 +4523,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="68.326" y="35.56"/>
 <vertex x="68.326" y="28.956"/>
 <vertex x="64.77" y="25.4"/>
-<vertex x="64.77" y="16.51"/>
-<vertex x="55.372" y="16.51"/>
-<vertex x="51.054" y="12.192"/>
-<vertex x="51.054" y="9.906"/>
-<vertex x="46.99" y="5.842"/>
+<vertex x="64.77" y="16.002"/>
+<vertex x="54.61" y="16.002"/>
+<vertex x="54.61" y="8.128"/>
+<vertex x="51.054" y="8.128"/>
+<vertex x="46.99" y="4.064"/>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048" thermals="no" rank="3">
 <vertex x="46.99" y="0"/>
@@ -4512,11 +4548,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="68.326" y="35.56"/>
 <vertex x="68.326" y="28.956"/>
 <vertex x="64.77" y="25.4"/>
-<vertex x="64.77" y="16.51"/>
-<vertex x="55.372" y="16.51"/>
-<vertex x="51.054" y="12.192"/>
-<vertex x="51.054" y="9.906"/>
-<vertex x="46.99" y="5.842"/>
+<vertex x="64.77" y="16.002"/>
+<vertex x="54.61" y="16.002"/>
+<vertex x="54.61" y="8.128"/>
+<vertex x="51.054" y="8.128"/>
+<vertex x="46.99" y="4.064"/>
 </polygon>
 <via x="68.0212" y="31.877" extent="1-16" drill="0.381"/>
 <via x="61.722" y="31.242" extent="1-16" drill="0.381"/>
@@ -4531,12 +4567,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="Q6" pad="3"/>
 <polygon width="0.254" layer="1" isolate="0.3048" thermals="no" rank="3">
 <vertex x="46.228" y="20.32"/>
-<vertex x="40.64" y="20.32"/>
-<vertex x="40.64" y="27.686"/>
-<vertex x="45.212" y="32.258"/>
+<vertex x="29.464" y="20.32"/>
+<vertex x="29.464" y="27.686"/>
+<vertex x="45.212" y="27.686"/>
 <vertex x="45.212" y="46.99"/>
-<vertex x="40.64" y="46.99"/>
-<vertex x="40.64" y="53.34"/>
+<vertex x="29.464" y="46.99"/>
+<vertex x="29.464" y="53.34"/>
 <vertex x="51.562" y="53.34"/>
 <vertex x="51.562" y="37.084"/>
 <vertex x="56.134" y="37.084"/>
@@ -4544,47 +4580,47 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="51.562" y="33.02"/>
 <vertex x="51.562" y="25.654"/>
 </polygon>
-<via x="42.672" y="52.07" extent="1-16" drill="0.381"/>
-<via x="43.942" y="52.07" extent="1-16" drill="0.381"/>
-<via x="45.212" y="52.07" extent="1-16" drill="0.381"/>
-<via x="45.212" y="50.8" extent="1-16" drill="0.381"/>
-<via x="42.672" y="49.53" extent="1-16" drill="0.381"/>
-<via x="43.942" y="49.53" extent="1-16" drill="0.381"/>
-<via x="45.212" y="49.53" extent="1-16" drill="0.381"/>
-<via x="41.402" y="52.07" extent="1-16" drill="0.381"/>
-<via x="42.164" y="53.086" extent="1-16" drill="0.381"/>
-<via x="43.434" y="53.086" extent="1-16" drill="0.381"/>
-<via x="44.704" y="53.086" extent="1-16" drill="0.381"/>
-<via x="41.656" y="25.4" extent="1-16" drill="0.381"/>
-<via x="42.672" y="26.162" extent="1-16" drill="0.381"/>
-<via x="43.434" y="27.178" extent="1-16" drill="0.381"/>
-<via x="41.148" y="22.86" extent="1-16" drill="0.381"/>
-<via x="42.418" y="22.86" extent="1-16" drill="0.381"/>
-<via x="41.656" y="21.59" extent="1-16" drill="0.381"/>
-<via x="43.688" y="22.86" extent="1-16" drill="0.381"/>
-<via x="43.688" y="25.4" extent="1-16" drill="0.381"/>
-<via x="44.958" y="24.13" extent="1-16" drill="0.381"/>
-<via x="44.958" y="25.4" extent="1-16" drill="0.381"/>
+<via x="31.496" y="52.07" extent="1-16" drill="0.381"/>
+<via x="32.766" y="52.07" extent="1-16" drill="0.381"/>
+<via x="34.036" y="52.07" extent="1-16" drill="0.381"/>
+<via x="34.036" y="50.8" extent="1-16" drill="0.381"/>
+<via x="31.496" y="49.53" extent="1-16" drill="0.381"/>
+<via x="32.766" y="49.53" extent="1-16" drill="0.381"/>
+<via x="34.036" y="49.53" extent="1-16" drill="0.381"/>
+<via x="30.226" y="52.07" extent="1-16" drill="0.381"/>
+<via x="30.988" y="53.086" extent="1-16" drill="0.381"/>
+<via x="32.258" y="53.086" extent="1-16" drill="0.381"/>
+<via x="33.528" y="53.086" extent="1-16" drill="0.381"/>
+<via x="30.48" y="25.4" extent="1-16" drill="0.381"/>
+<via x="31.496" y="26.162" extent="1-16" drill="0.381"/>
+<via x="32.258" y="27.178" extent="1-16" drill="0.381"/>
+<via x="29.972" y="22.86" extent="1-16" drill="0.381"/>
+<via x="31.242" y="22.86" extent="1-16" drill="0.381"/>
+<via x="30.48" y="21.59" extent="1-16" drill="0.381"/>
+<via x="32.512" y="22.86" extent="1-16" drill="0.381"/>
+<via x="32.512" y="25.4" extent="1-16" drill="0.381"/>
+<via x="33.782" y="24.13" extent="1-16" drill="0.381"/>
+<via x="33.782" y="25.4" extent="1-16" drill="0.381"/>
 <via x="52.832" y="34.036" extent="1-16" drill="0.381"/>
 <via x="54.102" y="33.528" extent="1-16" drill="0.381"/>
-<via x="44.958" y="22.86" extent="1-16" drill="0.381"/>
+<via x="33.782" y="22.86" extent="1-16" drill="0.381"/>
 <via x="55.372" y="34.544" extent="1-16" drill="0.381"/>
 <via x="55.372" y="33.528" extent="1-16" drill="0.381"/>
-<via x="41.402" y="49.53" extent="1-16" drill="0.381"/>
-<via x="41.91" y="48.26" extent="1-16" drill="0.381"/>
-<via x="43.18" y="48.26" extent="1-16" drill="0.381"/>
-<via x="44.45" y="48.26" extent="1-16" drill="0.381"/>
-<via x="42.926" y="21.59" extent="1-16" drill="0.381"/>
-<via x="44.196" y="21.59" extent="1-16" drill="0.381"/>
-<via x="44.704" y="26.67" extent="1-16" drill="0.381"/>
-<via x="45.466" y="21.59" extent="1-16" drill="0.381"/>
+<via x="30.226" y="49.53" extent="1-16" drill="0.381"/>
+<via x="30.734" y="48.26" extent="1-16" drill="0.381"/>
+<via x="32.004" y="48.26" extent="1-16" drill="0.381"/>
+<via x="33.274" y="48.26" extent="1-16" drill="0.381"/>
+<via x="31.75" y="21.59" extent="1-16" drill="0.381"/>
+<via x="33.02" y="21.59" extent="1-16" drill="0.381"/>
+<via x="33.528" y="26.67" extent="1-16" drill="0.381"/>
+<via x="34.29" y="21.59" extent="1-16" drill="0.381"/>
 <via x="50.292" y="36.83" extent="1-16" drill="0.381"/>
 <via x="50.292" y="35.052" extent="1-16" drill="0.381"/>
 <via x="50.292" y="33.274" extent="1-16" drill="0.381"/>
 <via x="46.228" y="33.274" extent="1-16" drill="0.381"/>
 <via x="46.482" y="35.306" extent="1-16" drill="0.381"/>
 <via x="46.228" y="36.83" extent="1-16" drill="0.381"/>
-<via x="41.402" y="27.178" extent="1-16" drill="0.381"/>
+<via x="30.226" y="27.178" extent="1-16" drill="0.381"/>
 <via x="53.086" y="36.576" extent="1-16" drill="0.381"/>
 <via x="53.086" y="35.306" extent="1-16" drill="0.381"/>
 <via x="54.102" y="34.544" extent="1-16" drill="0.381"/>
@@ -4594,12 +4630,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="48.26" y="42.418" extent="1-16" drill="0.381"/>
 <polygon width="0.254" layer="2" isolate="0.3048" thermals="no" rank="3">
 <vertex x="46.228" y="20.32"/>
-<vertex x="40.64" y="20.32"/>
-<vertex x="40.64" y="27.686"/>
-<vertex x="45.212" y="32.258"/>
+<vertex x="29.464" y="20.32"/>
+<vertex x="29.464" y="27.686"/>
+<vertex x="45.212" y="27.686"/>
 <vertex x="45.212" y="46.99"/>
-<vertex x="40.64" y="46.99"/>
-<vertex x="40.64" y="53.34"/>
+<vertex x="29.464" y="46.99"/>
+<vertex x="29.464" y="53.34"/>
 <vertex x="51.562" y="53.34"/>
 <vertex x="51.562" y="37.084"/>
 <vertex x="54.102" y="37.084"/>
@@ -4611,12 +4647,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </polygon>
 <polygon width="0.254" layer="15" isolate="0.3048" thermals="no" rank="3">
 <vertex x="46.228" y="20.32"/>
-<vertex x="40.64" y="20.32"/>
-<vertex x="40.64" y="27.686"/>
-<vertex x="45.212" y="32.258"/>
+<vertex x="29.464" y="20.32"/>
+<vertex x="29.464" y="27.686"/>
+<vertex x="45.212" y="27.686"/>
 <vertex x="45.212" y="46.99"/>
-<vertex x="40.64" y="46.99"/>
-<vertex x="40.64" y="53.34"/>
+<vertex x="29.464" y="46.99"/>
+<vertex x="29.464" y="53.34"/>
 <vertex x="51.562" y="53.34"/>
 <vertex x="51.562" y="37.084"/>
 <vertex x="54.102" y="37.084"/>
@@ -4628,12 +4664,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048" thermals="no" rank="3">
 <vertex x="46.228" y="20.32"/>
-<vertex x="40.64" y="20.32"/>
-<vertex x="40.64" y="27.686"/>
-<vertex x="45.212" y="32.258"/>
+<vertex x="29.464" y="20.32"/>
+<vertex x="29.464" y="27.686"/>
+<vertex x="45.212" y="27.686"/>
 <vertex x="45.212" y="46.99"/>
-<vertex x="40.64" y="46.99"/>
-<vertex x="40.64" y="53.34"/>
+<vertex x="29.464" y="46.99"/>
+<vertex x="29.464" y="53.34"/>
 <vertex x="51.562" y="53.34"/>
 <vertex x="51.562" y="37.084"/>
 <vertex x="54.102" y="37.084"/>
@@ -4677,136 +4713,134 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="0" y="0"/>
 <vertex x="7.366" y="0"/>
 <vertex x="7.366" y="39.878"/>
-<vertex x="9.906" y="42.418"/>
-<vertex x="16.51" y="42.418"/>
-<vertex x="19.05" y="39.878"/>
-<vertex x="36.83" y="39.878"/>
-<vertex x="36.83" y="56.642"/>
+<vertex x="25.654" y="39.878"/>
+<vertex x="25.654" y="56.642"/>
 <vertex x="0" y="56.642"/>
 </polygon>
 <polygon width="0.254" layer="2" isolate="0.254" thermals="no" rank="3">
 <vertex x="0" y="0"/>
 <vertex x="7.366" y="0"/>
 <vertex x="7.366" y="39.878"/>
-<vertex x="9.906" y="42.418"/>
-<vertex x="16.51" y="42.418"/>
-<vertex x="19.05" y="39.878"/>
-<vertex x="36.83" y="39.878"/>
-<vertex x="36.83" y="56.642"/>
+<vertex x="25.654" y="39.878"/>
+<vertex x="25.654" y="56.642"/>
 <vertex x="0" y="56.642"/>
 </polygon>
 <polygon width="0.254" layer="15" isolate="0.254" thermals="no" rank="3">
 <vertex x="0" y="0"/>
 <vertex x="7.366" y="0"/>
 <vertex x="7.366" y="39.878"/>
-<vertex x="9.906" y="42.418"/>
-<vertex x="16.51" y="42.418"/>
-<vertex x="19.05" y="39.878"/>
-<vertex x="36.83" y="39.878"/>
-<vertex x="36.83" y="56.642"/>
+<vertex x="25.654" y="39.878"/>
+<vertex x="25.654" y="56.642"/>
 <vertex x="0" y="56.642"/>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.254" thermals="no" rank="3">
 <vertex x="0" y="0"/>
 <vertex x="7.366" y="0"/>
 <vertex x="7.366" y="39.878"/>
-<vertex x="9.906" y="42.418"/>
-<vertex x="16.51" y="42.418"/>
-<vertex x="19.05" y="39.878"/>
-<vertex x="36.83" y="39.878"/>
-<vertex x="36.83" y="56.642"/>
+<vertex x="25.654" y="39.878"/>
+<vertex x="25.654" y="56.642"/>
 <vertex x="0" y="56.642"/>
 </polygon>
-<via x="9.652" y="44.704" extent="1-16" drill="0.381"/>
-<via x="13.208" y="44.704" extent="1-16" drill="0.381"/>
-<via x="13.208" y="49.53" extent="1-16" drill="0.381"/>
-<via x="9.652" y="49.53" extent="1-16" drill="0.381"/>
-<via x="11.43" y="51.054" extent="1-16" drill="0.381"/>
-<via x="11.43" y="43.434" extent="1-16" drill="0.381"/>
-<via x="13.208" y="47.244" extent="1-16" drill="0.381"/>
-<via x="9.652" y="46.99" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="43.688" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="43.688" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="48.514" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="48.514" extent="1-16" drill="0.381"/>
+<via x="-10.414" y="50.038" extent="1-16" drill="0.381"/>
+<via x="-10.414" y="42.418" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="46.228" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="45.974" extent="1-16" drill="0.381"/>
 <contactref element="HS1" pad="1"/>
-<via x="20.066" y="55.626" extent="1-16" drill="0.381"/>
-<via x="22.098" y="55.626" extent="1-16" drill="0.381"/>
-<via x="24.13" y="55.626" extent="1-16" drill="0.381"/>
-<via x="26.162" y="55.626" extent="1-16" drill="0.381"/>
-<via x="28.194" y="55.626" extent="1-16" drill="0.381"/>
-<via x="30.226" y="55.626" extent="1-16" drill="0.381"/>
-<via x="32.258" y="55.626" extent="1-16" drill="0.381"/>
-<via x="34.29" y="55.626" extent="1-16" drill="0.381"/>
-<via x="36.322" y="55.626" extent="1-16" drill="0.381"/>
-<via x="21.082" y="53.848" extent="1-16" drill="0.381"/>
-<via x="23.114" y="53.848" extent="1-16" drill="0.381"/>
-<via x="25.146" y="53.848" extent="1-16" drill="0.381"/>
-<via x="27.178" y="53.848" extent="1-16" drill="0.381"/>
-<via x="29.21" y="53.848" extent="1-16" drill="0.381"/>
-<via x="31.242" y="53.848" extent="1-16" drill="0.381"/>
-<via x="33.274" y="53.848" extent="1-16" drill="0.381"/>
-<via x="35.306" y="53.848" extent="1-16" drill="0.381"/>
-<via x="20.066" y="52.07" extent="1-16" drill="0.381"/>
-<via x="22.098" y="52.07" extent="1-16" drill="0.381"/>
-<via x="24.13" y="52.07" extent="1-16" drill="0.381"/>
-<via x="26.162" y="52.07" extent="1-16" drill="0.381"/>
-<via x="28.194" y="52.07" extent="1-16" drill="0.381"/>
-<via x="30.226" y="52.07" extent="1-16" drill="0.381"/>
-<via x="32.258" y="52.07" extent="1-16" drill="0.381"/>
-<via x="34.29" y="52.07" extent="1-16" drill="0.381"/>
-<via x="36.322" y="52.07" extent="1-16" drill="0.381"/>
-<via x="21.082" y="50.292" extent="1-16" drill="0.381"/>
-<via x="23.114" y="50.292" extent="1-16" drill="0.381"/>
-<via x="25.146" y="50.292" extent="1-16" drill="0.381"/>
-<via x="27.178" y="50.292" extent="1-16" drill="0.381"/>
-<via x="29.21" y="50.292" extent="1-16" drill="0.381"/>
-<via x="31.242" y="50.292" extent="1-16" drill="0.381"/>
-<via x="33.274" y="50.292" extent="1-16" drill="0.381"/>
-<via x="35.306" y="50.292" extent="1-16" drill="0.381"/>
-<via x="20.066" y="48.514" extent="1-16" drill="0.381"/>
-<via x="22.098" y="48.514" extent="1-16" drill="0.381"/>
-<via x="24.13" y="48.514" extent="1-16" drill="0.381"/>
-<via x="26.162" y="48.514" extent="1-16" drill="0.381"/>
-<via x="28.194" y="48.514" extent="1-16" drill="0.381"/>
-<via x="30.226" y="48.514" extent="1-16" drill="0.381"/>
-<via x="32.258" y="48.514" extent="1-16" drill="0.381"/>
-<via x="34.29" y="48.514" extent="1-16" drill="0.381"/>
-<via x="36.322" y="48.514" extent="1-16" drill="0.381"/>
-<via x="21.082" y="46.736" extent="1-16" drill="0.381"/>
-<via x="23.114" y="46.736" extent="1-16" drill="0.381"/>
-<via x="25.146" y="46.736" extent="1-16" drill="0.381"/>
-<via x="27.178" y="46.736" extent="1-16" drill="0.381"/>
-<via x="29.21" y="46.736" extent="1-16" drill="0.381"/>
-<via x="31.242" y="46.736" extent="1-16" drill="0.381"/>
-<via x="33.274" y="46.736" extent="1-16" drill="0.381"/>
-<via x="35.306" y="46.736" extent="1-16" drill="0.381"/>
-<via x="36.322" y="44.958" extent="1-16" drill="0.381"/>
-<via x="34.29" y="44.958" extent="1-16" drill="0.381"/>
-<via x="32.258" y="44.958" extent="1-16" drill="0.381"/>
-<via x="30.226" y="44.958" extent="1-16" drill="0.381"/>
-<via x="28.194" y="44.958" extent="1-16" drill="0.381"/>
-<via x="26.162" y="44.958" extent="1-16" drill="0.381"/>
-<via x="24.13" y="44.958" extent="1-16" drill="0.381"/>
-<via x="22.098" y="44.958" extent="1-16" drill="0.381"/>
-<via x="20.066" y="44.958" extent="1-16" drill="0.381"/>
-<via x="21.082" y="43.18" extent="1-16" drill="0.381"/>
-<via x="23.114" y="43.18" extent="1-16" drill="0.381"/>
-<via x="25.146" y="43.18" extent="1-16" drill="0.381"/>
-<via x="27.178" y="43.18" extent="1-16" drill="0.381"/>
-<via x="29.21" y="43.18" extent="1-16" drill="0.381"/>
-<via x="31.242" y="43.18" extent="1-16" drill="0.381"/>
-<via x="33.274" y="43.18" extent="1-16" drill="0.381"/>
-<via x="35.306" y="43.18" extent="1-16" drill="0.381"/>
-<via x="36.322" y="41.402" extent="1-16" drill="0.381"/>
-<via x="34.29" y="41.402" extent="1-16" drill="0.381"/>
-<via x="32.258" y="41.402" extent="1-16" drill="0.381"/>
-<via x="30.226" y="41.402" extent="1-16" drill="0.381"/>
-<via x="28.194" y="41.402" extent="1-16" drill="0.381"/>
-<via x="26.162" y="41.402" extent="1-16" drill="0.381"/>
-<via x="24.13" y="41.402" extent="1-16" drill="0.381"/>
-<via x="22.098" y="41.402" extent="1-16" drill="0.381"/>
-<via x="20.066" y="41.402" extent="1-16" drill="0.381"/>
-<via x="19.05" y="43.18" extent="1-16" drill="0.381"/>
-<via x="19.05" y="46.736" extent="1-16" drill="0.381"/>
-<via x="19.05" y="50.292" extent="1-16" drill="0.381"/>
-<via x="19.05" y="53.848" extent="1-16" drill="0.381"/>
+<via x="8.89" y="55.626" extent="1-16" drill="0.381"/>
+<via x="10.922" y="55.626" extent="1-16" drill="0.381"/>
+<via x="12.954" y="55.626" extent="1-16" drill="0.381"/>
+<via x="14.986" y="55.626" extent="1-16" drill="0.381"/>
+<via x="17.018" y="55.626" extent="1-16" drill="0.381"/>
+<via x="19.05" y="55.626" extent="1-16" drill="0.381"/>
+<via x="21.082" y="55.626" extent="1-16" drill="0.381"/>
+<via x="23.114" y="55.626" extent="1-16" drill="0.381"/>
+<via x="25.146" y="55.626" extent="1-16" drill="0.381"/>
+<via x="9.906" y="53.848" extent="1-16" drill="0.381"/>
+<via x="11.938" y="53.848" extent="1-16" drill="0.381"/>
+<via x="13.97" y="53.848" extent="1-16" drill="0.381"/>
+<via x="16.002" y="53.848" extent="1-16" drill="0.381"/>
+<via x="18.034" y="53.848" extent="1-16" drill="0.381"/>
+<via x="20.066" y="53.848" extent="1-16" drill="0.381"/>
+<via x="22.098" y="53.848" extent="1-16" drill="0.381"/>
+<via x="24.13" y="53.848" extent="1-16" drill="0.381"/>
+<via x="8.89" y="52.07" extent="1-16" drill="0.381"/>
+<via x="10.922" y="52.07" extent="1-16" drill="0.381"/>
+<via x="12.954" y="52.07" extent="1-16" drill="0.381"/>
+<via x="14.986" y="52.07" extent="1-16" drill="0.381"/>
+<via x="17.018" y="52.07" extent="1-16" drill="0.381"/>
+<via x="19.05" y="52.07" extent="1-16" drill="0.381"/>
+<via x="21.082" y="52.07" extent="1-16" drill="0.381"/>
+<via x="23.114" y="52.07" extent="1-16" drill="0.381"/>
+<via x="25.146" y="52.07" extent="1-16" drill="0.381"/>
+<via x="9.906" y="50.292" extent="1-16" drill="0.381"/>
+<via x="11.938" y="50.292" extent="1-16" drill="0.381"/>
+<via x="13.97" y="50.292" extent="1-16" drill="0.381"/>
+<via x="16.002" y="50.292" extent="1-16" drill="0.381"/>
+<via x="18.034" y="50.292" extent="1-16" drill="0.381"/>
+<via x="20.066" y="50.292" extent="1-16" drill="0.381"/>
+<via x="22.098" y="50.292" extent="1-16" drill="0.381"/>
+<via x="24.13" y="50.292" extent="1-16" drill="0.381"/>
+<via x="8.89" y="48.514" extent="1-16" drill="0.381"/>
+<via x="10.922" y="48.514" extent="1-16" drill="0.381"/>
+<via x="12.954" y="48.514" extent="1-16" drill="0.381"/>
+<via x="14.986" y="48.514" extent="1-16" drill="0.381"/>
+<via x="17.018" y="48.514" extent="1-16" drill="0.381"/>
+<via x="19.05" y="48.514" extent="1-16" drill="0.381"/>
+<via x="21.082" y="48.514" extent="1-16" drill="0.381"/>
+<via x="23.114" y="48.514" extent="1-16" drill="0.381"/>
+<via x="25.146" y="48.514" extent="1-16" drill="0.381"/>
+<via x="9.906" y="46.736" extent="1-16" drill="0.381"/>
+<via x="11.938" y="46.736" extent="1-16" drill="0.381"/>
+<via x="13.97" y="46.736" extent="1-16" drill="0.381"/>
+<via x="16.002" y="46.736" extent="1-16" drill="0.381"/>
+<via x="18.034" y="46.736" extent="1-16" drill="0.381"/>
+<via x="20.066" y="46.736" extent="1-16" drill="0.381"/>
+<via x="22.098" y="46.736" extent="1-16" drill="0.381"/>
+<via x="24.13" y="46.736" extent="1-16" drill="0.381"/>
+<via x="25.146" y="44.958" extent="1-16" drill="0.381"/>
+<via x="23.114" y="44.958" extent="1-16" drill="0.381"/>
+<via x="21.082" y="44.958" extent="1-16" drill="0.381"/>
+<via x="19.05" y="44.958" extent="1-16" drill="0.381"/>
+<via x="17.018" y="44.958" extent="1-16" drill="0.381"/>
+<via x="14.986" y="44.958" extent="1-16" drill="0.381"/>
+<via x="12.954" y="44.958" extent="1-16" drill="0.381"/>
+<via x="10.922" y="44.958" extent="1-16" drill="0.381"/>
+<via x="8.89" y="44.958" extent="1-16" drill="0.381"/>
+<via x="9.906" y="43.18" extent="1-16" drill="0.381"/>
+<via x="11.938" y="43.18" extent="1-16" drill="0.381"/>
+<via x="13.97" y="43.18" extent="1-16" drill="0.381"/>
+<via x="16.002" y="43.18" extent="1-16" drill="0.381"/>
+<via x="18.034" y="43.18" extent="1-16" drill="0.381"/>
+<via x="20.066" y="43.18" extent="1-16" drill="0.381"/>
+<via x="22.098" y="43.18" extent="1-16" drill="0.381"/>
+<via x="24.13" y="43.18" extent="1-16" drill="0.381"/>
+<via x="25.146" y="41.402" extent="1-16" drill="0.381"/>
+<via x="23.114" y="41.402" extent="1-16" drill="0.381"/>
+<via x="21.082" y="41.402" extent="1-16" drill="0.381"/>
+<via x="19.05" y="41.402" extent="1-16" drill="0.381"/>
+<via x="17.018" y="41.402" extent="1-16" drill="0.381"/>
+<via x="14.986" y="41.402" extent="1-16" drill="0.381"/>
+<via x="12.954" y="41.402" extent="1-16" drill="0.381"/>
+<via x="10.922" y="41.402" extent="1-16" drill="0.381"/>
+<via x="8.89" y="41.402" extent="1-16" drill="0.381"/>
+<via x="7.874" y="43.18" extent="1-16" drill="0.381"/>
+<via x="7.874" y="46.736" extent="1-16" drill="0.381"/>
+<via x="7.874" y="50.292" extent="1-16" drill="0.381"/>
+<via x="7.874" y="53.848" extent="1-16" drill="0.381"/>
+<wire x1="-10.414" y1="50.038" x2="-10.541" y2="54.864" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.636" y1="48.514" x2="-10.414" y2="50.038" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.636" y1="46.228" x2="-8.636" y2="48.514" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.414" y1="46.252" x2="-8.636" y2="46.228" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.192" y1="45.974" x2="-10.414" y2="46.252" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.192" y1="43.688" x2="-12.192" y2="45.974" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.414" y1="42.418" x2="-12.192" y2="43.688" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.636" y1="43.688" x2="-10.414" y2="42.418" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.192" y1="48.514" x2="-10.414" y2="50.038" width="0" layer="19" extent="1-1"/>
+<wire x1="7.874" y1="46.736" x2="-8.636" y2="46.228" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-8V">
 <contactref element="TP7" pad="P$1"/>
@@ -4818,135 +4852,137 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="14.986" y="0"/>
 <vertex x="14.986" y="9.144"/>
 <vertex x="19.05" y="13.208"/>
-<vertex x="36.83" y="13.208"/>
-<vertex x="36.83" y="29.972"/>
-<vertex x="18.288" y="29.972"/>
-<vertex x="14.478" y="26.162"/>
-<vertex x="7.874" y="26.162"/>
+<vertex x="25.654" y="13.208"/>
+<vertex x="25.654" y="29.972"/>
+<vertex x="7.874" y="29.972"/>
 </polygon>
 <contactref element="HS2" pad="1"/>
-<via x="11.43" y="25.146" extent="1-16" drill="0.381"/>
-<via x="11.43" y="17.526" extent="1-16" drill="0.381"/>
-<via x="9.652" y="19.05" extent="1-16" drill="0.381"/>
-<via x="13.208" y="19.05" extent="1-16" drill="0.381"/>
-<via x="13.208" y="23.368" extent="1-16" drill="0.381"/>
-<via x="9.652" y="23.368" extent="1-16" drill="0.381"/>
-<via x="9.652" y="21.336" extent="1-16" drill="0.381"/>
-<via x="13.208" y="21.082" extent="1-16" drill="0.381"/>
-<via x="20.066" y="28.702" extent="1-16" drill="0.381"/>
-<via x="22.098" y="28.702" extent="1-16" drill="0.381"/>
-<via x="24.13" y="28.702" extent="1-16" drill="0.381"/>
-<via x="26.162" y="28.702" extent="1-16" drill="0.381"/>
-<via x="28.194" y="28.702" extent="1-16" drill="0.381"/>
-<via x="30.226" y="28.702" extent="1-16" drill="0.381"/>
-<via x="32.258" y="28.702" extent="1-16" drill="0.381"/>
-<via x="34.29" y="28.702" extent="1-16" drill="0.381"/>
-<via x="36.322" y="28.702" extent="1-16" drill="0.381"/>
-<via x="35.306" y="26.924" extent="1-16" drill="0.381"/>
-<via x="33.274" y="26.924" extent="1-16" drill="0.381"/>
-<via x="31.242" y="26.924" extent="1-16" drill="0.381"/>
-<via x="29.21" y="26.924" extent="1-16" drill="0.381"/>
-<via x="27.178" y="26.924" extent="1-16" drill="0.381"/>
-<via x="25.146" y="26.924" extent="1-16" drill="0.381"/>
-<via x="23.114" y="26.924" extent="1-16" drill="0.381"/>
-<via x="21.082" y="26.924" extent="1-16" drill="0.381"/>
-<via x="19.05" y="26.924" extent="1-16" drill="0.381"/>
-<via x="36.322" y="25.146" extent="1-16" drill="0.381"/>
-<via x="34.29" y="25.146" extent="1-16" drill="0.381"/>
-<via x="32.258" y="25.146" extent="1-16" drill="0.381"/>
-<via x="30.226" y="25.146" extent="1-16" drill="0.381"/>
-<via x="28.194" y="25.146" extent="1-16" drill="0.381"/>
-<via x="26.162" y="25.146" extent="1-16" drill="0.381"/>
-<via x="24.13" y="25.146" extent="1-16" drill="0.381"/>
-<via x="22.098" y="25.146" extent="1-16" drill="0.381"/>
-<via x="20.066" y="25.146" extent="1-16" drill="0.381"/>
-<via x="19.05" y="23.368" extent="1-16" drill="0.381"/>
-<via x="21.082" y="23.368" extent="1-16" drill="0.381"/>
-<via x="23.114" y="23.368" extent="1-16" drill="0.381"/>
-<via x="25.146" y="23.368" extent="1-16" drill="0.381"/>
-<via x="27.178" y="23.368" extent="1-16" drill="0.381"/>
-<via x="29.21" y="23.368" extent="1-16" drill="0.381"/>
-<via x="31.242" y="23.368" extent="1-16" drill="0.381"/>
-<via x="33.274" y="23.368" extent="1-16" drill="0.381"/>
-<via x="35.306" y="23.368" extent="1-16" drill="0.381"/>
-<via x="36.322" y="21.59" extent="1-16" drill="0.381"/>
-<via x="34.29" y="21.59" extent="1-16" drill="0.381"/>
-<via x="32.258" y="21.59" extent="1-16" drill="0.381"/>
-<via x="30.226" y="21.59" extent="1-16" drill="0.381"/>
-<via x="28.194" y="21.59" extent="1-16" drill="0.381"/>
-<via x="26.162" y="21.59" extent="1-16" drill="0.381"/>
-<via x="24.13" y="21.59" extent="1-16" drill="0.381"/>
-<via x="22.098" y="21.59" extent="1-16" drill="0.381"/>
-<via x="20.066" y="21.59" extent="1-16" drill="0.381"/>
-<via x="19.05" y="19.812" extent="1-16" drill="0.381"/>
-<via x="21.082" y="19.812" extent="1-16" drill="0.381"/>
-<via x="23.114" y="19.812" extent="1-16" drill="0.381"/>
-<via x="25.146" y="19.812" extent="1-16" drill="0.381"/>
-<via x="27.178" y="19.812" extent="1-16" drill="0.381"/>
-<via x="29.21" y="19.812" extent="1-16" drill="0.381"/>
-<via x="31.242" y="19.812" extent="1-16" drill="0.381"/>
-<via x="33.274" y="19.812" extent="1-16" drill="0.381"/>
-<via x="35.306" y="19.812" extent="1-16" drill="0.381"/>
-<via x="36.322" y="18.034" extent="1-16" drill="0.381"/>
-<via x="34.29" y="18.034" extent="1-16" drill="0.381"/>
-<via x="32.258" y="18.034" extent="1-16" drill="0.381"/>
-<via x="30.226" y="18.034" extent="1-16" drill="0.381"/>
-<via x="28.194" y="18.034" extent="1-16" drill="0.381"/>
-<via x="26.162" y="18.034" extent="1-16" drill="0.381"/>
-<via x="24.13" y="18.034" extent="1-16" drill="0.381"/>
-<via x="22.098" y="18.034" extent="1-16" drill="0.381"/>
-<via x="20.066" y="18.034" extent="1-16" drill="0.381"/>
-<via x="19.05" y="16.256" extent="1-16" drill="0.381"/>
-<via x="21.082" y="16.256" extent="1-16" drill="0.381"/>
-<via x="23.114" y="16.256" extent="1-16" drill="0.381"/>
-<via x="25.146" y="16.256" extent="1-16" drill="0.381"/>
-<via x="27.178" y="16.256" extent="1-16" drill="0.381"/>
-<via x="29.21" y="16.256" extent="1-16" drill="0.381"/>
-<via x="31.242" y="16.256" extent="1-16" drill="0.381"/>
-<via x="33.274" y="16.256" extent="1-16" drill="0.381"/>
-<via x="35.306" y="16.256" extent="1-16" drill="0.381"/>
-<via x="36.322" y="14.478" extent="1-16" drill="0.381"/>
-<via x="34.29" y="14.478" extent="1-16" drill="0.381"/>
-<via x="32.258" y="14.478" extent="1-16" drill="0.381"/>
-<via x="30.226" y="14.478" extent="1-16" drill="0.381"/>
-<via x="28.194" y="14.478" extent="1-16" drill="0.381"/>
-<via x="26.162" y="14.478" extent="1-16" drill="0.381"/>
-<via x="24.13" y="14.478" extent="1-16" drill="0.381"/>
-<via x="22.098" y="14.478" extent="1-16" drill="0.381"/>
-<via x="20.066" y="14.478" extent="1-16" drill="0.381"/>
+<via x="-10.414" y="24.384" extent="1-16" drill="0.381"/>
+<via x="-10.414" y="16.764" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="18.288" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="18.288" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="22.606" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="22.606" extent="1-16" drill="0.381"/>
+<via x="-12.192" y="20.574" extent="1-16" drill="0.381"/>
+<via x="-8.636" y="20.32" extent="1-16" drill="0.381"/>
+<via x="8.89" y="28.702" extent="1-16" drill="0.381"/>
+<via x="10.922" y="28.702" extent="1-16" drill="0.381"/>
+<via x="12.954" y="28.702" extent="1-16" drill="0.381"/>
+<via x="14.986" y="28.702" extent="1-16" drill="0.381"/>
+<via x="17.018" y="28.702" extent="1-16" drill="0.381"/>
+<via x="19.05" y="28.702" extent="1-16" drill="0.381"/>
+<via x="21.082" y="28.702" extent="1-16" drill="0.381"/>
+<via x="23.114" y="28.702" extent="1-16" drill="0.381"/>
+<via x="25.146" y="28.702" extent="1-16" drill="0.381"/>
+<via x="24.13" y="26.924" extent="1-16" drill="0.381"/>
+<via x="22.098" y="26.924" extent="1-16" drill="0.381"/>
+<via x="20.066" y="26.924" extent="1-16" drill="0.381"/>
+<via x="18.034" y="26.924" extent="1-16" drill="0.381"/>
+<via x="16.002" y="26.924" extent="1-16" drill="0.381"/>
+<via x="13.97" y="26.924" extent="1-16" drill="0.381"/>
+<via x="11.938" y="26.924" extent="1-16" drill="0.381"/>
+<via x="9.906" y="26.924" extent="1-16" drill="0.381"/>
+<via x="8.382" y="26.924" extent="1-16" drill="0.381"/>
+<via x="25.146" y="25.146" extent="1-16" drill="0.381"/>
+<via x="23.114" y="25.146" extent="1-16" drill="0.381"/>
+<via x="21.082" y="25.146" extent="1-16" drill="0.381"/>
+<via x="19.05" y="25.146" extent="1-16" drill="0.381"/>
+<via x="17.018" y="25.146" extent="1-16" drill="0.381"/>
+<via x="14.986" y="25.146" extent="1-16" drill="0.381"/>
+<via x="12.954" y="25.146" extent="1-16" drill="0.381"/>
+<via x="10.922" y="25.146" extent="1-16" drill="0.381"/>
+<via x="8.89" y="25.146" extent="1-16" drill="0.381"/>
+<via x="8.382" y="23.368" extent="1-16" drill="0.381"/>
+<via x="9.906" y="23.368" extent="1-16" drill="0.381"/>
+<via x="11.938" y="23.368" extent="1-16" drill="0.381"/>
+<via x="13.97" y="23.368" extent="1-16" drill="0.381"/>
+<via x="16.002" y="23.368" extent="1-16" drill="0.381"/>
+<via x="18.034" y="23.368" extent="1-16" drill="0.381"/>
+<via x="20.066" y="23.368" extent="1-16" drill="0.381"/>
+<via x="22.098" y="23.368" extent="1-16" drill="0.381"/>
+<via x="24.13" y="23.368" extent="1-16" drill="0.381"/>
+<via x="25.146" y="21.59" extent="1-16" drill="0.381"/>
+<via x="23.114" y="21.59" extent="1-16" drill="0.381"/>
+<via x="21.082" y="21.59" extent="1-16" drill="0.381"/>
+<via x="19.05" y="21.59" extent="1-16" drill="0.381"/>
+<via x="17.018" y="21.59" extent="1-16" drill="0.381"/>
+<via x="14.986" y="21.59" extent="1-16" drill="0.381"/>
+<via x="12.954" y="21.59" extent="1-16" drill="0.381"/>
+<via x="10.922" y="21.59" extent="1-16" drill="0.381"/>
+<via x="8.89" y="21.59" extent="1-16" drill="0.381"/>
+<via x="8.382" y="19.812" extent="1-16" drill="0.381"/>
+<via x="9.906" y="19.812" extent="1-16" drill="0.381"/>
+<via x="11.938" y="19.812" extent="1-16" drill="0.381"/>
+<via x="13.97" y="19.812" extent="1-16" drill="0.381"/>
+<via x="16.002" y="19.812" extent="1-16" drill="0.381"/>
+<via x="18.034" y="19.812" extent="1-16" drill="0.381"/>
+<via x="20.066" y="19.812" extent="1-16" drill="0.381"/>
+<via x="22.098" y="19.812" extent="1-16" drill="0.381"/>
+<via x="24.13" y="19.812" extent="1-16" drill="0.381"/>
+<via x="25.146" y="18.034" extent="1-16" drill="0.381"/>
+<via x="23.114" y="18.034" extent="1-16" drill="0.381"/>
+<via x="21.082" y="18.034" extent="1-16" drill="0.381"/>
+<via x="19.05" y="18.034" extent="1-16" drill="0.381"/>
+<via x="17.018" y="18.034" extent="1-16" drill="0.381"/>
+<via x="14.986" y="18.034" extent="1-16" drill="0.381"/>
+<via x="12.954" y="18.034" extent="1-16" drill="0.381"/>
+<via x="10.922" y="18.034" extent="1-16" drill="0.381"/>
+<via x="8.89" y="18.034" extent="1-16" drill="0.381"/>
+<via x="8.382" y="16.256" extent="1-16" drill="0.381"/>
+<via x="9.906" y="16.256" extent="1-16" drill="0.381"/>
+<via x="11.938" y="16.256" extent="1-16" drill="0.381"/>
+<via x="13.97" y="16.256" extent="1-16" drill="0.381"/>
+<via x="16.002" y="16.256" extent="1-16" drill="0.381"/>
+<via x="18.034" y="16.256" extent="1-16" drill="0.381"/>
+<via x="20.066" y="16.256" extent="1-16" drill="0.381"/>
+<via x="22.098" y="16.256" extent="1-16" drill="0.381"/>
+<via x="24.13" y="16.256" extent="1-16" drill="0.381"/>
+<via x="25.146" y="14.478" extent="1-16" drill="0.381"/>
+<via x="23.114" y="14.478" extent="1-16" drill="0.381"/>
+<via x="21.082" y="14.478" extent="1-16" drill="0.381"/>
+<via x="19.05" y="14.478" extent="1-16" drill="0.381"/>
+<via x="17.018" y="14.478" extent="1-16" drill="0.381"/>
+<via x="14.986" y="14.478" extent="1-16" drill="0.381"/>
+<via x="12.954" y="14.478" extent="1-16" drill="0.381"/>
+<via x="10.922" y="14.478" extent="1-16" drill="0.381"/>
+<via x="8.89" y="14.478" extent="1-16" drill="0.381"/>
 <polygon width="0.254" layer="2" thermals="no">
 <vertex x="7.874" y="0"/>
 <vertex x="14.986" y="0"/>
 <vertex x="14.986" y="9.144"/>
 <vertex x="19.05" y="13.208"/>
-<vertex x="36.83" y="13.208"/>
-<vertex x="36.83" y="29.972"/>
-<vertex x="18.288" y="29.972"/>
-<vertex x="14.478" y="26.162"/>
-<vertex x="7.874" y="26.162"/>
+<vertex x="25.654" y="13.208"/>
+<vertex x="25.654" y="29.972"/>
+<vertex x="7.874" y="29.972"/>
 </polygon>
 <polygon width="0.254" layer="15" thermals="no">
 <vertex x="7.874" y="0"/>
 <vertex x="14.986" y="0"/>
 <vertex x="14.986" y="9.144"/>
 <vertex x="19.05" y="13.208"/>
-<vertex x="36.83" y="13.208"/>
-<vertex x="36.83" y="29.972"/>
-<vertex x="18.288" y="29.972"/>
-<vertex x="14.478" y="26.162"/>
-<vertex x="7.874" y="26.162"/>
+<vertex x="25.654" y="13.208"/>
+<vertex x="25.654" y="29.972"/>
+<vertex x="7.874" y="29.972"/>
 </polygon>
 <polygon width="0.254" layer="16" thermals="no">
 <vertex x="7.874" y="0"/>
 <vertex x="14.986" y="0"/>
 <vertex x="14.986" y="9.144"/>
 <vertex x="19.05" y="13.208"/>
-<vertex x="36.83" y="13.208"/>
-<vertex x="36.83" y="29.972"/>
-<vertex x="18.288" y="29.972"/>
-<vertex x="14.478" y="26.162"/>
-<vertex x="7.874" y="26.162"/>
+<vertex x="25.654" y="13.208"/>
+<vertex x="25.654" y="29.972"/>
+<vertex x="7.874" y="29.972"/>
 </polygon>
+<wire x1="-8.636" y1="22.606" x2="-10.414" y2="24.384" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.636" y1="20.32" x2="-8.636" y2="22.606" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.414" y1="20.55" x2="-8.636" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.192" y1="20.574" x2="-10.414" y2="20.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.636" y1="18.288" x2="-8.636" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.192" y1="22.606" x2="-12.192" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.192" y1="18.288" x2="-12.192" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.414" y1="16.764" x2="-8.636" y2="18.288" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.541" y1="12.7" x2="-10.414" y2="16.764" width="0" layer="19" extent="1-1"/>
+<wire x1="8.382" y1="23.368" x2="-8.636" y2="22.606" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+18V" class="1">
 <contactref element="TP3" pad="P$1"/>
@@ -5036,6 +5072,18 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="110.998" y1="38.608" x2="116.84" y2="38.608" width="1.016" layer="15"/>
 <via x="116.84" y="38.608" extent="1-16" drill="0.6096"/>
 <wire x1="116.84" y1="38.608" x2="119.38" y2="38.608" width="1.016" layer="1"/>
+<polygon width="0.254" layer="15" isolate="0.3048" rank="5">
+<vertex x="50.8" y="101.092"/>
+<vertex x="60.96" y="101.092"/>
+<vertex x="60.96" y="90.424"/>
+<vertex x="50.8" y="90.424"/>
+</polygon>
+<polygon width="0.254" layer="2" isolate="0.3048" rank="5">
+<vertex x="50.8" y="101.092"/>
+<vertex x="60.96" y="101.092"/>
+<vertex x="60.96" y="90.424"/>
+<vertex x="50.8" y="90.424"/>
+</polygon>
 </signal>
 <signal name="-18V" class="1">
 <contactref element="TP2" pad="P$1"/>
@@ -5225,7 +5273,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="45.72" y1="44.958" x2="43.18" y2="42.418" width="0.8128" layer="15"/>
 <via x="43.18" y="42.418" extent="1-16" drill="0.381"/>
 <wire x1="43.18" y1="42.418" x2="42.598" y2="43" width="0.8128" layer="1"/>
-<wire x1="42.598" y1="43" x2="42.598" y2="45.72" width="0.8128" layer="1"/>
+<wire x1="31.422" y1="45.72" x2="42.598" y2="43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P-GATE">
 <contactref element="Q5" pad="1"/>
@@ -5237,12 +5285,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="70.612" y1="39.878" x2="70.612" y2="43.688" width="0.8128" layer="15"/>
 <wire x1="70.612" y1="43.688" x2="46.482" y2="43.688" width="0.8128" layer="15"/>
 <wire x1="46.482" y1="43.688" x2="38.862" y2="35.814" width="0.8128" layer="15"/>
-<wire x1="38.862" y1="35.814" x2="38.862" y2="18.288" width="0.8128" layer="15"/>
-<wire x1="38.862" y1="18.288" x2="41.148" y2="16.002" width="0.8128" layer="15"/>
-<wire x1="41.148" y1="16.002" x2="41.91" y2="16.002" width="0.8128" layer="15"/>
-<via x="41.91" y="16.002" extent="1-16" drill="0.381"/>
-<wire x1="41.91" y1="16.002" x2="42.598" y2="16.69" width="0.8128" layer="1"/>
-<wire x1="42.598" y1="16.69" x2="42.598" y2="19.05" width="0.8128" layer="1"/>
+<wire x1="31.422" y1="19.05" x2="38.862" y2="35.814" width="0" layer="19" extent="1-15"/>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="P$1"/>
@@ -5480,6 +5523,18 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="77.724" y1="46.736" x2="77.724" y2="50.292" width="1.27" layer="15"/>
 <wire x1="77.724" y1="50.292" x2="76.2" y2="51.816" width="1.27" layer="15"/>
 <wire x1="76.2" y1="51.816" x2="76.2" y2="52.832" width="1.27" layer="15"/>
+<polygon width="0.254" layer="15" isolate="0.3048" rank="4">
+<vertex x="50.8" y="89.916"/>
+<vertex x="60.96" y="89.916"/>
+<vertex x="60.96" y="79.248"/>
+<vertex x="50.8" y="79.248"/>
+</polygon>
+<polygon width="0.254" layer="2" isolate="0.3048" rank="4">
+<vertex x="50.8" y="89.916"/>
+<vertex x="60.96" y="89.916"/>
+<vertex x="60.96" y="79.248"/>
+<vertex x="50.8" y="79.248"/>
+</polygon>
 </signal>
 <signal name="-15V">
 <contactref element="TP4" pad="P$1"/>
@@ -5637,6 +5692,18 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="70.739" y1="58.039" x2="70.739" y2="58.1914" width="0.8128" layer="1"/>
 <wire x1="72.644" y1="55.626" x2="72.644" y2="56.388" width="0.6096" layer="1"/>
 <via x="72.644" y="56.388" extent="1-16" drill="0.3048"/>
+<polygon width="0.254" layer="15" isolate="0.3048" rank="4">
+<vertex x="73.66" y="84.074"/>
+<vertex x="83.82" y="84.074"/>
+<vertex x="83.82" y="73.406"/>
+<vertex x="73.66" y="73.406"/>
+</polygon>
+<polygon width="0.254" layer="2" isolate="0.3048" rank="4">
+<vertex x="73.66" y="84.074"/>
+<vertex x="83.82" y="84.074"/>
+<vertex x="83.82" y="73.406"/>
+<vertex x="73.66" y="73.406"/>
+</polygon>
 </signal>
 <signal name="HALL-CURRENT">
 <contactref element="R21" pad="P$1"/>
