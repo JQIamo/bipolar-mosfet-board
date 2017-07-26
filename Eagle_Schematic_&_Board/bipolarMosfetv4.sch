@@ -13885,6 +13885,12 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="R58" library="jqi_passives" deviceset="R_SMD" device="R0603" value="10k">
 <attribute name="PARTNO" value="TNPW060310K0BEEA"/>
 </part>
+<part name="HS3" library="Aavid" deviceset="7109D" device="" technology="/TRG">
+<attribute name="PARTNO" value="7109D/TRG"/>
+</part>
+<part name="HS4" library="Aavid" deviceset="7109D" device="" technology="/TRG">
+<attribute name="PARTNO" value="7109D/TRG"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -16605,7 +16611,7 @@ cutoff at 700 kHz</text>
 </plain>
 <instances>
 <instance part="V-1" gate="1" x="113.03" y="46.99"/>
-<instance part="SUPPLY2" gate="+8V" x="171.45" y="120.65"/>
+<instance part="SUPPLY2" gate="+8V" x="171.45" y="124.46"/>
 <instance part="SUPPLY3" gate="G$1" x="171.45" y="49.53"/>
 <instance part="GND13" gate="1" x="186.69" y="97.79"/>
 <instance part="GND14" gate="1" x="186.69" y="62.23"/>
@@ -16654,11 +16660,11 @@ cutoff at 700 kHz</text>
 <instance part="Q6" gate="G$1" x="171.45" y="92.71">
 <attribute name="PARTNO" x="171.45" y="92.71" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="HS1" gate="G$1" x="158.75" y="118.11">
-<attribute name="PARTNO" x="158.75" y="118.11" size="1.778" layer="96" display="off"/>
+<instance part="HS1" gate="G$1" x="157.48" y="128.27">
+<attribute name="PARTNO" x="157.48" y="128.27" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="HS2" gate="G$1" x="158.75" y="60.96">
-<attribute name="PARTNO" x="158.75" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="HS2" gate="G$1" x="157.48" y="60.96">
+<attribute name="PARTNO" x="157.48" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
 <instance part="FRAME6" gate="G$2" x="172.72" y="0"/>
@@ -16692,6 +16698,12 @@ cutoff at 700 kHz</text>
 <attribute name="PARTNO" x="113.03" y="57.15" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+12" gate="1" x="113.03" y="124.46"/>
+<instance part="HS3" gate="G$1" x="185.42" y="113.03" rot="R180">
+<attribute name="PARTNO" x="185.42" y="113.03" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="HS4" gate="G$1" x="185.42" y="45.72" rot="R180">
+<attribute name="PARTNO" x="185.42" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16868,11 +16880,13 @@ cutoff at 700 kHz</text>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <junction x="171.45" y="102.87"/>
 <pinref part="C10" gate="G$1" pin="P$1"/>
-<wire x1="171.45" y1="118.11" x2="171.45" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="121.92" x2="171.45" y2="120.65" width="0.1524" layer="91"/>
 <pinref part="HS1" gate="G$1" pin="CON"/>
-<wire x1="171.45" y1="110.49" x2="171.45" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="168.91" y1="110.49" x2="171.45" y2="110.49" width="0.1524" layer="91"/>
-<junction x="171.45" y="110.49"/>
+<wire x1="171.45" y1="120.65" x2="171.45" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="120.65" x2="171.45" y2="120.65" width="0.1524" layer="91"/>
+<junction x="171.45" y="120.65"/>
+<pinref part="HS3" gate="G$1" pin="CON"/>
+<wire x1="171.45" y1="120.65" x2="175.26" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-8V" class="0">
@@ -16886,8 +16900,10 @@ cutoff at 700 kHz</text>
 <wire x1="171.45" y1="52.07" x2="171.45" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="HS2" gate="G$1" pin="CON"/>
 <wire x1="171.45" y1="53.34" x2="171.45" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="168.91" y1="53.34" x2="171.45" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="53.34" x2="171.45" y2="53.34" width="0.1524" layer="91"/>
 <junction x="171.45" y="53.34"/>
+<pinref part="HS4" gate="G$1" pin="CON"/>
+<wire x1="171.45" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">
