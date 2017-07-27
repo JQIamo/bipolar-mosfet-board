@@ -9484,6 +9484,19 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="VARISTOR">
+<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="2.032" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="2.032" x2="-2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.032" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
+<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="C_MLCC_SMD" prefix="C" uservalue="yes">
@@ -9690,6 +9703,50 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VARISTOR_SMD" prefix="V" uservalue="yes">
+<description>MLCV Varistors</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="V0402" package="R_0402">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V0603" package="R_0603">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V0805" package="R_0805">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="V1206" package="R_1206">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13224,8 +13281,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="P+1" library="supply1" deviceset="+18V" device=""/>
 <part name="P-1" library="supply1" deviceset="-18V" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="TP1" library="ZSS" deviceset="5019" device="">
 <attribute name="PARTNO" value="5019"/>
 <attribute name="TP_SIGNAL_NAME" value="GND"/>
@@ -13840,7 +13895,7 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 </part>
 <part name="AGND1" library="supply1" deviceset="AGND" device=""/>
 <part name="AGND2" library="supply1" deviceset="AGND" device=""/>
-<part name="R53" library="jqi_passives" deviceset="R_SMD" device="R0805" value="0R">
+<part name="R53" library="jqi_passives" deviceset="R_SMD" device="R0805" value="DNP">
 <attribute name="PARTNO" value="MF-RES-0805-0"/>
 </part>
 <part name="C49" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="33nF">
@@ -13891,20 +13946,37 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="HS4" library="Aavid" deviceset="7109D" device="" technology="/TRG">
 <attribute name="PARTNO" value="7109D/TRG"/>
 </part>
+<part name="R59" library="jqi_passives" deviceset="R_SMD" device="R0805" value="0R">
+<attribute name="PARTNO" value="MF-RES-0805-0"/>
+</part>
+<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
+<part name="AGND4" library="supply1" deviceset="AGND" device=""/>
+<part name="C55" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10uF">
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
+</part>
+<part name="C56" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1210" value="10uF">
+<attribute name="PARTNO" value="CL32B106KBJNNNE"/>
+</part>
+<part name="V1" library="jqi_passives" deviceset="VARISTOR_SMD" device="V0805" value="22V">
+<attribute name="PARTNO" value="B72510T0140K062"/>
+</part>
+<part name="V2" library="jqi_passives" deviceset="VARISTOR_SMD" device="V0805" value="22V">
+<attribute name="PARTNO" value="B72510T0140K062"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="153.67" y="60.96" size="1.778" layer="100">Output to Both Pins for Coil Connection
+<text x="176.53" y="59.69" size="1.778" layer="100">Output to Both Pins for Coil Connection
 Screw Terminals off-board</text>
-<text x="153.67" y="58.42" size="1.778" layer="100">Ground return made off-board</text>
+<text x="176.53" y="57.15" size="1.778" layer="100">Ground return made off-board</text>
 <text x="138.43" y="99.06" size="1.778" layer="97">20A sensing range.
 40A and 50A also available</text>
 <text x="62.23" y="62.23" size="1.778" layer="97">33 nF puts high freq.
 cutoff at 100 Hz</text>
 </plain>
 <instances>
-<instance part="GND12" gate="1" x="165.1" y="74.93"/>
+<instance part="GND12" gate="1" x="158.75" y="62.23"/>
 <instance part="GND7" gate="1" x="102.87" y="69.85"/>
 <instance part="P+3" gate="1" x="152.4" y="39.37"/>
 <instance part="P-3" gate="1" x="152.4" y="11.43"/>
@@ -13991,7 +14063,7 @@ cutoff at 100 Hz</text>
 <instance part="FID6" gate="G$1" x="240.03" y="160.02"/>
 <instance part="FID7" gate="G$1" x="224.79" y="154.94"/>
 <instance part="FID8" gate="G$1" x="240.03" y="154.94"/>
-<instance part="AGND2" gate="VR1" x="173.99" y="72.39"/>
+<instance part="AGND2" gate="VR1" x="173.99" y="62.23"/>
 <instance part="R53" gate="G$1" x="179.07" y="161.29">
 <attribute name="PARTNO" x="179.07" y="161.29" size="1.778" layer="96" display="off"/>
 </instance>
@@ -14001,6 +14073,15 @@ cutoff at 100 Hz</text>
 <instance part="C50" gate="G$1" x="64.77" y="71.12" rot="R90">
 <attribute name="PARTNO" x="64.77" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="R59" gate="G$1" x="166.37" y="67.31">
+<attribute name="PARTNO" x="166.37" y="67.31" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="V1" gate="G$1" x="196.85" y="77.47" rot="R90">
+<attribute name="PARTNO" x="196.85" y="77.47" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="V2" gate="G$1" x="209.55" y="77.47" rot="R90">
+<attribute name="PARTNO" x="209.55" y="77.47" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14009,7 +14090,12 @@ cutoff at 100 Hz</text>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="B1" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="77.47" x2="181.61" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="64.77" x2="158.75" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="67.31" x2="158.75" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="77.47" x2="181.61" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="R59" gate="G$1" pin="1"/>
+<wire x1="158.75" y1="67.31" x2="161.29" y2="67.31" width="0.1524" layer="91"/>
+<junction x="158.75" y="67.31"/>
 </segment>
 <segment>
 <wire x1="135.89" y1="77.47" x2="135.89" y2="74.93" width="0.1524" layer="91"/>
@@ -14114,8 +14200,18 @@ cutoff at 100 Hz</text>
 <segment>
 <pinref part="B1" gate="G$1" pin="1"/>
 <wire x1="153.67" y1="80.01" x2="153.67" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="181.61" y1="80.01" x2="153.67" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="80.01" x2="173.99" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="IP-"/>
+<pinref part="V1" gate="G$1" pin="1"/>
+<wire x1="173.99" y1="80.01" x2="153.67" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="82.55" x2="196.85" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="87.63" x2="173.99" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="87.63" x2="173.99" y2="80.01" width="0.1524" layer="91"/>
+<junction x="173.99" y="80.01"/>
+<pinref part="V2" gate="G$1" pin="1"/>
+<wire x1="196.85" y1="87.63" x2="209.55" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="209.55" y1="87.63" x2="209.55" y2="82.55" width="0.1524" layer="91"/>
+<junction x="196.85" y="87.63"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -14284,8 +14380,20 @@ cutoff at 100 Hz</text>
 <net name="AGND" class="1">
 <segment>
 <pinref part="B1" gate="G$1" pin="3"/>
+<wire x1="173.99" y1="64.77" x2="173.99" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="173.99" y1="67.31" x2="173.99" y2="74.93" width="0.1524" layer="91"/>
 <wire x1="173.99" y1="74.93" x2="181.61" y2="74.93" width="0.1524" layer="91"/>
 <pinref part="AGND2" gate="VR1" pin="AGND"/>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="171.45" y1="67.31" x2="173.99" y2="67.31" width="0.1524" layer="91"/>
+<junction x="173.99" y="67.31"/>
+<pinref part="V1" gate="G$1" pin="2"/>
+<wire x1="173.99" y1="67.31" x2="196.85" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="67.31" x2="196.85" y2="72.39" width="0.1524" layer="91"/>
+<pinref part="V2" gate="G$1" pin="2"/>
+<wire x1="196.85" y1="67.31" x2="209.55" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="209.55" y1="67.31" x2="209.55" y2="72.39" width="0.1524" layer="91"/>
+<junction x="196.85" y="67.31"/>
 </segment>
 </net>
 </nets>
@@ -16613,8 +16721,6 @@ cutoff at 700 kHz</text>
 <instance part="V-1" gate="1" x="113.03" y="46.99"/>
 <instance part="SUPPLY2" gate="+8V" x="171.45" y="124.46"/>
 <instance part="SUPPLY3" gate="G$1" x="171.45" y="49.53"/>
-<instance part="GND13" gate="1" x="186.69" y="97.79"/>
-<instance part="GND14" gate="1" x="186.69" y="62.23"/>
 <instance part="TP8" gate="G$1" x="102.87" y="90.17" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" x="100.33" y="92.71" size="1.27" layer="96" rot="R270"/>
 <attribute name="NAME" x="102.87" y="92.71" size="1.27" layer="95" align="bottom-center"/>
@@ -16668,11 +16774,11 @@ cutoff at 700 kHz</text>
 </instance>
 <instance part="FRAME6" gate="G$1" x="0" y="0"/>
 <instance part="FRAME6" gate="G$2" x="172.72" y="0"/>
-<instance part="C10" gate="G$1" x="179.07" y="102.87" rot="R90">
-<attribute name="PARTNO" x="179.07" y="102.87" size="1.778" layer="96" display="off"/>
+<instance part="C10" gate="G$1" x="196.85" y="102.87" rot="R90">
+<attribute name="PARTNO" x="196.85" y="102.87" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="176.53" y="67.31" rot="R270">
-<attribute name="PARTNO" x="176.53" y="67.31" size="1.778" layer="96" display="off"/>
+<instance part="C11" gate="G$1" x="194.31" y="67.31" rot="R270">
+<attribute name="PARTNO" x="194.31" y="67.31" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="113.03" y="95.25">
 <attribute name="PARTNO" x="113.03" y="95.25" size="1.778" layer="96" display="off"/>
@@ -16704,23 +16810,19 @@ cutoff at 700 kHz</text>
 <instance part="HS4" gate="G$1" x="185.42" y="45.72" rot="R180">
 <attribute name="PARTNO" x="185.42" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="AGND3" gate="VR1" x="204.47" y="50.8"/>
+<instance part="AGND4" gate="VR1" x="204.47" y="97.79"/>
+<instance part="C55" gate="G$1" x="195.58" y="55.88" rot="R270">
+<attribute name="PARTNO" x="195.58" y="55.88" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C56" gate="G$1" x="195.58" y="113.03" rot="R90">
+<attribute name="PARTNO" x="195.58" y="113.03" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="1">
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="186.69" y1="102.87" x2="186.69" y2="100.33" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="P$2"/>
-<wire x1="186.69" y1="102.87" x2="181.61" y2="102.87" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="179.07" y1="67.31" x2="186.69" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="186.69" y1="67.31" x2="186.69" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="P$1"/>
-</segment>
 <segment>
 <pinref part="IC7" gate="SW1" pin="S"/>
 <pinref part="IC7" gate="SW4" pin="S"/>
@@ -16876,10 +16978,11 @@ cutoff at 700 kHz</text>
 <segment>
 <pinref part="SUPPLY2" gate="+8V" pin="+8V"/>
 <wire x1="171.45" y1="97.79" x2="171.45" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="102.87" x2="171.45" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="194.31" y1="102.87" x2="190.5" y2="102.87" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <junction x="171.45" y="102.87"/>
 <pinref part="C10" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="102.87" x2="171.45" y2="102.87" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="121.92" x2="171.45" y2="120.65" width="0.1524" layer="91"/>
 <pinref part="HS1" gate="G$1" pin="CON"/>
 <wire x1="171.45" y1="120.65" x2="171.45" y2="102.87" width="0.1524" layer="91"/>
@@ -16887,13 +16990,18 @@ cutoff at 700 kHz</text>
 <junction x="171.45" y="120.65"/>
 <pinref part="HS3" gate="G$1" pin="CON"/>
 <wire x1="171.45" y1="120.65" x2="175.26" y2="120.65" width="0.1524" layer="91"/>
+<pinref part="C56" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="113.03" x2="190.5" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="113.03" x2="190.5" y2="102.87" width="0.1524" layer="91"/>
+<junction x="190.5" y="102.87"/>
 </segment>
 </net>
 <net name="-8V" class="0">
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="-8V"/>
-<wire x1="171.45" y1="67.31" x2="173.99" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="67.31" x2="187.96" y2="67.31" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="187.96" y1="67.31" x2="191.77" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="72.39" x2="171.45" y2="67.31" width="0.1524" layer="91"/>
 <junction x="171.45" y="67.31"/>
 <pinref part="C11" gate="G$1" pin="P$2"/>
@@ -16904,6 +17012,10 @@ cutoff at 700 kHz</text>
 <junction x="171.45" y="53.34"/>
 <pinref part="HS4" gate="G$1" pin="CON"/>
 <wire x1="171.45" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="C55" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="55.88" x2="187.96" y2="67.31" width="0.1524" layer="91"/>
+<junction x="187.96" y="67.31"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -16940,6 +17052,28 @@ cutoff at 700 kHz</text>
 <wire x1="113.03" y1="121.92" x2="113.03" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="P+12" gate="1" pin="+18V"/>
+</segment>
+</net>
+<net name="AGND" class="1">
+<segment>
+<wire x1="196.85" y1="67.31" x2="204.47" y2="67.31" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="67.31" x2="204.47" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="P$1"/>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
+<pinref part="C55" gate="G$1" pin="1"/>
+<wire x1="204.47" y1="55.88" x2="204.47" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="55.88" x2="204.47" y2="55.88" width="0.1524" layer="91"/>
+<junction x="204.47" y="55.88"/>
+</segment>
+<segment>
+<wire x1="204.47" y1="102.87" x2="204.47" y2="100.33" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="P$2"/>
+<wire x1="204.47" y1="102.87" x2="199.39" y2="102.87" width="0.1524" layer="91"/>
+<pinref part="AGND4" gate="VR1" pin="AGND"/>
+<pinref part="C56" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="113.03" x2="204.47" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="113.03" x2="204.47" y2="102.87" width="0.1524" layer="91"/>
+<junction x="204.47" y="102.87"/>
 </segment>
 </net>
 </nets>
