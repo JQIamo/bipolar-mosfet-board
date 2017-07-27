@@ -3687,21 +3687,21 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="66.872" y="60.744" size="0.762" layer="25" font="vector"/>
 <attribute name="PARTNO" value="TNPW0603787RBEEA" x="68.072" y="59.944" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C51" library="jqi_passives" package="C_MLCC_0603" value="680pF" x="70.358" y="51.054" smashed="yes">
+<element name="C51" library="jqi_passives" package="C_MLCC_0603" value="1nF" x="70.358" y="51.054" smashed="yes">
 <attribute name="NAME" x="69.312" y="49.314" size="0.889" layer="25" font="vector"/>
-<attribute name="PARTNO" value="CL10C681JB8NNNC" x="70.358" y="51.054" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="CL10C102JB8NNNC" x="70.358" y="51.054" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C52" library="jqi_passives" package="C_MLCC_0603" value="330pF" x="68.326" y="54.356" smashed="yes">
+<element name="C52" library="jqi_passives" package="C_MLCC_0603" value="510pF" x="68.326" y="54.356" smashed="yes">
 <attribute name="NAME" x="67.28" y="55.156" size="0.762" layer="25" font="vector"/>
-<attribute name="PARTNO" value="CL10C331GB8NNNC" x="68.326" y="54.356" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="CL10C511JB8NNNC" x="68.326" y="54.356" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C53" library="jqi_passives" package="C_MLCC_0603" value="330pF" x="68.072" y="58.42" smashed="yes">
+<element name="C53" library="jqi_passives" package="C_MLCC_0603" value="510pF" x="68.072" y="58.42" smashed="yes">
 <attribute name="NAME" x="66.832" y="58.128" size="0.762" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="CL10C331GB8NNNC" x="68.072" y="58.42" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="CL10C511JB8NNNC" x="68.072" y="58.42" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C54" library="jqi_passives" package="C_MLCC_0603" value="680pF" x="70.866" y="61.214" smashed="yes" rot="R180">
+<element name="C54" library="jqi_passives" package="C_MLCC_0603" value="1nF" x="70.866" y="61.214" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.566" y="62.014" size="0.762" layer="25" font="vector"/>
-<attribute name="PARTNO" value="CL10C681JB8NNNC" x="70.866" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="CL10C102JB8NNNC" x="70.866" y="61.214" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R58" library="jqi_passives" package="R_0603" value="10k" x="93.98" y="47.752" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="TNPW060310K0BEEA" x="93.98" y="47.752" size="1.778" layer="27" rot="R90" display="off"/>

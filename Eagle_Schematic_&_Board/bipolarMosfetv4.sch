@@ -13923,17 +13923,17 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="R57" library="jqi_passives" deviceset="R_SMD" device="R0603" value="787">
 <attribute name="PARTNO" value="TNPW0603787RBEEA"/>
 </part>
-<part name="C51" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="680pF">
-<attribute name="PARTNO" value="CL10C681JB8NNNC"/>
+<part name="C51" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF">
+<attribute name="PARTNO" value="CL10C102JB8NNNC"/>
 </part>
-<part name="C52" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="330pF">
-<attribute name="PARTNO" value="CL10C331GB8NNNC"/>
+<part name="C52" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="510pF">
+<attribute name="PARTNO" value="CL10C511JB8NNNC"/>
 </part>
-<part name="C53" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="330pF">
-<attribute name="PARTNO" value="CL10C331GB8NNNC"/>
+<part name="C53" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="510pF">
+<attribute name="PARTNO" value="CL10C511JB8NNNC"/>
 </part>
-<part name="C54" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="680pF">
-<attribute name="PARTNO" value="CL10C681JB8NNNC"/>
+<part name="C54" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="1nF">
+<attribute name="PARTNO" value="CL10C102JB8NNNC"/>
 </part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
