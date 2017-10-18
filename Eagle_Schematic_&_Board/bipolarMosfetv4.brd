@@ -161,8 +161,8 @@
 <wire x1="120.65" y1="101.6" x2="0" y2="101.6" width="0.254" layer="20"/>
 <wire x1="0" y1="101.6" x2="0" y2="0" width="0.254" layer="20"/>
 <text x="93.726" y="97.028" size="1.651" layer="21" align="top-left">Bipolar MOSFET
-Ver. 5 Rev. B
-ZSS+DSB (Apr 2017)</text>
+Ver. 5 Rev. C
+ZSS+DSB (Oct 2017)</text>
 <text x="2.286" y="7.62" size="1.778" layer="21">PS+</text>
 <text x="9.652" y="7.62" size="1.778" layer="21">PS-</text>
 <text x="20.066" y="6.858" size="1.524" layer="21">Return</text>
@@ -180,8 +180,8 @@ Inputs</text>
 <hole x="30.0355" y="8.382" drill="2.3495"/>
 <hole x="30.0355" y="32.385" drill="2.3495"/>
 <hole x="30.0355" y="38.354" drill="2.3495"/>
-<hole x="30.0355" y="61.341" drill="2.3495"/>
-<hole x="6.0325" y="61.341" drill="2.3495"/>
+<hole x="30.0355" y="62.357" drill="2.3495"/>
+<hole x="6.0325" y="62.357" drill="2.3495"/>
 <rectangle x1="73.66" y1="84.836" x2="83.82" y2="95.504" layer="30"/>
 <rectangle x1="73.66" y1="73.406" x2="83.82" y2="84.074" layer="30"/>
 <rectangle x1="50.8" y1="90.424" x2="60.96" y2="101.092" layer="30"/>
@@ -3952,7 +3952,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="30.226" y="99.568" extent="1-16" drill="0.381"/>
 <via x="30.226" y="86.106" extent="1-16" drill="0.381"/>
 <via x="30.988" y="76.454" extent="1-16" drill="0.381"/>
-<via x="29.972" y="63.5" extent="1-16" drill="0.381"/>
+<via x="30.226" y="58.674" extent="1-16" drill="0.381"/>
 <via x="8.128" y="65.024" extent="1-16" drill="0.381"/>
 <via x="45.72" y="61.722" extent="1-16" drill="0.381"/>
 <via x="84.836" y="76.962" extent="1-16" drill="0.381"/>
@@ -4002,9 +4002,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="114.2492" y="64.9732" extent="1-16" drill="0.381"/>
 <via x="117.0432" y="35.2552" extent="1-16" drill="0.381"/>
 <via x="114.2492" y="52.0192" extent="1-16" drill="0.381"/>
-<via x="94.6912" y="100.5332" extent="1-16" drill="0.381"/>
-<via x="117.5512" y="100.2792" extent="1-16" drill="0.381"/>
-<via x="110.9472" y="94.4372" extent="1-16" drill="0.381"/>
+<via x="94.6912" y="94.9452" extent="1-16" drill="0.381"/>
+<via x="117.5512" y="95.1992" extent="1-16" drill="0.381"/>
+<via x="108.9152" y="94.1832" extent="1-16" drill="0.381"/>
 <via x="106.3752" y="34.2392" extent="1-16" drill="0.381"/>
 <via x="112.1918" y="36.8554" extent="1-16" drill="0.381"/>
 <via x="116.2812" y="89.1032" extent="1-16" drill="0.381"/>
@@ -5061,8 +5061,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="60.96" y="93.472"/>
 <vertex x="65.532" y="93.472"/>
 <vertex x="68.58" y="96.52"/>
-<vertex x="92.964" y="96.52"/>
-<vertex x="92.964" y="101.092"/>
+<vertex x="120.142" y="96.52"/>
+<vertex x="120.142" y="101.092"/>
 <vertex x="50.8" y="101.092"/>
 </polygon>
 <polygon width="0.254" layer="16" isolate="0.3048" rank="5">
@@ -5102,7 +5102,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="108.5818" y1="74.493" x2="109.403" y2="74.493" width="0.3048" layer="1"/>
 <wire x1="109.403" y1="74.493" x2="109.474" y2="74.422" width="0.3048" layer="1"/>
 <wire x1="109.474" y1="74.422" x2="111.518" y2="74.422" width="0.3048" layer="1"/>
-<wire x1="119.38" y1="98.552" x2="92.202" y2="98.552" width="1.27" layer="1"/>
 <wire x1="119.38" y1="98.552" x2="119.38" y2="75.946" width="1.27" layer="1"/>
 <wire x1="119.38" y1="75.946" x2="111.518" y2="75.946" width="0.8128" layer="1"/>
 <wire x1="111.518" y1="75.946" x2="111.518" y2="74.422" width="0.8128" layer="1"/>
