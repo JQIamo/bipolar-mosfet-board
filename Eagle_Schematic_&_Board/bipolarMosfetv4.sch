@@ -17079,6 +17079,25 @@ cutoff at 700 kHz</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,152.4,31.75,U4SUPPLY,V+,+15V,,,"/>
+<approved hash="104,1,152.4,21.59,U4SUPPLY,V-,-15V,,,"/>
+<approved hash="104,1,135.89,152.4,U3,VCC,+5V,,,"/>
+<approved hash="104,1,135.89,102.87,U7,VCC,+5V,,,"/>
+<approved hash="104,4,161.29,142.24,U10S,V+,+15V,,,"/>
+<approved hash="104,4,161.29,132.08,U10S,V-,-15V,,,"/>
+<approved hash="104,5,57.15,95.25,U11S,V+,+15V,,,"/>
+<approved hash="104,5,57.15,85.09,U11S,V-,-15V,,,"/>
+<approved hash="104,4,82.55,129.54,U12C,V+,+15V,,,"/>
+<approved hash="104,4,82.55,119.38,U12C,V-,-15V,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,2,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="113,4,139.596,107.846,FRAME4,,,,,"/>
+<approved hash="113,5,139.596,107.846,FRAME5,,,,,"/>
+<approved hash="113,6,139.596,107.846,FRAME6,,,,,"/>
+<approved hash="113,1,199.835,140.187,SHC1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
