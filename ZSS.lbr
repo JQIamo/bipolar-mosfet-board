@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1560,6 +1560,9 @@ Dual Heatsink footprint</description>
 <wire x1="-4.318" y1="10.922" x2="-4.318" y2="21.59" width="0.127" layer="21"/>
 <wire x1="4.318" y1="21.59" x2="4.318" y2="10.922" width="0.127" layer="21"/>
 <rectangle x1="-3.556" y1="10.922" x2="3.556" y2="21.59" layer="39"/>
+<wire x1="-3.175" y1="-1.905" x2="-3.175" y2="-6.985" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-6.985" x2="3.175" y2="-6.985" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-6.985" x2="3.175" y2="-1.905" width="0.127" layer="51"/>
 </package>
 <package name="KEMET-T495X">
 <description>Kemet Case X, Metric code size 7343–43
@@ -1603,11 +1606,10 @@ Dual Heatsink footprint</description>
 <wire x1="-1.524" y1="-11.43" x2="-1.524" y2="-4.572" width="0.127" layer="25"/>
 <wire x1="-1.524" y1="-4.572" x2="1.524" y2="-4.572" width="0.127" layer="25"/>
 <wire x1="1.524" y1="-4.572" x2="1.524" y2="-11.43" width="0.127" layer="25"/>
-<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.635" layer="31" style="shortdash"/>
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.6096" layer="31" style="shortdash"/>
-<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.6096" layer="31" style="shortdash"/>
-<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.6096" layer="31" style="shortdash"/>
-<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.6096" layer="31" style="shortdash"/>
+<rectangle x1="-3.935" y1="0.075" x2="-1.035" y2="3.775" layer="31" rot="R90"/>
+<rectangle x1="1.145" y1="0.075" x2="4.045" y2="3.775" layer="31" rot="R90"/>
+<rectangle x1="-3.935" y1="-3.735" x2="-1.035" y2="-0.035" layer="31" rot="R90"/>
+<rectangle x1="1.145" y1="-3.735" x2="4.045" y2="-0.035" layer="31" rot="R90"/>
 </package>
 <package name="SJ0603">
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -2226,12 +2228,22 @@ Dual Heatsink footprint</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STP80PF55" prefix="Q">
+<deviceset name="ST?80PF55" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="P-CHANNEL_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TO220V_HS">
+<device name="P" package="TO220V_HS">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="D2PAK/TO263">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
@@ -2243,12 +2255,22 @@ Dual Heatsink footprint</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STP80NF55-06" prefix="Q">
+<deviceset name="ST?80NF55-06" prefix="Q" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="N-CHAN_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TO220V_HS">
+<device name="P" package="TO220V_HS">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="D2PAK/TO263">
 <connects>
 <connect gate="G$1" pin="D" pad="2"/>
 <connect gate="G$1" pin="G" pad="1"/>
