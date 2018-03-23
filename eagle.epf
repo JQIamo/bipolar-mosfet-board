@@ -1,5 +1,5 @@
 [Eagle]
-Version="06 05 00"
+Version="07 07 00"
 Platform="Windows"
 Serial="7026C52C40-LSR-WLM-5CP"
 Globals="Globals"
@@ -7,14 +7,13 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Program Files/EAGLE-6.5.0/lbr/ZSS.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="13 115 1197 647"
+Loc="-8 -30 591 369"
 State=2
 Number=0
 
 [Desktop]
-Screen="1280 1024"
+Screen="1920 1080"
 Window="Win_1"
