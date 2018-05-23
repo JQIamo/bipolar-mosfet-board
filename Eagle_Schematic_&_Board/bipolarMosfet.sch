@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="Invisible" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="61" name="stand" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -13357,7 +13357,6 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <attribute name="PARTNO" value="ADG5412BRUZ"/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="V-2" library="supply1" deviceset="-18V" device=""/>
 <part name="V+2" library="supply1" deviceset="+18V" device="" value="+18 V"/>
@@ -13963,16 +13962,19 @@ Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WE-SHC?m"&gt;http://
 <part name="V2" library="jqi_passives" deviceset="VARISTOR_SMD" device="V0805" value="22V">
 <attribute name="PARTNO" value="B72510T0140K062"/>
 </part>
+<part name="C57" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0603" value="10pF">
+<attribute name="PARTNO" value="CL10C100DB81PNC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="176.53" y="59.69" size="1.778" layer="100">Output to Both Pins for Coil Connection
+<text x="176.53" y="59.69" size="1.778" layer="98">Output to Both Pins for Coil Connection
 Screw Terminals off-board</text>
-<text x="176.53" y="57.15" size="1.778" layer="100">Ground return made off-board</text>
-<text x="138.43" y="99.06" size="1.778" layer="97">20A sensing range.
+<text x="176.53" y="57.15" size="1.778" layer="98">Ground return made off-board</text>
+<text x="138.43" y="99.06" size="1.778" layer="98">20A sensing range.
 40A and 50A also available</text>
-<text x="62.23" y="62.23" size="1.778" layer="97">33 nF puts high freq.
+<text x="62.23" y="62.23" size="1.778" layer="98">33 nF puts high freq.
 cutoff at 100 Hz</text>
 </plain>
 <instances>
@@ -14400,7 +14402,7 @@ cutoff at 100 Hz</text>
 </sheet>
 <sheet>
 <plain>
-<text x="66.04" y="195.58" size="1.778" layer="97">Coil Drive Input
+<text x="66.04" y="195.58" size="1.778" layer="98">Coil Drive Input
 +/-8V is a place holder</text>
 </plain>
 <instances>
@@ -15017,9 +15019,9 @@ cutoff at 100 Hz</text>
 </sheet>
 <sheet>
 <plain>
-<text x="180.34" y="133.35" size="1.778" layer="100"> TTL Off Power Section</text>
+<text x="180.34" y="133.35" size="1.778" layer="98"> TTL Off Power Section</text>
 <wire x1="177.8" y1="140.97" x2="177.8" y2="77.47" width="0.1524" layer="97" style="longdash"/>
-<text x="59.69" y="125.73" size="1.778" layer="97">R13, C9 optimized for 5V performance
+<text x="59.69" y="125.73" size="1.778" layer="98">R13, C9 optimized for 5V performance
 3.3V will also drive switch</text>
 </plain>
 <instances>
@@ -15264,15 +15266,15 @@ cutoff at 100 Hz</text>
 </sheet>
 <sheet>
 <plain>
-<text x="81.28" y="59.69" size="1.778" layer="97">Replace w/ AD8421BRZ
+<text x="81.28" y="59.69" size="1.778" layer="98">Replace w/ AD8421BRZ
 for better voltage offset</text>
-<text x="142.24" y="78.74" size="1.778" layer="97">inverted to create error signal</text>
-<text x="58.42" y="78.74" size="1.778" layer="97" rot="R90">Setpoint Voltage In</text>
-<text x="232.41" y="111.76" size="1.778" layer="97" rot="R90">Error Mon</text>
-<text x="246.38" y="181.61" size="1.778" layer="97" rot="R90">Current Mon</text>
-<text x="209.55" y="124.46" size="1.778" layer="97">Monitor is negative error
+<text x="142.24" y="78.74" size="1.778" layer="98">inverted to create error signal</text>
+<text x="58.42" y="78.74" size="1.778" layer="98" rot="R90">Setpoint Voltage In</text>
+<text x="232.41" y="111.76" size="1.778" layer="98" rot="R90">Error Mon</text>
+<text x="246.38" y="181.61" size="1.778" layer="98" rot="R90">Current Mon</text>
+<text x="209.55" y="124.46" size="1.778" layer="98">Monitor is negative error
 rather than error</text>
-<text x="22.86" y="119.38" size="1.778" layer="97">Sallen-Key 2-pole Butterworth,
+<text x="22.86" y="119.38" size="1.778" layer="98">Sallen-Key 2-pole Butterworth,
 Lowpass corning @ approx. 425 kHz</text>
 </plain>
 <instances>
@@ -15293,11 +15295,11 @@ Lowpass corning @ approx. 425 kHz</text>
 <instance part="GND17" gate="1" x="151.13" y="129.54"/>
 <instance part="GND6" gate="1" x="125.73" y="132.08"/>
 <instance part="P-4" gate="1" x="161.29" y="114.3"/>
-<instance part="P+4" gate="1" x="161.29" y="165.1"/>
+<instance part="P+4" gate="1" x="161.29" y="179.07"/>
 <instance part="P+6" gate="1" x="82.55" y="139.7"/>
 <instance part="P-6" gate="1" x="82.55" y="109.22"/>
 <instance part="GND21" gate="1" x="176.53" y="116.84"/>
-<instance part="GND23" gate="1" x="176.53" y="151.13"/>
+<instance part="GND23" gate="1" x="176.53" y="165.1"/>
 <instance part="GND24" gate="1" x="95.25" y="109.22"/>
 <instance part="GND25" gate="1" x="95.25" y="129.54"/>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -15348,8 +15350,8 @@ Lowpass corning @ approx. 425 kHz</text>
 <instance part="C5" gate="G$1" x="113.03" y="67.31" rot="R180">
 <attribute name="PARTNO" x="113.03" y="67.31" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="168.91" y="154.94" rot="R270">
-<attribute name="PARTNO" x="168.91" y="154.94" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="C6" gate="G$1" x="168.91" y="168.91" rot="R270">
+<attribute name="PARTNO" x="168.91" y="168.91" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="168.91" y="121.92" rot="R270">
 <attribute name="PARTNO" x="168.91" y="121.92" size="1.778" layer="96" rot="R270" display="off"/>
@@ -15415,6 +15417,9 @@ Lowpass corning @ approx. 425 kHz</text>
 </instance>
 <instance part="GND44" gate="1" x="193.04" y="172.72"/>
 <instance part="GND45" gate="1" x="68.58" y="109.22"/>
+<instance part="C57" gate="G$1" x="167.64" y="152.4" rot="R90">
+<attribute name="PARTNO" x="167.64" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15450,8 +15455,8 @@ Lowpass corning @ approx. 425 kHz</text>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="171.45" y1="154.94" x2="176.53" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="154.94" x2="176.53" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="168.91" x2="176.53" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="168.91" x2="176.53" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -15548,6 +15553,10 @@ Lowpass corning @ approx. 425 kHz</text>
 <pinref part="U10" gate="A" pin="OUTPUT"/>
 <wire x1="168.91" y1="137.16" x2="179.07" y2="137.16" width="0.1524" layer="91"/>
 <junction x="179.07" y="137.16"/>
+<pinref part="C57" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="152.4" x2="179.07" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="179.07" y1="152.4" x2="179.07" y2="147.32" width="0.1524" layer="91"/>
+<junction x="179.07" y="147.32"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -15570,6 +15579,10 @@ Lowpass corning @ approx. 425 kHz</text>
 <pinref part="U10" gate="A" pin="-"/>
 <wire x1="151.13" y1="139.7" x2="153.67" y2="139.7" width="0.1524" layer="91"/>
 <junction x="151.13" y="139.7"/>
+<pinref part="C57" gate="G$1" pin="1"/>
+<wire x1="151.13" y1="147.32" x2="151.13" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
+<junction x="151.13" y="147.32"/>
 </segment>
 </net>
 <net name="VREF+" class="0">
@@ -15625,10 +15638,10 @@ Lowpass corning @ approx. 425 kHz</text>
 </segment>
 <segment>
 <pinref part="P+4" gate="1" pin="+15V"/>
-<wire x1="161.29" y1="142.24" x2="161.29" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="161.29" y1="154.94" x2="161.29" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="163.83" y1="154.94" x2="161.29" y2="154.94" width="0.1524" layer="91"/>
-<junction x="161.29" y="154.94"/>
+<wire x1="161.29" y1="142.24" x2="161.29" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="168.91" x2="161.29" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="168.91" x2="161.29" y2="168.91" width="0.1524" layer="91"/>
+<junction x="161.29" y="168.91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="U10" gate="S" pin="V+"/>
 </segment>
@@ -15836,11 +15849,11 @@ Lowpass corning @ approx. 425 kHz</text>
 </sheet>
 <sheet>
 <plain>
-<text x="87.63" y="24.13" size="1.778" layer="97">Max Gain is 20V/V</text>
-<text x="25.4" y="27.94" size="1.778" layer="97">high pass corner
+<text x="87.63" y="24.13" size="1.778" layer="98">Max Gain is 20V/V</text>
+<text x="25.4" y="27.94" size="1.778" layer="98">high pass corner
 @ ~20 Hz</text>
-<text x="87.63" y="20.32" size="1.778" layer="97">Replace RF and RG to adjust gain range</text>
-<text x="165.1" y="88.9" size="1.778" layer="97">22 pF puts high freq.
+<text x="87.63" y="20.32" size="1.778" layer="98">Replace RF and RG to adjust gain range</text>
+<text x="165.1" y="88.9" size="1.778" layer="98">22 pF puts high freq.
 cutoff at 700 kHz</text>
 </plain>
 <instances>
@@ -16010,6 +16023,7 @@ cutoff at 700 kHz</text>
 <instance part="R58" gate="G$1" x="39.37" y="36.83" rot="R180">
 <attribute name="PARTNO" x="39.37" y="36.83" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="IC7" gate="SW2" x="152.4" y="99.06" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -16613,6 +16627,10 @@ cutoff at 700 kHz</text>
 <wire x1="162.56" y1="81.28" x2="162.56" y2="67.31" width="0.1524" layer="91"/>
 <junction x="162.56" y="81.28"/>
 <junction x="162.56" y="67.31"/>
+<wire x1="162.56" y1="93.98" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<junction x="162.56" y="93.98"/>
+<pinref part="IC7" gate="SW2" pin="S"/>
+<wire x1="154.94" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -16634,6 +16652,10 @@ cutoff at 700 kHz</text>
 <wire x1="140.97" y1="71.12" x2="140.97" y2="81.28" width="0.1524" layer="91"/>
 <junction x="140.97" y="71.12"/>
 <junction x="140.97" y="81.28"/>
+<wire x1="140.97" y1="93.98" x2="140.97" y2="99.06" width="0.1524" layer="91"/>
+<junction x="140.97" y="93.98"/>
+<pinref part="IC7" gate="SW2" pin="D"/>
+<wire x1="140.97" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -16712,6 +16734,13 @@ cutoff at 700 kHz</text>
 <wire x1="31.75" y1="36.83" x2="34.29" y2="36.83" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="TTL_OFF" class="0">
+<segment>
+<pinref part="IC7" gate="SW2" pin="IN"/>
+<wire x1="152.4" y1="109.22" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
+<label x="152.4" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -16786,8 +16815,6 @@ cutoff at 700 kHz</text>
 <instance part="R9" gate="G$1" x="113.03" y="74.93">
 <attribute name="PARTNO" x="113.03" y="74.93" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="IC7" gate="SW2" x="97.79" y="97.79" rot="R270"/>
-<instance part="GND28" gate="1" x="92.71" y="102.87"/>
 <instance part="R11" gate="G$1" x="161.29" y="97.79" rot="R90">
 <attribute name="PARTNO" x="161.29" y="97.79" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
@@ -16832,13 +16859,6 @@ cutoff at 700 kHz</text>
 <wire x1="135.89" y1="83.82" x2="135.89" y2="85.09" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="85.09" x2="130.81" y2="85.09" width="0.1524" layer="91"/>
 <junction x="130.81" y="85.09"/>
-</segment>
-<segment>
-<wire x1="97.79" y1="107.95" x2="92.71" y2="107.95" width="0.1524" layer="91"/>
-<pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="92.71" y1="107.95" x2="92.71" y2="105.41" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="SW2" pin="D"/>
-<wire x1="97.79" y1="107.95" x2="97.79" y2="100.33" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOSFET-OUTPUT" class="0">
@@ -16968,11 +16988,6 @@ cutoff at 700 kHz</text>
 <wire x1="140.97" y1="85.09" x2="143.51" y2="85.09" width="0.1524" layer="91"/>
 <junction x="140.97" y="85.09"/>
 </segment>
-<segment>
-<pinref part="IC7" gate="SW2" pin="IN"/>
-<wire x1="87.63" y1="97.79" x2="90.17" y2="97.79" width="0.1524" layer="91"/>
-<label x="87.63" y="97.79" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="+8V" class="0">
 <segment>
@@ -17020,9 +17035,7 @@ cutoff at 700 kHz</text>
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="IC7" gate="SW2" pin="S"/>
-<wire x1="102.87" y1="85.09" x2="97.79" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="85.09" x2="95.25" y2="85.09" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="85.09" x2="95.25" y2="85.09" width="0.1524" layer="91"/>
 <wire x1="125.73" y1="80.01" x2="125.73" y2="85.09" width="0.1524" layer="91"/>
 <wire x1="113.03" y1="85.09" x2="118.11" y2="85.09" width="0.1524" layer="91"/>
 <junction x="113.03" y="85.09"/>
@@ -17042,8 +17055,6 @@ cutoff at 700 kHz</text>
 <wire x1="113.03" y1="90.17" x2="113.03" y2="85.09" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="E"/>
 <wire x1="113.03" y1="80.01" x2="113.03" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="97.79" y1="95.25" x2="97.79" y2="85.09" width="0.1524" layer="91"/>
-<junction x="97.79" y="85.09"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
