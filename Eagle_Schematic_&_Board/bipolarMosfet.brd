@@ -3591,17 +3591,17 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PARTNO" value="TNPW06032K21BEEA" x="85.09" y="66.04" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="86.83" y="66.618" size="0.762" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R6" library="jqi_passives" package="R_0603" value="1k" x="112.522" y="49.53" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="TNPW06031K00BEEA" x="112.522" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R6" library="jqi_passives" package="R_0603" value="75" x="112.522" y="49.53" smashed="yes" rot="R90">
+<attribute name="PARTNO" value="PCAN0603E75R0BST5" x="112.522" y="49.53" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="111.468" y="48.584" size="0.762" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R7" library="jqi_passives" package="R_0603" value="2.21k" x="82.55" y="31.496" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="TNPW06032K21BEEA" x="82.55" y="31.496" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="81.75" y="31.566" size="0.762" layer="25" font="vector" rot="R90"/>
+<element name="R7" library="jqi_passives" package="R_0805" value="1k" x="82.55" y="31.496" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="PCAN0805E1001BST5" x="82.55" y="31.496" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="81.496" y="31.566" size="0.762" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R10" library="jqi_passives" package="R_0603" value="2.21k" x="82.55" y="38.608" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="TNPW06032K21BEEA" x="82.55" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="81.75" y="37.662" size="0.762" layer="25" font="vector" rot="R90"/>
+<element name="R10" library="jqi_passives" package="R_0805" value="1k" x="82.296" y="38.608" smashed="yes" rot="R270">
+<attribute name="PARTNO" value="PCAN0805E1001BST5" x="82.296" y="38.608" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="81.242" y="37.662" size="0.762" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C_P11" library="jqi_passives" package="C_MLCC_1210" value="10uF" x="41.402" y="97.282" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="CL32B106KBJNNNE" x="41.402" y="97.282" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3717,7 +3717,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="PACKAGING" value="13&quot; Reel" x="28.194" y="21.59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="6.604" y="34.29" size="1.27" layer="26" font="vector" rot="MR270"/>
 </element>
-<element name="R59" library="jqi_passives" package="R_0805" value="0R" x="31.75" y="3.81" smashed="yes" rot="MR0">
+<element name="R59" library="jqi_passives" package="R_0805" value="DNP" x="31.75" y="3.81" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="MF-RES-0805-0" x="31.75" y="3.81" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="31.112" y="5.758" size="0.762" layer="26" font="vector" rot="MR180"/>
 </element>
@@ -5116,7 +5116,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="111.689" y1="35.377" x2="111.76" y2="35.306" width="0.3048" layer="1"/>
 <wire x1="111.76" y1="35.306" x2="114.312" y2="35.306" width="0.3048" layer="1"/>
 <contactref element="R7" pad="P$2"/>
-<wire x1="82.55" y1="30.746" x2="82.55" y2="29.972" width="1.016" layer="1"/>
+<wire x1="82.55" y1="30.546" x2="82.55" y2="29.972" width="1.016" layer="1"/>
 <wire x1="82.55" y1="29.972" x2="85.344" y2="27.178" width="1.016" layer="1"/>
 <wire x1="85.344" y1="27.178" x2="95.758" y2="27.178" width="1.016" layer="1"/>
 <wire x1="95.758" y1="27.178" x2="98.044" y2="29.464" width="1.016" layer="1"/>
@@ -5197,7 +5197,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="101.346" y="74.4982" extent="1-16" drill="0.381"/>
 <wire x1="101.346" y1="74.4982" x2="100.3434" y2="74.4982" width="0.3048" layer="16"/>
 <wire x1="100.3434" y1="74.4982" x2="100.33" y2="74.4848" width="0.3048" layer="16" curve="90"/>
-<wire x1="82.55" y1="39.358" x2="82.55" y2="42.672" width="0.8128" layer="1"/>
 <via x="75.438" y="48.006" extent="1-16" drill="0.6096"/>
 <wire x1="75.438" y1="48.006" x2="62.738" y2="48.006" width="1.27" layer="16"/>
 <via x="54.864" y="57.658" extent="1-16" drill="0.6096"/>
@@ -5219,6 +5218,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="100.33" y1="65.1122" x2="100.33" y2="65.1002" width="0.4064" layer="16"/>
 <wire x1="54.864" y1="57.658" x2="54.864" y2="55.88" width="1.27" layer="16"/>
 <wire x1="54.864" y1="55.88" x2="62.738" y2="48.006" width="1.27" layer="16"/>
+<wire x1="82.55" y1="42.672" x2="82.296" y2="42.672" width="0.8128" layer="1"/>
+<wire x1="82.296" y1="42.672" x2="82.296" y2="39.558" width="0.8128" layer="1"/>
 </signal>
 <signal name="P-BIAS">
 <contactref element="TP10" pad="P$1"/>
@@ -6907,6 +6908,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,29,8a405243b0624c19"/>
 <approved hash="18,29,e315cf0108da00b6"/>
 <approved hash="18,29,fd2e4fc3085e9ecb"/>
+<approved hash="18,29,4bd40d102bca9493"/>
 <approved hash="18,29,ec71e687710f3b3a"/>
 <approved hash="18,29,b74aa9bfaa263413"/>
 <approved hash="18,29,7a257cd097757140"/>
@@ -7052,11 +7054,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <approved hash="18,29,0b1a52a74957a8d6"/>
 <approved hash="18,29,36402ea46ea07644"/>
 <approved hash="18,29,09fa65b32997d99e"/>
-<approved hash="18,29,4bd40d102bca9493"/>
-<approved hash="18,29,bd7fbfe2bfe1bd7c"/>
+<approved hash="18,29,3b2c21df21dc3b2f"/>
 <approved hash="18,29,2fd52c782c7b2fd6"/>
 <approved hash="18,29,a118ab8bab88a11b"/>
-<approved hash="18,29,3b2c21df21dc3b2f"/>
+<approved hash="18,29,bd7fbfe2bfe1bd7c"/>
 <approved hash="18,29,a82335f0f5bf5dbe"/>
 <approved hash="18,29,7f555e4c7ad926de"/>
 <approved hash="18,29,4b2015ff1e127317"/>
