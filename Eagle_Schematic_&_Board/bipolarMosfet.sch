@@ -15268,8 +15268,7 @@ cutoff at 100 Hz</text>
 <plain>
 <text x="81.28" y="59.69" size="1.778" layer="98">Replace w/ AD8421BRZ
 for better voltage offset</text>
-<text x="142.24" y="78.74" size="1.778" layer="98">inverted to create error signal</text>
-<text x="58.42" y="78.74" size="1.778" layer="98" rot="R90">Setpoint Voltage In</text>
+<text x="54.61" y="63.5" size="1.778" layer="98" rot="R90">Setpoint Voltage In</text>
 <text x="232.41" y="111.76" size="1.778" layer="98" rot="R90">Error Mon</text>
 <text x="246.38" y="181.61" size="1.778" layer="98" rot="R90">Current Mon</text>
 <text x="209.55" y="124.46" size="1.778" layer="98">Monitor is negative error
@@ -15317,16 +15316,16 @@ Lowpass corning @ approx. 425 kHz</text>
 <instance part="R35" gate="G$1" x="229.87" y="187.96">
 <attribute name="PARTNO" x="229.87" y="187.96" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="J3-CONTROL" gate="TOP" x="60.96" y="90.17">
-<attribute name="PARTNO" x="60.96" y="90.17" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="J3-CONTROL" gate="TOP" x="57.15" y="69.85" rot="MR180">
+<attribute name="PARTNO" x="57.15" y="69.85" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="U5" gate="G$1" x="97.79" y="80.01">
 <attribute name="PARTNO" x="97.79" y="80.01" size="1.778" layer="96" rot="MR180" display="off"/>
 </instance>
-<instance part="R23" gate="G$1" x="73.66" y="67.31">
-<attribute name="PARTNO" x="73.66" y="67.31" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R23" gate="G$1" x="80.01" y="96.52" rot="R270">
+<attribute name="PARTNO" x="80.01" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND5" gate="1" x="68.58" y="63.5"/>
+<instance part="GND5" gate="1" x="74.93" y="99.06"/>
 <instance part="P+10" gate="1" x="113.03" y="100.33"/>
 <instance part="P-9" gate="1" x="124.46" y="68.58"/>
 <instance part="GND10" gate="1" x="124.46" y="90.17"/>
@@ -15486,7 +15485,7 @@ Lowpass corning @ approx. 425 kHz</text>
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="68.58" y1="67.31" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="80.01" y1="101.6" x2="74.93" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -15767,29 +15766,27 @@ Lowpass corning @ approx. 425 kHz</text>
 </net>
 <net name="N$24" class="0">
 <segment>
-<wire x1="66.04" y1="87.63" x2="80.01" y2="87.63" width="0.1524" layer="91"/>
-<pinref part="J3-CONTROL" gate="TOP" pin="1"/>
 <wire x1="80.01" y1="85.09" x2="80.01" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="IN-"/>
 <wire x1="80.01" y1="87.63" x2="85.09" y2="87.63" width="0.1524" layer="91"/>
-<junction x="80.01" y="87.63"/>
 <pinref part="RT" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="80.01" y1="91.44" x2="80.01" y2="87.63" width="0.1524" layer="91"/>
+<junction x="80.01" y="87.63"/>
+<pinref part="J3-CONTROL" gate="TOP" pin="2"/>
+<wire x1="62.23" y1="74.93" x2="62.23" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="87.63" x2="80.01" y2="87.63" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="1">
 <segment>
-<pinref part="J3-CONTROL" gate="TOP" pin="2"/>
-<wire x1="66.04" y1="85.09" x2="68.58" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="85.09" x2="68.58" y2="72.39" width="0.1524" layer="91"/>
 <wire x1="80.01" y1="74.93" x2="80.01" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="72.39" x2="68.58" y2="72.39" width="0.1524" layer="91"/>
-<junction x="80.01" y="72.39"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="80.01" y1="72.39" x2="80.01" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="80.01" y1="67.31" x2="78.74" y2="67.31" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="IN+"/>
 <wire x1="80.01" y1="72.39" x2="85.09" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="RT" gate="G$1" pin="1"/>
+<pinref part="J3-CONTROL" gate="TOP" pin="1"/>
+<wire x1="80.01" y1="72.39" x2="62.23" y2="72.39" width="0.1524" layer="91"/>
+<junction x="80.01" y="72.39"/>
 </segment>
 </net>
 <net name="N$13" class="0">
